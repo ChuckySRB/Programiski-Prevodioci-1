@@ -1,0 +1,177 @@
+INFO  17:42:55,177 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  17:42:55,257 - #2 program
+INFO  17:42:55,257 - #18 test302
+INFO  17:42:55,258 - #18 bool
+INFO  17:42:55,259 - #18 i
+INFO  17:42:55,260 - #22 ;
+INFO  17:42:55,261 - #25 {
+INFO  17:42:55,263 - #18 void
+INFO  17:42:55,263 - #18 main
+INFO  17:42:55,263 - #23 (
+INFO  17:42:55,264 - #24 )
+INFO  17:42:55,265 - #25 {
+INFO  17:42:55,265 - #18 i
+INFO  17:42:55,265 - #20 =
+INFO  17:42:55,266 - #17 true
+INFO  17:42:55,267 - #22 ;
+INFO  17:42:55,272 - #3 print
+INFO  17:42:55,274 - #23 (
+INFO  17:42:55,274 - #17 false
+INFO  17:42:55,274 - #24 )
+INFO  17:42:55,276 - #22 ;
+INFO  17:42:55,276 - #3 print
+INFO  17:42:55,276 - #23 (
+INFO  17:42:55,276 - #15 1
+INFO  17:42:55,276 - #24 )
+INFO  17:42:55,277 - #22 ;
+INFO  17:42:55,277 - #3 print
+INFO  17:42:55,277 - #23 (
+INFO  17:42:55,277 - #15 2
+INFO  17:42:55,277 - #24 )
+INFO  17:42:55,277 - #22 ;
+INFO  17:42:55,277 - #26 }
+INFO  17:42:55,278 - #26 }
+INFO  17:42:55,294 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclar(
+      VariableDeclaration(
+        Type(
+         bool
+        ) [Type]
+        VarSingle(
+         i
+        ) [VarSingle]
+        VariableNameNone(
+        ) [VariableNameNone]
+      ) [VariableDeclaration]
+    ) [VarDeclar]
+    NoVarDecl(
+    ) [NoVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StatementMatched(
+          StatementDesignator(
+            DesignatorStatementEqual(
+              DesignatorIdent(
+               i
+              ) [DesignatorIdent]
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FConst(
+                    BoolConst(
+                     true
+                    ) [BoolConst]
+                  ) [FConst]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTermNone(
+                ) [AddopTermNone]
+              ) [Expretion]
+            ) [DesignatorStatementEqual]
+          ) [StatementDesignator]
+        ) [StatementMatched]
+        StmtList(
+          StatementMatched(
+            StatementPrint(
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FConst(
+                    BoolConst(
+                     false
+                    ) [BoolConst]
+                  ) [FConst]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTermNone(
+                ) [AddopTermNone]
+              ) [Expretion]
+              NoNumber(
+              ) [NoNumber]
+            ) [StatementPrint]
+          ) [StatementMatched]
+          StmtList(
+            StatementMatched(
+              StatementPrint(
+                Expretion(
+                  Positive(
+                  ) [Positive]
+                  Term(
+                    FConst(
+                      IntConst(
+                       1
+                      ) [IntConst]
+                    ) [FConst]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [Expretion]
+                NoNumber(
+                ) [NoNumber]
+              ) [StatementPrint]
+            ) [StatementMatched]
+            StmtList(
+              StatementMatched(
+                StatementPrint(
+                  Expretion(
+                    Positive(
+                    ) [Positive]
+                    Term(
+                      FConst(
+                        IntConst(
+                         2
+                        ) [IntConst]
+                      ) [FConst]
+                      FactorListNone(
+                      ) [FactorListNone]
+                    ) [Term]
+                    AddopTermNone(
+                    ) [AddopTermNone]
+                  ) [Expretion]
+                  NoNumber(
+                  ) [NoNumber]
+                ) [StatementPrint]
+              ) [StatementMatched]
+              NoStmt(
+              ) [NoStmt]
+            ) [StmtList]
+          ) [StmtList]
+        ) [StmtList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarationNone(
+    ) [MethodDeclarationNone]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:42:55,295 - ===================================
+INFO  17:42:55,299 - Deklarisana promenljiva i na liniji 5
+INFO  17:42:55,299 - Obradjuje se funkcija main na liniji 9
+ERROR 17:42:55,300 - Semanticka greska na liniji 7: Operand instrukcije PRINT mora biti char ili int tipa
+ERROR 17:42:55,300 - Semanticka greska na liniji 7: Operand instrukcije PRINT mora biti char ili int tipa
+ERROR 17:42:55,300 - Semanticka greska na liniji 7: Operand instrukcije PRINT mora biti char ili int tipa
+INFO  17:42:55,300 -  Print count calls = 3
+INFO  17:42:55,300 -  Deklarisanih promenljivih ima = 1
+INFO  17:42:55,300 -  ==================== 
+ERROR 17:42:55,302 - Parsiranje NIJE uspesno zavrseno!

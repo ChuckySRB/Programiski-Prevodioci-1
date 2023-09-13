@@ -1,0 +1,2831 @@
+INFO  07:15:29,725 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  07:15:29,762 - #2 program
+INFO  07:15:29,762 - #18 test302
+INFO  07:15:29,762 - #14 const
+INFO  07:15:29,762 - #18 int
+INFO  07:15:29,762 - #18 jedan
+INFO  07:15:29,763 - #20 =
+INFO  07:15:29,763 - #15 1
+INFO  07:15:29,763 - #22 ;
+INFO  07:15:29,764 - #18 int
+INFO  07:15:29,764 - #18 i
+INFO  07:15:29,764 - #22 ;
+INFO  07:15:29,765 - #18 bool
+INFO  07:15:29,765 - #18 ibool
+INFO  07:15:29,765 - #22 ;
+INFO  07:15:29,765 - #18 int
+INFO  07:15:29,765 - #18 niz2
+INFO  07:15:29,766 - #22 ;
+INFO  07:15:29,766 - #18 int
+INFO  07:15:29,766 - #18 niz
+INFO  07:15:29,766 - #27 [
+INFO  07:15:29,766 - #28 ]
+INFO  07:15:29,766 - #22 ;
+INFO  07:15:29,767 - #18 int
+INFO  07:15:29,767 - #18 a
+INFO  07:15:29,767 - #21 ,
+INFO  07:15:29,767 - #18 curr
+INFO  07:15:29,767 - #22 ;
+INFO  07:15:29,767 - #25 {
+INFO  07:15:29,768 - #18 int
+INFO  07:15:29,768 - #18 sum
+INFO  07:15:29,768 - #23 (
+INFO  07:15:29,769 - #18 int
+INFO  07:15:29,769 - #18 z
+INFO  07:15:29,769 - #21 ,
+INFO  07:15:29,770 - #18 int
+INFO  07:15:29,771 - #18 d
+INFO  07:15:29,772 - #24 )
+INFO  07:15:29,772 - #25 {
+INFO  07:15:29,772 - #4 return
+INFO  07:15:29,774 - #18 z
+INFO  07:15:29,777 - #19 +
+INFO  07:15:29,780 - #18 d
+INFO  07:15:29,783 - #22 ;
+INFO  07:15:29,785 - #26 }
+INFO  07:15:29,786 - #18 int
+INFO  07:15:29,787 - #18 inkrement
+INFO  07:15:29,788 - #23 (
+INFO  07:15:29,789 - #18 int
+INFO  07:15:29,789 - #18 a
+INFO  07:15:29,789 - #21 ,
+INFO  07:15:29,789 - #18 int
+INFO  07:15:29,789 - #18 inc
+INFO  07:15:29,789 - #24 )
+INFO  07:15:29,789 - #18 int
+INFO  07:15:29,791 - #18 pom
+INFO  07:15:29,793 - #22 ;
+INFO  07:15:29,793 - #25 {
+INFO  07:15:29,794 - #8 if
+INFO  07:15:29,794 - #23 (
+INFO  07:15:29,794 - #18 inc
+INFO  07:15:29,794 - #38 ==
+INFO  07:15:29,794 - #18 jedan
+INFO  07:15:29,799 - #24 )
+INFO  07:15:29,806 - #18 pom
+INFO  07:15:29,806 - #20 =
+INFO  07:15:29,806 - #15 1
+INFO  07:15:29,806 - #22 ;
+INFO  07:15:29,807 - #9 else
+INFO  07:15:29,807 - #8 if
+INFO  07:15:29,807 - #23 (
+INFO  07:15:29,807 - #18 inc
+INFO  07:15:29,811 - #38 ==
+INFO  07:15:29,812 - #15 2
+INFO  07:15:29,812 - #24 )
+INFO  07:15:29,812 - #18 pom
+INFO  07:15:29,812 - #20 =
+INFO  07:15:29,813 - #18 a
+INFO  07:15:29,813 - #22 ;
+INFO  07:15:29,813 - #4 return
+INFO  07:15:29,813 - #18 sum
+INFO  07:15:29,813 - #23 (
+INFO  07:15:29,813 - #18 a
+INFO  07:15:29,813 - #21 ,
+INFO  07:15:29,813 - #18 pom
+INFO  07:15:29,814 - #24 )
+INFO  07:15:29,815 - #22 ;
+INFO  07:15:29,815 - #26 }
+INFO  07:15:29,815 - #18 bool
+INFO  07:15:29,815 - #18 verify
+INFO  07:15:29,815 - #23 (
+INFO  07:15:29,815 - #24 )
+INFO  07:15:29,816 - #25 {
+INFO  07:15:29,816 - #3 print
+INFO  07:15:29,817 - #23 (
+INFO  07:15:29,817 - #16 v
+INFO  07:15:29,817 - #24 )
+INFO  07:15:29,818 - #22 ;
+INFO  07:15:29,818 - #4 return
+INFO  07:15:29,818 - #17 false
+INFO  07:15:29,818 - #22 ;
+INFO  07:15:29,818 - #26 }
+INFO  07:15:29,818 - #18 void
+INFO  07:15:29,818 - #18 main
+INFO  07:15:29,819 - #23 (
+INFO  07:15:29,819 - #24 )
+INFO  07:15:29,819 - #25 {
+INFO  07:15:29,819 - #8 if
+INFO  07:15:29,819 - #23 (
+INFO  07:15:29,819 - #15 1
+INFO  07:15:29,819 - #39 !=
+INFO  07:15:29,819 - #15 1
+INFO  07:15:29,820 - #24 )
+INFO  07:15:29,820 - #3 print
+INFO  07:15:29,820 - #23 (
+INFO  07:15:29,820 - #32 -
+INFO  07:15:29,822 - #15 6
+INFO  07:15:29,823 - #24 )
+INFO  07:15:29,823 - #22 ;
+INFO  07:15:29,823 - #9 else
+INFO  07:15:29,823 - #3 print
+INFO  07:15:29,823 - #23 (
+INFO  07:15:29,824 - #15 0
+INFO  07:15:29,824 - #24 )
+INFO  07:15:29,824 - #22 ;
+INFO  07:15:29,824 - #18 ibool
+INFO  07:15:29,825 - #20 =
+INFO  07:15:29,825 - #17 false
+INFO  07:15:29,825 - #22 ;
+INFO  07:15:29,825 - #18 i
+INFO  07:15:29,825 - #20 =
+INFO  07:15:29,825 - #15 0
+INFO  07:15:29,826 - #22 ;
+INFO  07:15:29,826 - #7 while
+INFO  07:15:29,826 - #23 (
+INFO  07:15:29,826 - #18 i
+INFO  07:15:29,826 - #34 <
+INFO  07:15:29,826 - #15 5
+INFO  07:15:29,827 - #24 )
+INFO  07:15:29,827 - #25 {
+INFO  07:15:29,827 - #8 if
+INFO  07:15:29,827 - #23 (
+INFO  07:15:29,827 - #18 i
+INFO  07:15:29,828 - #38 ==
+INFO  07:15:29,828 - #15 2
+INFO  07:15:29,828 - #24 )
+INFO  07:15:29,828 - #18 ibool
+INFO  07:15:29,828 - #20 =
+INFO  07:15:29,828 - #17 true
+INFO  07:15:29,829 - #22 ;
+INFO  07:15:29,829 - #18 i
+INFO  07:15:29,829 - #43 ++
+INFO  07:15:29,829 - #22 ;
+INFO  07:15:29,829 - #26 }
+INFO  07:15:29,830 - #8 if
+INFO  07:15:29,830 - #23 (
+INFO  07:15:29,830 - #18 ibool
+INFO  07:15:29,830 - #24 )
+INFO  07:15:29,830 - #8 if
+INFO  07:15:29,830 - #23 (
+INFO  07:15:29,830 - #18 i
+INFO  07:15:29,830 - #38 ==
+INFO  07:15:29,831 - #15 5
+INFO  07:15:29,831 - #24 )
+INFO  07:15:29,831 - #3 print
+INFO  07:15:29,831 - #23 (
+INFO  07:15:29,831 - #15 1
+INFO  07:15:29,831 - #24 )
+INFO  07:15:29,831 - #22 ;
+INFO  07:15:29,831 - #9 else
+INFO  07:15:29,831 - #3 print
+INFO  07:15:29,831 - #23 (
+INFO  07:15:29,831 - #32 -
+INFO  07:15:29,832 - #15 1
+INFO  07:15:29,832 - #24 )
+INFO  07:15:29,832 - #22 ;
+INFO  07:15:29,832 - #18 a
+INFO  07:15:29,832 - #20 =
+INFO  07:15:29,832 - #15 2
+INFO  07:15:29,832 - #22 ;
+INFO  07:15:29,833 - #18 niz
+INFO  07:15:29,833 - #20 =
+INFO  07:15:29,833 - #13 new
+INFO  07:15:29,833 - #18 int
+INFO  07:15:29,833 - #27 [
+INFO  07:15:29,833 - #15 3
+INFO  07:15:29,833 - #28 ]
+INFO  07:15:29,833 - #22 ;
+INFO  07:15:29,833 - #18 niz
+INFO  07:15:29,833 - #27 [
+INFO  07:15:29,833 - #15 0
+INFO  07:15:29,833 - #28 ]
+INFO  07:15:29,834 - #20 =
+INFO  07:15:29,834 - #15 1
+INFO  07:15:29,834 - #31 *
+INFO  07:15:29,834 - #18 a
+INFO  07:15:29,835 - #22 ;
+INFO  07:15:29,835 - #18 niz
+INFO  07:15:29,835 - #27 [
+INFO  07:15:29,835 - #15 1
+INFO  07:15:29,835 - #28 ]
+INFO  07:15:29,836 - #20 =
+INFO  07:15:29,836 - #15 2
+INFO  07:15:29,836 - #31 *
+INFO  07:15:29,836 - #18 a
+INFO  07:15:29,836 - #22 ;
+INFO  07:15:29,836 - #18 niz
+INFO  07:15:29,836 - #27 [
+INFO  07:15:29,836 - #15 2
+INFO  07:15:29,836 - #28 ]
+INFO  07:15:29,836 - #20 =
+INFO  07:15:29,836 - #18 sum
+INFO  07:15:29,836 - #23 (
+INFO  07:15:29,836 - #18 niz
+INFO  07:15:29,836 - #27 [
+INFO  07:15:29,836 - #15 1
+INFO  07:15:29,836 - #28 ]
+INFO  07:15:29,836 - #21 ,
+INFO  07:15:29,836 - #18 niz
+INFO  07:15:29,836 - #27 [
+INFO  07:15:29,836 - #15 0
+INFO  07:15:29,837 - #28 ]
+INFO  07:15:29,837 - #24 )
+INFO  07:15:29,837 - #31 *
+INFO  07:15:29,837 - #18 a
+INFO  07:15:29,837 - #19 +
+INFO  07:15:29,838 - #15 1
+INFO  07:15:29,838 - #22 ;
+INFO  07:15:29,838 - #8 if
+INFO  07:15:29,839 - #23 (
+INFO  07:15:29,839 - #18 verify
+INFO  07:15:29,839 - #23 (
+INFO  07:15:29,839 - #24 )
+INFO  07:15:29,843 - #42 ||
+INFO  07:15:29,843 - #18 niz
+INFO  07:15:29,844 - #27 [
+INFO  07:15:29,844 - #15 2
+INFO  07:15:29,844 - #28 ]
+INFO  07:15:29,844 - #38 ==
+INFO  07:15:29,844 - #15 4
+INFO  07:15:29,844 - #24 )
+INFO  07:15:29,845 - #3 print
+INFO  07:15:29,845 - #23 (
+INFO  07:15:29,845 - #18 ord
+INFO  07:15:29,845 - #23 (
+INFO  07:15:29,845 - #16 A
+INFO  07:15:29,845 - #24 )
+INFO  07:15:29,845 - #24 )
+INFO  07:15:29,846 - #22 ;
+INFO  07:15:29,846 - #9 else
+INFO  07:15:29,846 - #3 print
+INFO  07:15:29,846 - #23 (
+INFO  07:15:29,846 - #18 ord
+INFO  07:15:29,846 - #23 (
+INFO  07:15:29,846 - #16 a
+INFO  07:15:29,846 - #24 )
+INFO  07:15:29,847 - #24 )
+INFO  07:15:29,847 - #22 ;
+INFO  07:15:29,847 - #3 print
+INFO  07:15:29,847 - #23 (
+INFO  07:15:29,847 - #18 eol
+INFO  07:15:29,847 - #24 )
+INFO  07:15:29,847 - #22 ;
+INFO  07:15:29,847 - #18 i
+INFO  07:15:29,847 - #20 =
+INFO  07:15:29,847 - #15 0
+INFO  07:15:29,848 - #22 ;
+INFO  07:15:29,848 - #7 while
+INFO  07:15:29,848 - #23 (
+INFO  07:15:29,848 - #18 i
+INFO  07:15:29,848 - #34 <
+INFO  07:15:29,848 - #15 10
+INFO  07:15:29,848 - #24 )
+INFO  07:15:29,848 - #25 {
+INFO  07:15:29,848 - #8 if
+INFO  07:15:29,848 - #23 (
+INFO  07:15:29,848 - #18 i
+INFO  07:15:29,848 - #38 ==
+INFO  07:15:29,848 - #15 3
+INFO  07:15:29,848 - #24 )
+INFO  07:15:29,848 - #25 {
+INFO  07:15:29,849 - #18 i
+INFO  07:15:29,849 - #43 ++
+INFO  07:15:29,849 - #22 ;
+INFO  07:15:29,849 - #11 continue
+INFO  07:15:29,849 - #22 ;
+INFO  07:15:29,849 - #26 }
+INFO  07:15:29,850 - #8 if
+INFO  07:15:29,850 - #23 (
+INFO  07:15:29,850 - #18 i
+INFO  07:15:29,850 - #38 ==
+INFO  07:15:29,850 - #15 4
+INFO  07:15:29,850 - #24 )
+INFO  07:15:29,850 - #12 break
+INFO  07:15:29,850 - #22 ;
+INFO  07:15:29,850 - #18 i
+INFO  07:15:29,851 - #20 =
+INFO  07:15:29,851 - #18 inkrement
+INFO  07:15:29,851 - #23 (
+INFO  07:15:29,851 - #18 i
+INFO  07:15:29,852 - #21 ,
+INFO  07:15:29,852 - #15 1
+INFO  07:15:29,852 - #24 )
+INFO  07:15:29,852 - #22 ;
+INFO  07:15:29,852 - #26 }
+INFO  07:15:29,852 - #8 if
+INFO  07:15:29,852 - #23 (
+INFO  07:15:29,852 - #18 i
+INFO  07:15:29,852 - #38 ==
+INFO  07:15:29,852 - #15 3
+INFO  07:15:29,852 - #41 &&
+INFO  07:15:29,852 - #18 verify
+INFO  07:15:29,852 - #23 (
+INFO  07:15:29,852 - #24 )
+INFO  07:15:29,852 - #24 )
+INFO  07:15:29,853 - #3 print
+INFO  07:15:29,853 - #23 (
+INFO  07:15:29,853 - #32 -
+INFO  07:15:29,853 - #15 4
+INFO  07:15:29,853 - #24 )
+INFO  07:15:29,853 - #22 ;
+INFO  07:15:29,853 - #9 else
+INFO  07:15:29,853 - #3 print
+INFO  07:15:29,853 - #23 (
+INFO  07:15:29,853 - #15 4
+INFO  07:15:29,854 - #24 )
+INFO  07:15:29,854 - #22 ;
+INFO  07:15:29,854 - #6 read
+INFO  07:15:29,854 - #23 (
+INFO  07:15:29,854 - #18 niz
+INFO  07:15:29,854 - #27 [
+INFO  07:15:29,854 - #15 0
+INFO  07:15:29,854 - #28 ]
+INFO  07:15:29,854 - #24 )
+INFO  07:15:29,854 - #22 ;
+INFO  07:15:29,854 - #6 read
+INFO  07:15:29,854 - #23 (
+INFO  07:15:29,855 - #18 niz
+INFO  07:15:29,855 - #27 [
+INFO  07:15:29,855 - #15 1
+INFO  07:15:29,855 - #28 ]
+INFO  07:15:29,855 - #24 )
+INFO  07:15:29,855 - #22 ;
+INFO  07:15:29,855 - #6 read
+INFO  07:15:29,855 - #23 (
+INFO  07:15:29,855 - #18 niz
+INFO  07:15:29,855 - #27 [
+INFO  07:15:29,855 - #15 2
+INFO  07:15:29,855 - #28 ]
+INFO  07:15:29,855 - #24 )
+INFO  07:15:29,855 - #22 ;
+INFO  07:15:29,855 - #3 print
+INFO  07:15:29,855 - #23 (
+INFO  07:15:29,855 - #18 eol
+INFO  07:15:29,855 - #24 )
+INFO  07:15:29,855 - #22 ;
+INFO  07:15:29,855 - #3 print
+INFO  07:15:29,855 - #23 (
+INFO  07:15:29,855 - #18 sum
+INFO  07:15:29,855 - #23 (
+INFO  07:15:29,855 - #18 sum
+INFO  07:15:29,856 - #23 (
+INFO  07:15:29,856 - #18 niz
+INFO  07:15:29,856 - #27 [
+INFO  07:15:29,856 - #15 0
+INFO  07:15:29,856 - #28 ]
+INFO  07:15:29,856 - #21 ,
+INFO  07:15:29,856 - #18 niz
+INFO  07:15:29,856 - #27 [
+INFO  07:15:29,856 - #15 1
+INFO  07:15:29,856 - #28 ]
+INFO  07:15:29,856 - #24 )
+INFO  07:15:29,856 - #21 ,
+INFO  07:15:29,856 - #18 niz
+INFO  07:15:29,856 - #27 [
+INFO  07:15:29,856 - #15 2
+INFO  07:15:29,856 - #28 ]
+INFO  07:15:29,856 - #24 )
+INFO  07:15:29,856 - #24 )
+INFO  07:15:29,856 - #22 ;
+INFO  07:15:29,856 - #3 print
+INFO  07:15:29,857 - #23 (
+INFO  07:15:29,857 - #18 eol
+INFO  07:15:29,857 - #24 )
+INFO  07:15:29,857 - #22 ;
+INFO  07:15:29,857 - #3 print
+INFO  07:15:29,857 - #23 (
+INFO  07:15:29,857 - #18 inkrement
+INFO  07:15:29,857 - #23 (
+INFO  07:15:29,857 - #18 niz
+INFO  07:15:29,857 - #27 [
+INFO  07:15:29,857 - #15 2
+INFO  07:15:29,857 - #28 ]
+INFO  07:15:29,857 - #21 ,
+INFO  07:15:29,858 - #15 2
+INFO  07:15:29,858 - #24 )
+INFO  07:15:29,858 - #24 )
+INFO  07:15:29,858 - #22 ;
+INFO  07:15:29,858 - #18 a
+INFO  07:15:29,858 - #20 =
+INFO  07:15:29,858 - #15 3
+INFO  07:15:29,858 - #22 ;
+INFO  07:15:29,858 - #18 i
+INFO  07:15:29,858 - #20 =
+INFO  07:15:29,858 - #15 0
+INFO  07:15:29,858 - #22 ;
+INFO  07:15:29,858 - #7 while
+INFO  07:15:29,858 - #23 (
+INFO  07:15:29,858 - #18 i
+INFO  07:15:29,858 - #34 <
+INFO  07:15:29,859 - #15 3
+INFO  07:15:29,859 - #24 )
+INFO  07:15:29,859 - #25 {
+INFO  07:15:29,859 - #18 niz
+INFO  07:15:29,859 - #27 [
+INFO  07:15:29,859 - #18 i
+INFO  07:15:29,859 - #28 ]
+INFO  07:15:29,859 - #20 =
+INFO  07:15:29,860 - #18 niz
+INFO  07:15:29,860 - #27 [
+INFO  07:15:29,860 - #18 i
+INFO  07:15:29,860 - #28 ]
+INFO  07:15:29,860 - #31 *
+INFO  07:15:29,860 - #15 2
+INFO  07:15:29,860 - #31 *
+INFO  07:15:29,861 - #18 a
+INFO  07:15:29,861 - #22 ;
+INFO  07:15:29,861 - #18 i
+INFO  07:15:29,861 - #43 ++
+INFO  07:15:29,861 - #22 ;
+INFO  07:15:29,861 - #26 }
+INFO  07:15:29,861 - #18 niz
+INFO  07:15:29,861 - #29 .
+INFO  07:15:29,861 - #10 foreach
+INFO  07:15:29,861 - #23 (
+INFO  07:15:29,861 - #18 curr
+INFO  07:15:29,861 - #45 =>
+INFO  07:15:29,861 - #3 print
+INFO  07:15:29,861 - #23 (
+INFO  07:15:29,861 - #18 curr
+INFO  07:15:29,861 - #24 )
+INFO  07:15:29,862 - #22 ;
+INFO  07:15:29,862 - #24 )
+INFO  07:15:29,862 - #22 ;
+INFO  07:15:29,862 - #3 print
+INFO  07:15:29,862 - #23 (
+INFO  07:15:29,862 - #18 eol
+INFO  07:15:29,862 - #24 )
+INFO  07:15:29,862 - #22 ;
+INFO  07:15:29,862 - #18 niz2
+INFO  07:15:29,862 - #20 =
+INFO  07:15:29,862 - #15 0
+INFO  07:15:29,863 - #22 ;
+INFO  07:15:29,863 - #18 niz
+INFO  07:15:29,863 - #29 .
+INFO  07:15:29,863 - #10 foreach
+INFO  07:15:29,863 - #23 (
+INFO  07:15:29,863 - #18 curr
+INFO  07:15:29,863 - #45 =>
+INFO  07:15:29,863 - #25 {
+INFO  07:15:29,863 - #18 niz2
+INFO  07:15:29,863 - #20 =
+INFO  07:15:29,863 - #18 niz2
+INFO  07:15:29,863 - #19 +
+INFO  07:15:29,863 - #18 curr
+INFO  07:15:29,863 - #31 *
+INFO  07:15:29,863 - #18 curr
+INFO  07:15:29,863 - #22 ;
+INFO  07:15:29,863 - #26 }
+INFO  07:15:29,863 - #24 )
+INFO  07:15:29,863 - #22 ;
+INFO  07:15:29,863 - #3 print
+INFO  07:15:29,863 - #23 (
+INFO  07:15:29,863 - #18 niz2
+INFO  07:15:29,863 - #24 )
+INFO  07:15:29,863 - #22 ;
+INFO  07:15:29,863 - #26 }
+INFO  07:15:29,863 - #26 }
+INFO  07:15:29,900 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarationConst(
+      VarConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstantVariable(
+         jedan
+          IntConst(
+           1
+          ) [IntConst]
+        ) [ConstantVariable]
+        ConstVarNone(
+        ) [ConstVarNone]
+      ) [VarConstDecl]
+    ) [VarDeclarationConst]
+    VarDeclarations(
+      VarDeclar(
+        VariableDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarSingle(
+           i
+          ) [VarSingle]
+          VariableNameNone(
+          ) [VariableNameNone]
+        ) [VariableDeclaration]
+      ) [VarDeclar]
+      VarDeclarations(
+        VarDeclar(
+          VariableDeclaration(
+            Type(
+             bool
+            ) [Type]
+            VarSingle(
+             ibool
+            ) [VarSingle]
+            VariableNameNone(
+            ) [VariableNameNone]
+          ) [VariableDeclaration]
+        ) [VarDeclar]
+        VarDeclarations(
+          VarDeclar(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarSingle(
+               niz2
+              ) [VarSingle]
+              VariableNameNone(
+              ) [VariableNameNone]
+            ) [VariableDeclaration]
+          ) [VarDeclar]
+          VarDeclarations(
+            VarDeclar(
+              VariableDeclaration(
+                Type(
+                 int
+                ) [Type]
+                VarArray(
+                 niz
+                ) [VarArray]
+                VariableNameNone(
+                ) [VariableNameNone]
+              ) [VariableDeclaration]
+            ) [VarDeclar]
+            VarDeclarations(
+              VarDeclar(
+                VariableDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                  VarSingle(
+                   a
+                  ) [VarSingle]
+                  VariableNameList(
+                    VarSingle(
+                     curr
+                    ) [VarSingle]
+                    VariableNameNone(
+                    ) [VariableNameNone]
+                  ) [VariableNameList]
+                ) [VariableDeclaration]
+              ) [VarDeclar]
+              NoVarDecl(
+              ) [NoVarDecl]
+            ) [VarDeclarations]
+          ) [VarDeclarations]
+        ) [VarDeclarations]
+      ) [VarDeclarations]
+    ) [VarDeclarations]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         int
+        ) [Type]
+       sum
+      ) [MethodTypeName]
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             z
+            ) [FormalParamDecl]
+          ) [SingleFormalParamDecl]
+          FormalParamDecl(
+            Type(
+             int
+            ) [Type]
+           d
+          ) [FormalParamDecl]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StatementMatched(
+          StatementReturn(
+            ReturnVal(
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FDesignator(
+                    DesignatorIdent(
+                     z
+                    ) [DesignatorIdent]
+                  ) [FDesignator]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTerms(
+                  PlusOp(
+                  ) [PlusOp]
+                  Term(
+                    FDesignator(
+                      DesignatorIdent(
+                       d
+                      ) [DesignatorIdent]
+                    ) [FDesignator]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [AddopTerms]
+              ) [Expretion]
+            ) [ReturnVal]
+          ) [StatementReturn]
+        ) [StatementMatched]
+        NoStmt(
+        ) [NoStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarations(
+      MethodDeclaration(
+        MethodTypeName(
+          Type(
+           int
+          ) [Type]
+         inkrement
+        ) [MethodTypeName]
+        FormParams(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              FormalParamDecl(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormalParamDecl]
+            ) [SingleFormalParamDecl]
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             inc
+            ) [FormalParamDecl]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        VarDeclarations(
+          VarDeclar(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarSingle(
+               pom
+              ) [VarSingle]
+              VariableNameNone(
+              ) [VariableNameNone]
+            ) [VariableDeclaration]
+          ) [VarDeclar]
+          NoVarDecl(
+          ) [NoVarDecl]
+        ) [VarDeclarations]
+        StmtList(
+          StatementUnmatched(
+            IfElseUnmatched(
+              Condition(
+                ConditionTerm(
+                  ConditionFactRel(
+                    Expretion(
+                      Positive(
+                      ) [Positive]
+                      Term(
+                        FDesignator(
+                          DesignatorIdent(
+                           inc
+                          ) [DesignatorIdent]
+                        ) [FDesignator]
+                        FactorListNone(
+                        ) [FactorListNone]
+                      ) [Term]
+                      AddopTermNone(
+                      ) [AddopTermNone]
+                    ) [Expretion]
+                    EqualOp(
+                    ) [EqualOp]
+                    Expretion(
+                      Positive(
+                      ) [Positive]
+                      Term(
+                        FDesignator(
+                          DesignatorIdent(
+                           jedan
+                          ) [DesignatorIdent]
+                        ) [FDesignator]
+                        FactorListNone(
+                        ) [FactorListNone]
+                      ) [Term]
+                      AddopTermNone(
+                      ) [AddopTermNone]
+                    ) [Expretion]
+                  ) [ConditionFactRel]
+                  CondFactNone(
+                  ) [CondFactNone]
+                ) [ConditionTerm]
+                CondTermNone(
+                ) [CondTermNone]
+              ) [Condition]
+              StatementDesignator(
+                DesignatorStatementEqual(
+                  DesignatorIdent(
+                   pom
+                  ) [DesignatorIdent]
+                  Expretion(
+                    Positive(
+                    ) [Positive]
+                    Term(
+                      FNumber(
+                       1
+                      ) [FNumber]
+                      FactorListNone(
+                      ) [FactorListNone]
+                    ) [Term]
+                    AddopTermNone(
+                    ) [AddopTermNone]
+                  ) [Expretion]
+                ) [DesignatorStatementEqual]
+              ) [StatementDesignator]
+              IfStatement(
+                Condition(
+                  ConditionTerm(
+                    ConditionFactRel(
+                      Expretion(
+                        Positive(
+                        ) [Positive]
+                        Term(
+                          FDesignator(
+                            DesignatorIdent(
+                             inc
+                            ) [DesignatorIdent]
+                          ) [FDesignator]
+                          FactorListNone(
+                          ) [FactorListNone]
+                        ) [Term]
+                        AddopTermNone(
+                        ) [AddopTermNone]
+                      ) [Expretion]
+                      EqualOp(
+                      ) [EqualOp]
+                      Expretion(
+                        Positive(
+                        ) [Positive]
+                        Term(
+                          FNumber(
+                           2
+                          ) [FNumber]
+                          FactorListNone(
+                          ) [FactorListNone]
+                        ) [Term]
+                        AddopTermNone(
+                        ) [AddopTermNone]
+                      ) [Expretion]
+                    ) [ConditionFactRel]
+                    CondFactNone(
+                    ) [CondFactNone]
+                  ) [ConditionTerm]
+                  CondTermNone(
+                  ) [CondTermNone]
+                ) [Condition]
+                StatementMatched(
+                  StatementDesignator(
+                    DesignatorStatementEqual(
+                      DesignatorIdent(
+                       pom
+                      ) [DesignatorIdent]
+                      Expretion(
+                        Positive(
+                        ) [Positive]
+                        Term(
+                          FDesignator(
+                            DesignatorIdent(
+                             a
+                            ) [DesignatorIdent]
+                          ) [FDesignator]
+                          FactorListNone(
+                          ) [FactorListNone]
+                        ) [Term]
+                        AddopTermNone(
+                        ) [AddopTermNone]
+                      ) [Expretion]
+                    ) [DesignatorStatementEqual]
+                  ) [StatementDesignator]
+                ) [StatementMatched]
+              ) [IfStatement]
+            ) [IfElseUnmatched]
+          ) [StatementUnmatched]
+          StmtList(
+            StatementMatched(
+              StatementReturn(
+                ReturnVal(
+                  Expretion(
+                    Positive(
+                    ) [Positive]
+                    Term(
+                      FFunction(
+                        DesignatorIdent(
+                         sum
+                        ) [DesignatorIdent]
+                        ActParsOneOne(
+                          ActPars(
+                            Expretion(
+                              Positive(
+                              ) [Positive]
+                              Term(
+                                FDesignator(
+                                  DesignatorIdent(
+                                   a
+                                  ) [DesignatorIdent]
+                                ) [FDesignator]
+                                FactorListNone(
+                                ) [FactorListNone]
+                              ) [Term]
+                              AddopTermNone(
+                              ) [AddopTermNone]
+                            ) [Expretion]
+                            ExpretionList(
+                              Expretion(
+                                Positive(
+                                ) [Positive]
+                                Term(
+                                  FDesignator(
+                                    DesignatorIdent(
+                                     pom
+                                    ) [DesignatorIdent]
+                                  ) [FDesignator]
+                                  FactorListNone(
+                                  ) [FactorListNone]
+                                ) [Term]
+                                AddopTermNone(
+                                ) [AddopTermNone]
+                              ) [Expretion]
+                              ExpresionListNone(
+                              ) [ExpresionListNone]
+                            ) [ExpretionList]
+                          ) [ActPars]
+                        ) [ActParsOneOne]
+                      ) [FFunction]
+                      FactorListNone(
+                      ) [FactorListNone]
+                    ) [Term]
+                    AddopTermNone(
+                    ) [AddopTermNone]
+                  ) [Expretion]
+                ) [ReturnVal]
+              ) [StatementReturn]
+            ) [StatementMatched]
+            NoStmt(
+            ) [NoStmt]
+          ) [StmtList]
+        ) [StmtList]
+      ) [MethodDeclaration]
+      MethodDeclarations(
+        MethodDeclaration(
+          MethodTypeName(
+            Type(
+             bool
+            ) [Type]
+           verify
+          ) [MethodTypeName]
+          NoFormParam(
+          ) [NoFormParam]
+          NoVarDecl(
+          ) [NoVarDecl]
+          StmtList(
+            StatementMatched(
+              StatementPrint(
+                Expretion(
+                  Positive(
+                  ) [Positive]
+                  Term(
+                    FCharacter(
+                     v
+                    ) [FCharacter]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [Expretion]
+                NoNumber(
+                ) [NoNumber]
+              ) [StatementPrint]
+            ) [StatementMatched]
+            StmtList(
+              StatementMatched(
+                StatementReturn(
+                  ReturnVal(
+                    Expretion(
+                      Positive(
+                      ) [Positive]
+                      Term(
+                        FBool(
+                         false
+                        ) [FBool]
+                        FactorListNone(
+                        ) [FactorListNone]
+                      ) [Term]
+                      AddopTermNone(
+                      ) [AddopTermNone]
+                    ) [Expretion]
+                  ) [ReturnVal]
+                ) [StatementReturn]
+              ) [StatementMatched]
+              NoStmt(
+              ) [NoStmt]
+            ) [StmtList]
+          ) [StmtList]
+        ) [MethodDeclaration]
+        MethodDeclarations(
+          MethodDeclaration(
+            MethodTypeName(
+              Type(
+               void
+              ) [Type]
+             main
+            ) [MethodTypeName]
+            NoFormParam(
+            ) [NoFormParam]
+            NoVarDecl(
+            ) [NoVarDecl]
+            StmtList(
+              StatementMatched(
+                IfMatched(
+                  Condition(
+                    ConditionTerm(
+                      ConditionFactRel(
+                        Expretion(
+                          Positive(
+                          ) [Positive]
+                          Term(
+                            FNumber(
+                             1
+                            ) [FNumber]
+                            FactorListNone(
+                            ) [FactorListNone]
+                          ) [Term]
+                          AddopTermNone(
+                          ) [AddopTermNone]
+                        ) [Expretion]
+                        NotEqualOp(
+                        ) [NotEqualOp]
+                        Expretion(
+                          Positive(
+                          ) [Positive]
+                          Term(
+                            FNumber(
+                             1
+                            ) [FNumber]
+                            FactorListNone(
+                            ) [FactorListNone]
+                          ) [Term]
+                          AddopTermNone(
+                          ) [AddopTermNone]
+                        ) [Expretion]
+                      ) [ConditionFactRel]
+                      CondFactNone(
+                      ) [CondFactNone]
+                    ) [ConditionTerm]
+                    CondTermNone(
+                    ) [CondTermNone]
+                  ) [Condition]
+                  StatementPrint(
+                    Expretion(
+                      Negative(
+                      ) [Negative]
+                      Term(
+                        FNumber(
+                         6
+                        ) [FNumber]
+                        FactorListNone(
+                        ) [FactorListNone]
+                      ) [Term]
+                      AddopTermNone(
+                      ) [AddopTermNone]
+                    ) [Expretion]
+                    NoNumber(
+                    ) [NoNumber]
+                  ) [StatementPrint]
+                  StatementPrint(
+                    Expretion(
+                      Positive(
+                      ) [Positive]
+                      Term(
+                        FNumber(
+                         0
+                        ) [FNumber]
+                        FactorListNone(
+                        ) [FactorListNone]
+                      ) [Term]
+                      AddopTermNone(
+                      ) [AddopTermNone]
+                    ) [Expretion]
+                    NoNumber(
+                    ) [NoNumber]
+                  ) [StatementPrint]
+                ) [IfMatched]
+              ) [StatementMatched]
+              StmtList(
+                StatementMatched(
+                  StatementDesignator(
+                    DesignatorStatementEqual(
+                      DesignatorIdent(
+                       ibool
+                      ) [DesignatorIdent]
+                      Expretion(
+                        Positive(
+                        ) [Positive]
+                        Term(
+                          FBool(
+                           false
+                          ) [FBool]
+                          FactorListNone(
+                          ) [FactorListNone]
+                        ) [Term]
+                        AddopTermNone(
+                        ) [AddopTermNone]
+                      ) [Expretion]
+                    ) [DesignatorStatementEqual]
+                  ) [StatementDesignator]
+                ) [StatementMatched]
+                StmtList(
+                  StatementMatched(
+                    StatementDesignator(
+                      DesignatorStatementEqual(
+                        DesignatorIdent(
+                         i
+                        ) [DesignatorIdent]
+                        Expretion(
+                          Positive(
+                          ) [Positive]
+                          Term(
+                            FNumber(
+                             0
+                            ) [FNumber]
+                            FactorListNone(
+                            ) [FactorListNone]
+                          ) [Term]
+                          AddopTermNone(
+                          ) [AddopTermNone]
+                        ) [Expretion]
+                      ) [DesignatorStatementEqual]
+                    ) [StatementDesignator]
+                  ) [StatementMatched]
+                  StmtList(
+                    StatementMatched(
+                      StatementWhile(
+                        Condition(
+                          ConditionTerm(
+                            ConditionFactRel(
+                              Expretion(
+                                Positive(
+                                ) [Positive]
+                                Term(
+                                  FDesignator(
+                                    DesignatorIdent(
+                                     i
+                                    ) [DesignatorIdent]
+                                  ) [FDesignator]
+                                  FactorListNone(
+                                  ) [FactorListNone]
+                                ) [Term]
+                                AddopTermNone(
+                                ) [AddopTermNone]
+                              ) [Expretion]
+                              LessOp(
+                              ) [LessOp]
+                              Expretion(
+                                Positive(
+                                ) [Positive]
+                                Term(
+                                  FNumber(
+                                   5
+                                  ) [FNumber]
+                                  FactorListNone(
+                                  ) [FactorListNone]
+                                ) [Term]
+                                AddopTermNone(
+                                ) [AddopTermNone]
+                              ) [Expretion]
+                            ) [ConditionFactRel]
+                            CondFactNone(
+                            ) [CondFactNone]
+                          ) [ConditionTerm]
+                          CondTermNone(
+                          ) [CondTermNone]
+                        ) [Condition]
+                        Statements(
+                          StmtList(
+                            StatementUnmatched(
+                              IfStatement(
+                                Condition(
+                                  ConditionTerm(
+                                    ConditionFactRel(
+                                      Expretion(
+                                        Positive(
+                                        ) [Positive]
+                                        Term(
+                                          FDesignator(
+                                            DesignatorIdent(
+                                             i
+                                            ) [DesignatorIdent]
+                                          ) [FDesignator]
+                                          FactorListNone(
+                                          ) [FactorListNone]
+                                        ) [Term]
+                                        AddopTermNone(
+                                        ) [AddopTermNone]
+                                      ) [Expretion]
+                                      EqualOp(
+                                      ) [EqualOp]
+                                      Expretion(
+                                        Positive(
+                                        ) [Positive]
+                                        Term(
+                                          FNumber(
+                                           2
+                                          ) [FNumber]
+                                          FactorListNone(
+                                          ) [FactorListNone]
+                                        ) [Term]
+                                        AddopTermNone(
+                                        ) [AddopTermNone]
+                                      ) [Expretion]
+                                    ) [ConditionFactRel]
+                                    CondFactNone(
+                                    ) [CondFactNone]
+                                  ) [ConditionTerm]
+                                  CondTermNone(
+                                  ) [CondTermNone]
+                                ) [Condition]
+                                StatementMatched(
+                                  StatementDesignator(
+                                    DesignatorStatementEqual(
+                                      DesignatorIdent(
+                                       ibool
+                                      ) [DesignatorIdent]
+                                      Expretion(
+                                        Positive(
+                                        ) [Positive]
+                                        Term(
+                                          FBool(
+                                           true
+                                          ) [FBool]
+                                          FactorListNone(
+                                          ) [FactorListNone]
+                                        ) [Term]
+                                        AddopTermNone(
+                                        ) [AddopTermNone]
+                                      ) [Expretion]
+                                    ) [DesignatorStatementEqual]
+                                  ) [StatementDesignator]
+                                ) [StatementMatched]
+                              ) [IfStatement]
+                            ) [StatementUnmatched]
+                            StmtList(
+                              StatementMatched(
+                                StatementDesignator(
+                                  DesignatorStatementInc(
+                                    DesignatorIdent(
+                                     i
+                                    ) [DesignatorIdent]
+                                  ) [DesignatorStatementInc]
+                                ) [StatementDesignator]
+                              ) [StatementMatched]
+                              NoStmt(
+                              ) [NoStmt]
+                            ) [StmtList]
+                          ) [StmtList]
+                        ) [Statements]
+                      ) [StatementWhile]
+                    ) [StatementMatched]
+                    StmtList(
+                      StatementUnmatched(
+                        IfStatement(
+                          Condition(
+                            ConditionTerm(
+                              ConditionFact(
+                                Expretion(
+                                  Positive(
+                                  ) [Positive]
+                                  Term(
+                                    FDesignator(
+                                      DesignatorIdent(
+                                       ibool
+                                      ) [DesignatorIdent]
+                                    ) [FDesignator]
+                                    FactorListNone(
+                                    ) [FactorListNone]
+                                  ) [Term]
+                                  AddopTermNone(
+                                  ) [AddopTermNone]
+                                ) [Expretion]
+                              ) [ConditionFact]
+                              CondFactNone(
+                              ) [CondFactNone]
+                            ) [ConditionTerm]
+                            CondTermNone(
+                            ) [CondTermNone]
+                          ) [Condition]
+                          StatementMatched(
+                            IfMatched(
+                              Condition(
+                                ConditionTerm(
+                                  ConditionFactRel(
+                                    Expretion(
+                                      Positive(
+                                      ) [Positive]
+                                      Term(
+                                        FDesignator(
+                                          DesignatorIdent(
+                                           i
+                                          ) [DesignatorIdent]
+                                        ) [FDesignator]
+                                        FactorListNone(
+                                        ) [FactorListNone]
+                                      ) [Term]
+                                      AddopTermNone(
+                                      ) [AddopTermNone]
+                                    ) [Expretion]
+                                    EqualOp(
+                                    ) [EqualOp]
+                                    Expretion(
+                                      Positive(
+                                      ) [Positive]
+                                      Term(
+                                        FNumber(
+                                         5
+                                        ) [FNumber]
+                                        FactorListNone(
+                                        ) [FactorListNone]
+                                      ) [Term]
+                                      AddopTermNone(
+                                      ) [AddopTermNone]
+                                    ) [Expretion]
+                                  ) [ConditionFactRel]
+                                  CondFactNone(
+                                  ) [CondFactNone]
+                                ) [ConditionTerm]
+                                CondTermNone(
+                                ) [CondTermNone]
+                              ) [Condition]
+                              StatementPrint(
+                                Expretion(
+                                  Positive(
+                                  ) [Positive]
+                                  Term(
+                                    FNumber(
+                                     1
+                                    ) [FNumber]
+                                    FactorListNone(
+                                    ) [FactorListNone]
+                                  ) [Term]
+                                  AddopTermNone(
+                                  ) [AddopTermNone]
+                                ) [Expretion]
+                                NoNumber(
+                                ) [NoNumber]
+                              ) [StatementPrint]
+                              StatementPrint(
+                                Expretion(
+                                  Negative(
+                                  ) [Negative]
+                                  Term(
+                                    FNumber(
+                                     1
+                                    ) [FNumber]
+                                    FactorListNone(
+                                    ) [FactorListNone]
+                                  ) [Term]
+                                  AddopTermNone(
+                                  ) [AddopTermNone]
+                                ) [Expretion]
+                                NoNumber(
+                                ) [NoNumber]
+                              ) [StatementPrint]
+                            ) [IfMatched]
+                          ) [StatementMatched]
+                        ) [IfStatement]
+                      ) [StatementUnmatched]
+                      StmtList(
+                        StatementMatched(
+                          StatementDesignator(
+                            DesignatorStatementEqual(
+                              DesignatorIdent(
+                               a
+                              ) [DesignatorIdent]
+                              Expretion(
+                                Positive(
+                                ) [Positive]
+                                Term(
+                                  FNumber(
+                                   2
+                                  ) [FNumber]
+                                  FactorListNone(
+                                  ) [FactorListNone]
+                                ) [Term]
+                                AddopTermNone(
+                                ) [AddopTermNone]
+                              ) [Expretion]
+                            ) [DesignatorStatementEqual]
+                          ) [StatementDesignator]
+                        ) [StatementMatched]
+                        StmtList(
+                          StatementMatched(
+                            StatementDesignator(
+                              DesignatorStatementEqual(
+                                DesignatorIdent(
+                                 niz
+                                ) [DesignatorIdent]
+                                Expretion(
+                                  Positive(
+                                  ) [Positive]
+                                  Term(
+                                    FNew(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      Expretion(
+                                        Positive(
+                                        ) [Positive]
+                                        Term(
+                                          FNumber(
+                                           3
+                                          ) [FNumber]
+                                          FactorListNone(
+                                          ) [FactorListNone]
+                                        ) [Term]
+                                        AddopTermNone(
+                                        ) [AddopTermNone]
+                                      ) [Expretion]
+                                    ) [FNew]
+                                    FactorListNone(
+                                    ) [FactorListNone]
+                                  ) [Term]
+                                  AddopTermNone(
+                                  ) [AddopTermNone]
+                                ) [Expretion]
+                              ) [DesignatorStatementEqual]
+                            ) [StatementDesignator]
+                          ) [StatementMatched]
+                          StmtList(
+                            StatementMatched(
+                              StatementDesignator(
+                                DesignatorStatementEqual(
+                                  DesignatorArray(
+                                   niz
+                                    Expretion(
+                                      Positive(
+                                      ) [Positive]
+                                      Term(
+                                        FNumber(
+                                         0
+                                        ) [FNumber]
+                                        FactorListNone(
+                                        ) [FactorListNone]
+                                      ) [Term]
+                                      AddopTermNone(
+                                      ) [AddopTermNone]
+                                    ) [Expretion]
+                                  ) [DesignatorArray]
+                                  Expretion(
+                                    Positive(
+                                    ) [Positive]
+                                    Term(
+                                      FNumber(
+                                       1
+                                      ) [FNumber]
+                                      FactorListMulop(
+                                        MultiplyOp(
+                                        ) [MultiplyOp]
+                                        FDesignator(
+                                          DesignatorIdent(
+                                           a
+                                          ) [DesignatorIdent]
+                                        ) [FDesignator]
+                                        FactorListNone(
+                                        ) [FactorListNone]
+                                      ) [FactorListMulop]
+                                    ) [Term]
+                                    AddopTermNone(
+                                    ) [AddopTermNone]
+                                  ) [Expretion]
+                                ) [DesignatorStatementEqual]
+                              ) [StatementDesignator]
+                            ) [StatementMatched]
+                            StmtList(
+                              StatementMatched(
+                                StatementDesignator(
+                                  DesignatorStatementEqual(
+                                    DesignatorArray(
+                                     niz
+                                      Expretion(
+                                        Positive(
+                                        ) [Positive]
+                                        Term(
+                                          FNumber(
+                                           1
+                                          ) [FNumber]
+                                          FactorListNone(
+                                          ) [FactorListNone]
+                                        ) [Term]
+                                        AddopTermNone(
+                                        ) [AddopTermNone]
+                                      ) [Expretion]
+                                    ) [DesignatorArray]
+                                    Expretion(
+                                      Positive(
+                                      ) [Positive]
+                                      Term(
+                                        FNumber(
+                                         2
+                                        ) [FNumber]
+                                        FactorListMulop(
+                                          MultiplyOp(
+                                          ) [MultiplyOp]
+                                          FDesignator(
+                                            DesignatorIdent(
+                                             a
+                                            ) [DesignatorIdent]
+                                          ) [FDesignator]
+                                          FactorListNone(
+                                          ) [FactorListNone]
+                                        ) [FactorListMulop]
+                                      ) [Term]
+                                      AddopTermNone(
+                                      ) [AddopTermNone]
+                                    ) [Expretion]
+                                  ) [DesignatorStatementEqual]
+                                ) [StatementDesignator]
+                              ) [StatementMatched]
+                              StmtList(
+                                StatementMatched(
+                                  StatementDesignator(
+                                    DesignatorStatementEqual(
+                                      DesignatorArray(
+                                       niz
+                                        Expretion(
+                                          Positive(
+                                          ) [Positive]
+                                          Term(
+                                            FNumber(
+                                             2
+                                            ) [FNumber]
+                                            FactorListNone(
+                                            ) [FactorListNone]
+                                          ) [Term]
+                                          AddopTermNone(
+                                          ) [AddopTermNone]
+                                        ) [Expretion]
+                                      ) [DesignatorArray]
+                                      Expretion(
+                                        Positive(
+                                        ) [Positive]
+                                        Term(
+                                          FFunction(
+                                            DesignatorIdent(
+                                             sum
+                                            ) [DesignatorIdent]
+                                            ActParsOneOne(
+                                              ActPars(
+                                                Expretion(
+                                                  Positive(
+                                                  ) [Positive]
+                                                  Term(
+                                                    FDesignator(
+                                                      DesignatorArray(
+                                                       niz
+                                                        Expretion(
+                                                          Positive(
+                                                          ) [Positive]
+                                                          Term(
+                                                            FNumber(
+                                                             1
+                                                            ) [FNumber]
+                                                            FactorListNone(
+                                                            ) [FactorListNone]
+                                                          ) [Term]
+                                                          AddopTermNone(
+                                                          ) [AddopTermNone]
+                                                        ) [Expretion]
+                                                      ) [DesignatorArray]
+                                                    ) [FDesignator]
+                                                    FactorListNone(
+                                                    ) [FactorListNone]
+                                                  ) [Term]
+                                                  AddopTermNone(
+                                                  ) [AddopTermNone]
+                                                ) [Expretion]
+                                                ExpretionList(
+                                                  Expretion(
+                                                    Positive(
+                                                    ) [Positive]
+                                                    Term(
+                                                      FDesignator(
+                                                        DesignatorArray(
+                                                         niz
+                                                          Expretion(
+                                                            Positive(
+                                                            ) [Positive]
+                                                            Term(
+                                                              FNumber(
+                                                               0
+                                                              ) [FNumber]
+                                                              FactorListNone(
+                                                              ) [FactorListNone]
+                                                            ) [Term]
+                                                            AddopTermNone(
+                                                            ) [AddopTermNone]
+                                                          ) [Expretion]
+                                                        ) [DesignatorArray]
+                                                      ) [FDesignator]
+                                                      FactorListNone(
+                                                      ) [FactorListNone]
+                                                    ) [Term]
+                                                    AddopTermNone(
+                                                    ) [AddopTermNone]
+                                                  ) [Expretion]
+                                                  ExpresionListNone(
+                                                  ) [ExpresionListNone]
+                                                ) [ExpretionList]
+                                              ) [ActPars]
+                                            ) [ActParsOneOne]
+                                          ) [FFunction]
+                                          FactorListMulop(
+                                            MultiplyOp(
+                                            ) [MultiplyOp]
+                                            FDesignator(
+                                              DesignatorIdent(
+                                               a
+                                              ) [DesignatorIdent]
+                                            ) [FDesignator]
+                                            FactorListNone(
+                                            ) [FactorListNone]
+                                          ) [FactorListMulop]
+                                        ) [Term]
+                                        AddopTerms(
+                                          PlusOp(
+                                          ) [PlusOp]
+                                          Term(
+                                            FNumber(
+                                             1
+                                            ) [FNumber]
+                                            FactorListNone(
+                                            ) [FactorListNone]
+                                          ) [Term]
+                                          AddopTermNone(
+                                          ) [AddopTermNone]
+                                        ) [AddopTerms]
+                                      ) [Expretion]
+                                    ) [DesignatorStatementEqual]
+                                  ) [StatementDesignator]
+                                ) [StatementMatched]
+                                StmtList(
+                                  StatementMatched(
+                                    IfMatched(
+                                      Condition(
+                                        ConditionTerm(
+                                          ConditionFact(
+                                            Expretion(
+                                              Positive(
+                                              ) [Positive]
+                                              Term(
+                                                FFunction(
+                                                  DesignatorIdent(
+                                                   verify
+                                                  ) [DesignatorIdent]
+                                                  ActParsNone(
+                                                  ) [ActParsNone]
+                                                ) [FFunction]
+                                                FactorListNone(
+                                                ) [FactorListNone]
+                                              ) [Term]
+                                              AddopTermNone(
+                                              ) [AddopTermNone]
+                                            ) [Expretion]
+                                          ) [ConditionFact]
+                                          CondFactNone(
+                                          ) [CondFactNone]
+                                        ) [ConditionTerm]
+                                        ConditionTermList(
+                                          ConditionTerm(
+                                            ConditionFactRel(
+                                              Expretion(
+                                                Positive(
+                                                ) [Positive]
+                                                Term(
+                                                  FDesignator(
+                                                    DesignatorArray(
+                                                     niz
+                                                      Expretion(
+                                                        Positive(
+                                                        ) [Positive]
+                                                        Term(
+                                                          FNumber(
+                                                           2
+                                                          ) [FNumber]
+                                                          FactorListNone(
+                                                          ) [FactorListNone]
+                                                        ) [Term]
+                                                        AddopTermNone(
+                                                        ) [AddopTermNone]
+                                                      ) [Expretion]
+                                                    ) [DesignatorArray]
+                                                  ) [FDesignator]
+                                                  FactorListNone(
+                                                  ) [FactorListNone]
+                                                ) [Term]
+                                                AddopTermNone(
+                                                ) [AddopTermNone]
+                                              ) [Expretion]
+                                              EqualOp(
+                                              ) [EqualOp]
+                                              Expretion(
+                                                Positive(
+                                                ) [Positive]
+                                                Term(
+                                                  FNumber(
+                                                   4
+                                                  ) [FNumber]
+                                                  FactorListNone(
+                                                  ) [FactorListNone]
+                                                ) [Term]
+                                                AddopTermNone(
+                                                ) [AddopTermNone]
+                                              ) [Expretion]
+                                            ) [ConditionFactRel]
+                                            CondFactNone(
+                                            ) [CondFactNone]
+                                          ) [ConditionTerm]
+                                          CondTermNone(
+                                          ) [CondTermNone]
+                                        ) [ConditionTermList]
+                                      ) [Condition]
+                                      StatementPrint(
+                                        Expretion(
+                                          Positive(
+                                          ) [Positive]
+                                          Term(
+                                            FFunction(
+                                              DesignatorIdent(
+                                               ord
+                                              ) [DesignatorIdent]
+                                              ActParsOneOne(
+                                                ActPars(
+                                                  Expretion(
+                                                    Positive(
+                                                    ) [Positive]
+                                                    Term(
+                                                      FCharacter(
+                                                       A
+                                                      ) [FCharacter]
+                                                      FactorListNone(
+                                                      ) [FactorListNone]
+                                                    ) [Term]
+                                                    AddopTermNone(
+                                                    ) [AddopTermNone]
+                                                  ) [Expretion]
+                                                  ExpresionListNone(
+                                                  ) [ExpresionListNone]
+                                                ) [ActPars]
+                                              ) [ActParsOneOne]
+                                            ) [FFunction]
+                                            FactorListNone(
+                                            ) [FactorListNone]
+                                          ) [Term]
+                                          AddopTermNone(
+                                          ) [AddopTermNone]
+                                        ) [Expretion]
+                                        NoNumber(
+                                        ) [NoNumber]
+                                      ) [StatementPrint]
+                                      StatementPrint(
+                                        Expretion(
+                                          Positive(
+                                          ) [Positive]
+                                          Term(
+                                            FFunction(
+                                              DesignatorIdent(
+                                               ord
+                                              ) [DesignatorIdent]
+                                              ActParsOneOne(
+                                                ActPars(
+                                                  Expretion(
+                                                    Positive(
+                                                    ) [Positive]
+                                                    Term(
+                                                      FCharacter(
+                                                       a
+                                                      ) [FCharacter]
+                                                      FactorListNone(
+                                                      ) [FactorListNone]
+                                                    ) [Term]
+                                                    AddopTermNone(
+                                                    ) [AddopTermNone]
+                                                  ) [Expretion]
+                                                  ExpresionListNone(
+                                                  ) [ExpresionListNone]
+                                                ) [ActPars]
+                                              ) [ActParsOneOne]
+                                            ) [FFunction]
+                                            FactorListNone(
+                                            ) [FactorListNone]
+                                          ) [Term]
+                                          AddopTermNone(
+                                          ) [AddopTermNone]
+                                        ) [Expretion]
+                                        NoNumber(
+                                        ) [NoNumber]
+                                      ) [StatementPrint]
+                                    ) [IfMatched]
+                                  ) [StatementMatched]
+                                  StmtList(
+                                    StatementMatched(
+                                      StatementPrint(
+                                        Expretion(
+                                          Positive(
+                                          ) [Positive]
+                                          Term(
+                                            FDesignator(
+                                              DesignatorIdent(
+                                               eol
+                                              ) [DesignatorIdent]
+                                            ) [FDesignator]
+                                            FactorListNone(
+                                            ) [FactorListNone]
+                                          ) [Term]
+                                          AddopTermNone(
+                                          ) [AddopTermNone]
+                                        ) [Expretion]
+                                        NoNumber(
+                                        ) [NoNumber]
+                                      ) [StatementPrint]
+                                    ) [StatementMatched]
+                                    StmtList(
+                                      StatementMatched(
+                                        StatementDesignator(
+                                          DesignatorStatementEqual(
+                                            DesignatorIdent(
+                                             i
+                                            ) [DesignatorIdent]
+                                            Expretion(
+                                              Positive(
+                                              ) [Positive]
+                                              Term(
+                                                FNumber(
+                                                 0
+                                                ) [FNumber]
+                                                FactorListNone(
+                                                ) [FactorListNone]
+                                              ) [Term]
+                                              AddopTermNone(
+                                              ) [AddopTermNone]
+                                            ) [Expretion]
+                                          ) [DesignatorStatementEqual]
+                                        ) [StatementDesignator]
+                                      ) [StatementMatched]
+                                      StmtList(
+                                        StatementMatched(
+                                          StatementWhile(
+                                            Condition(
+                                              ConditionTerm(
+                                                ConditionFactRel(
+                                                  Expretion(
+                                                    Positive(
+                                                    ) [Positive]
+                                                    Term(
+                                                      FDesignator(
+                                                        DesignatorIdent(
+                                                         i
+                                                        ) [DesignatorIdent]
+                                                      ) [FDesignator]
+                                                      FactorListNone(
+                                                      ) [FactorListNone]
+                                                    ) [Term]
+                                                    AddopTermNone(
+                                                    ) [AddopTermNone]
+                                                  ) [Expretion]
+                                                  LessOp(
+                                                  ) [LessOp]
+                                                  Expretion(
+                                                    Positive(
+                                                    ) [Positive]
+                                                    Term(
+                                                      FNumber(
+                                                       10
+                                                      ) [FNumber]
+                                                      FactorListNone(
+                                                      ) [FactorListNone]
+                                                    ) [Term]
+                                                    AddopTermNone(
+                                                    ) [AddopTermNone]
+                                                  ) [Expretion]
+                                                ) [ConditionFactRel]
+                                                CondFactNone(
+                                                ) [CondFactNone]
+                                              ) [ConditionTerm]
+                                              CondTermNone(
+                                              ) [CondTermNone]
+                                            ) [Condition]
+                                            Statements(
+                                              StmtList(
+                                                StatementUnmatched(
+                                                  IfStatement(
+                                                    Condition(
+                                                      ConditionTerm(
+                                                        ConditionFactRel(
+                                                          Expretion(
+                                                            Positive(
+                                                            ) [Positive]
+                                                            Term(
+                                                              FDesignator(
+                                                                DesignatorIdent(
+                                                                 i
+                                                                ) [DesignatorIdent]
+                                                              ) [FDesignator]
+                                                              FactorListNone(
+                                                              ) [FactorListNone]
+                                                            ) [Term]
+                                                            AddopTermNone(
+                                                            ) [AddopTermNone]
+                                                          ) [Expretion]
+                                                          EqualOp(
+                                                          ) [EqualOp]
+                                                          Expretion(
+                                                            Positive(
+                                                            ) [Positive]
+                                                            Term(
+                                                              FNumber(
+                                                               3
+                                                              ) [FNumber]
+                                                              FactorListNone(
+                                                              ) [FactorListNone]
+                                                            ) [Term]
+                                                            AddopTermNone(
+                                                            ) [AddopTermNone]
+                                                          ) [Expretion]
+                                                        ) [ConditionFactRel]
+                                                        CondFactNone(
+                                                        ) [CondFactNone]
+                                                      ) [ConditionTerm]
+                                                      CondTermNone(
+                                                      ) [CondTermNone]
+                                                    ) [Condition]
+                                                    StatementMatched(
+                                                      Statements(
+                                                        StmtList(
+                                                          StatementMatched(
+                                                            StatementDesignator(
+                                                              DesignatorStatementInc(
+                                                                DesignatorIdent(
+                                                                 i
+                                                                ) [DesignatorIdent]
+                                                              ) [DesignatorStatementInc]
+                                                            ) [StatementDesignator]
+                                                          ) [StatementMatched]
+                                                          StmtList(
+                                                            StatementMatched(
+                                                              StatementContinue(
+                                                              ) [StatementContinue]
+                                                            ) [StatementMatched]
+                                                            NoStmt(
+                                                            ) [NoStmt]
+                                                          ) [StmtList]
+                                                        ) [StmtList]
+                                                      ) [Statements]
+                                                    ) [StatementMatched]
+                                                  ) [IfStatement]
+                                                ) [StatementUnmatched]
+                                                StmtList(
+                                                  StatementUnmatched(
+                                                    IfStatement(
+                                                      Condition(
+                                                        ConditionTerm(
+                                                          ConditionFactRel(
+                                                            Expretion(
+                                                              Positive(
+                                                              ) [Positive]
+                                                              Term(
+                                                                FDesignator(
+                                                                  DesignatorIdent(
+                                                                   i
+                                                                  ) [DesignatorIdent]
+                                                                ) [FDesignator]
+                                                                FactorListNone(
+                                                                ) [FactorListNone]
+                                                              ) [Term]
+                                                              AddopTermNone(
+                                                              ) [AddopTermNone]
+                                                            ) [Expretion]
+                                                            EqualOp(
+                                                            ) [EqualOp]
+                                                            Expretion(
+                                                              Positive(
+                                                              ) [Positive]
+                                                              Term(
+                                                                FNumber(
+                                                                 4
+                                                                ) [FNumber]
+                                                                FactorListNone(
+                                                                ) [FactorListNone]
+                                                              ) [Term]
+                                                              AddopTermNone(
+                                                              ) [AddopTermNone]
+                                                            ) [Expretion]
+                                                          ) [ConditionFactRel]
+                                                          CondFactNone(
+                                                          ) [CondFactNone]
+                                                        ) [ConditionTerm]
+                                                        CondTermNone(
+                                                        ) [CondTermNone]
+                                                      ) [Condition]
+                                                      StatementMatched(
+                                                        StatementBreak(
+                                                        ) [StatementBreak]
+                                                      ) [StatementMatched]
+                                                    ) [IfStatement]
+                                                  ) [StatementUnmatched]
+                                                  StmtList(
+                                                    StatementMatched(
+                                                      StatementDesignator(
+                                                        DesignatorStatementEqual(
+                                                          DesignatorIdent(
+                                                           i
+                                                          ) [DesignatorIdent]
+                                                          Expretion(
+                                                            Positive(
+                                                            ) [Positive]
+                                                            Term(
+                                                              FFunction(
+                                                                DesignatorIdent(
+                                                                 inkrement
+                                                                ) [DesignatorIdent]
+                                                                ActParsOneOne(
+                                                                  ActPars(
+                                                                    Expretion(
+                                                                      Positive(
+                                                                      ) [Positive]
+                                                                      Term(
+                                                                        FDesignator(
+                                                                          DesignatorIdent(
+                                                                           i
+                                                                          ) [DesignatorIdent]
+                                                                        ) [FDesignator]
+                                                                        FactorListNone(
+                                                                        ) [FactorListNone]
+                                                                      ) [Term]
+                                                                      AddopTermNone(
+                                                                      ) [AddopTermNone]
+                                                                    ) [Expretion]
+                                                                    ExpretionList(
+                                                                      Expretion(
+                                                                        Positive(
+                                                                        ) [Positive]
+                                                                        Term(
+                                                                          FNumber(
+                                                                           1
+                                                                          ) [FNumber]
+                                                                          FactorListNone(
+                                                                          ) [FactorListNone]
+                                                                        ) [Term]
+                                                                        AddopTermNone(
+                                                                        ) [AddopTermNone]
+                                                                      ) [Expretion]
+                                                                      ExpresionListNone(
+                                                                      ) [ExpresionListNone]
+                                                                    ) [ExpretionList]
+                                                                  ) [ActPars]
+                                                                ) [ActParsOneOne]
+                                                              ) [FFunction]
+                                                              FactorListNone(
+                                                              ) [FactorListNone]
+                                                            ) [Term]
+                                                            AddopTermNone(
+                                                            ) [AddopTermNone]
+                                                          ) [Expretion]
+                                                        ) [DesignatorStatementEqual]
+                                                      ) [StatementDesignator]
+                                                    ) [StatementMatched]
+                                                    NoStmt(
+                                                    ) [NoStmt]
+                                                  ) [StmtList]
+                                                ) [StmtList]
+                                              ) [StmtList]
+                                            ) [Statements]
+                                          ) [StatementWhile]
+                                        ) [StatementMatched]
+                                        StmtList(
+                                          StatementMatched(
+                                            IfMatched(
+                                              Condition(
+                                                ConditionTerm(
+                                                  ConditionFactRel(
+                                                    Expretion(
+                                                      Positive(
+                                                      ) [Positive]
+                                                      Term(
+                                                        FDesignator(
+                                                          DesignatorIdent(
+                                                           i
+                                                          ) [DesignatorIdent]
+                                                        ) [FDesignator]
+                                                        FactorListNone(
+                                                        ) [FactorListNone]
+                                                      ) [Term]
+                                                      AddopTermNone(
+                                                      ) [AddopTermNone]
+                                                    ) [Expretion]
+                                                    EqualOp(
+                                                    ) [EqualOp]
+                                                    Expretion(
+                                                      Positive(
+                                                      ) [Positive]
+                                                      Term(
+                                                        FNumber(
+                                                         3
+                                                        ) [FNumber]
+                                                        FactorListNone(
+                                                        ) [FactorListNone]
+                                                      ) [Term]
+                                                      AddopTermNone(
+                                                      ) [AddopTermNone]
+                                                    ) [Expretion]
+                                                  ) [ConditionFactRel]
+                                                  ConditionFactList(
+                                                    ConditionFact(
+                                                      Expretion(
+                                                        Positive(
+                                                        ) [Positive]
+                                                        Term(
+                                                          FFunction(
+                                                            DesignatorIdent(
+                                                             verify
+                                                            ) [DesignatorIdent]
+                                                            ActParsNone(
+                                                            ) [ActParsNone]
+                                                          ) [FFunction]
+                                                          FactorListNone(
+                                                          ) [FactorListNone]
+                                                        ) [Term]
+                                                        AddopTermNone(
+                                                        ) [AddopTermNone]
+                                                      ) [Expretion]
+                                                    ) [ConditionFact]
+                                                    CondFactNone(
+                                                    ) [CondFactNone]
+                                                  ) [ConditionFactList]
+                                                ) [ConditionTerm]
+                                                CondTermNone(
+                                                ) [CondTermNone]
+                                              ) [Condition]
+                                              StatementPrint(
+                                                Expretion(
+                                                  Negative(
+                                                  ) [Negative]
+                                                  Term(
+                                                    FNumber(
+                                                     4
+                                                    ) [FNumber]
+                                                    FactorListNone(
+                                                    ) [FactorListNone]
+                                                  ) [Term]
+                                                  AddopTermNone(
+                                                  ) [AddopTermNone]
+                                                ) [Expretion]
+                                                NoNumber(
+                                                ) [NoNumber]
+                                              ) [StatementPrint]
+                                              StatementPrint(
+                                                Expretion(
+                                                  Positive(
+                                                  ) [Positive]
+                                                  Term(
+                                                    FNumber(
+                                                     4
+                                                    ) [FNumber]
+                                                    FactorListNone(
+                                                    ) [FactorListNone]
+                                                  ) [Term]
+                                                  AddopTermNone(
+                                                  ) [AddopTermNone]
+                                                ) [Expretion]
+                                                NoNumber(
+                                                ) [NoNumber]
+                                              ) [StatementPrint]
+                                            ) [IfMatched]
+                                          ) [StatementMatched]
+                                          StmtList(
+                                            StatementMatched(
+                                              StatementRead(
+                                                DesignatorArray(
+                                                 niz
+                                                  Expretion(
+                                                    Positive(
+                                                    ) [Positive]
+                                                    Term(
+                                                      FNumber(
+                                                       0
+                                                      ) [FNumber]
+                                                      FactorListNone(
+                                                      ) [FactorListNone]
+                                                    ) [Term]
+                                                    AddopTermNone(
+                                                    ) [AddopTermNone]
+                                                  ) [Expretion]
+                                                ) [DesignatorArray]
+                                              ) [StatementRead]
+                                            ) [StatementMatched]
+                                            StmtList(
+                                              StatementMatched(
+                                                StatementRead(
+                                                  DesignatorArray(
+                                                   niz
+                                                    Expretion(
+                                                      Positive(
+                                                      ) [Positive]
+                                                      Term(
+                                                        FNumber(
+                                                         1
+                                                        ) [FNumber]
+                                                        FactorListNone(
+                                                        ) [FactorListNone]
+                                                      ) [Term]
+                                                      AddopTermNone(
+                                                      ) [AddopTermNone]
+                                                    ) [Expretion]
+                                                  ) [DesignatorArray]
+                                                ) [StatementRead]
+                                              ) [StatementMatched]
+                                              StmtList(
+                                                StatementMatched(
+                                                  StatementRead(
+                                                    DesignatorArray(
+                                                     niz
+                                                      Expretion(
+                                                        Positive(
+                                                        ) [Positive]
+                                                        Term(
+                                                          FNumber(
+                                                           2
+                                                          ) [FNumber]
+                                                          FactorListNone(
+                                                          ) [FactorListNone]
+                                                        ) [Term]
+                                                        AddopTermNone(
+                                                        ) [AddopTermNone]
+                                                      ) [Expretion]
+                                                    ) [DesignatorArray]
+                                                  ) [StatementRead]
+                                                ) [StatementMatched]
+                                                StmtList(
+                                                  StatementMatched(
+                                                    StatementPrint(
+                                                      Expretion(
+                                                        Positive(
+                                                        ) [Positive]
+                                                        Term(
+                                                          FDesignator(
+                                                            DesignatorIdent(
+                                                             eol
+                                                            ) [DesignatorIdent]
+                                                          ) [FDesignator]
+                                                          FactorListNone(
+                                                          ) [FactorListNone]
+                                                        ) [Term]
+                                                        AddopTermNone(
+                                                        ) [AddopTermNone]
+                                                      ) [Expretion]
+                                                      NoNumber(
+                                                      ) [NoNumber]
+                                                    ) [StatementPrint]
+                                                  ) [StatementMatched]
+                                                  StmtList(
+                                                    StatementMatched(
+                                                      StatementPrint(
+                                                        Expretion(
+                                                          Positive(
+                                                          ) [Positive]
+                                                          Term(
+                                                            FFunction(
+                                                              DesignatorIdent(
+                                                               sum
+                                                              ) [DesignatorIdent]
+                                                              ActParsOneOne(
+                                                                ActPars(
+                                                                  Expretion(
+                                                                    Positive(
+                                                                    ) [Positive]
+                                                                    Term(
+                                                                      FFunction(
+                                                                        DesignatorIdent(
+                                                                         sum
+                                                                        ) [DesignatorIdent]
+                                                                        ActParsOneOne(
+                                                                          ActPars(
+                                                                            Expretion(
+                                                                              Positive(
+                                                                              ) [Positive]
+                                                                              Term(
+                                                                                FDesignator(
+                                                                                  DesignatorArray(
+                                                                                   niz
+                                                                                    Expretion(
+                                                                                      Positive(
+                                                                                      ) [Positive]
+                                                                                      Term(
+                                                                                        FNumber(
+                                                                                         0
+                                                                                        ) [FNumber]
+                                                                                        FactorListNone(
+                                                                                        ) [FactorListNone]
+                                                                                      ) [Term]
+                                                                                      AddopTermNone(
+                                                                                      ) [AddopTermNone]
+                                                                                    ) [Expretion]
+                                                                                  ) [DesignatorArray]
+                                                                                ) [FDesignator]
+                                                                                FactorListNone(
+                                                                                ) [FactorListNone]
+                                                                              ) [Term]
+                                                                              AddopTermNone(
+                                                                              ) [AddopTermNone]
+                                                                            ) [Expretion]
+                                                                            ExpretionList(
+                                                                              Expretion(
+                                                                                Positive(
+                                                                                ) [Positive]
+                                                                                Term(
+                                                                                  FDesignator(
+                                                                                    DesignatorArray(
+                                                                                     niz
+                                                                                      Expretion(
+                                                                                        Positive(
+                                                                                        ) [Positive]
+                                                                                        Term(
+                                                                                          FNumber(
+                                                                                           1
+                                                                                          ) [FNumber]
+                                                                                          FactorListNone(
+                                                                                          ) [FactorListNone]
+                                                                                        ) [Term]
+                                                                                        AddopTermNone(
+                                                                                        ) [AddopTermNone]
+                                                                                      ) [Expretion]
+                                                                                    ) [DesignatorArray]
+                                                                                  ) [FDesignator]
+                                                                                  FactorListNone(
+                                                                                  ) [FactorListNone]
+                                                                                ) [Term]
+                                                                                AddopTermNone(
+                                                                                ) [AddopTermNone]
+                                                                              ) [Expretion]
+                                                                              ExpresionListNone(
+                                                                              ) [ExpresionListNone]
+                                                                            ) [ExpretionList]
+                                                                          ) [ActPars]
+                                                                        ) [ActParsOneOne]
+                                                                      ) [FFunction]
+                                                                      FactorListNone(
+                                                                      ) [FactorListNone]
+                                                                    ) [Term]
+                                                                    AddopTermNone(
+                                                                    ) [AddopTermNone]
+                                                                  ) [Expretion]
+                                                                  ExpretionList(
+                                                                    Expretion(
+                                                                      Positive(
+                                                                      ) [Positive]
+                                                                      Term(
+                                                                        FDesignator(
+                                                                          DesignatorArray(
+                                                                           niz
+                                                                            Expretion(
+                                                                              Positive(
+                                                                              ) [Positive]
+                                                                              Term(
+                                                                                FNumber(
+                                                                                 2
+                                                                                ) [FNumber]
+                                                                                FactorListNone(
+                                                                                ) [FactorListNone]
+                                                                              ) [Term]
+                                                                              AddopTermNone(
+                                                                              ) [AddopTermNone]
+                                                                            ) [Expretion]
+                                                                          ) [DesignatorArray]
+                                                                        ) [FDesignator]
+                                                                        FactorListNone(
+                                                                        ) [FactorListNone]
+                                                                      ) [Term]
+                                                                      AddopTermNone(
+                                                                      ) [AddopTermNone]
+                                                                    ) [Expretion]
+                                                                    ExpresionListNone(
+                                                                    ) [ExpresionListNone]
+                                                                  ) [ExpretionList]
+                                                                ) [ActPars]
+                                                              ) [ActParsOneOne]
+                                                            ) [FFunction]
+                                                            FactorListNone(
+                                                            ) [FactorListNone]
+                                                          ) [Term]
+                                                          AddopTermNone(
+                                                          ) [AddopTermNone]
+                                                        ) [Expretion]
+                                                        NoNumber(
+                                                        ) [NoNumber]
+                                                      ) [StatementPrint]
+                                                    ) [StatementMatched]
+                                                    StmtList(
+                                                      StatementMatched(
+                                                        StatementPrint(
+                                                          Expretion(
+                                                            Positive(
+                                                            ) [Positive]
+                                                            Term(
+                                                              FDesignator(
+                                                                DesignatorIdent(
+                                                                 eol
+                                                                ) [DesignatorIdent]
+                                                              ) [FDesignator]
+                                                              FactorListNone(
+                                                              ) [FactorListNone]
+                                                            ) [Term]
+                                                            AddopTermNone(
+                                                            ) [AddopTermNone]
+                                                          ) [Expretion]
+                                                          NoNumber(
+                                                          ) [NoNumber]
+                                                        ) [StatementPrint]
+                                                      ) [StatementMatched]
+                                                      StmtList(
+                                                        StatementMatched(
+                                                          StatementPrint(
+                                                            Expretion(
+                                                              Positive(
+                                                              ) [Positive]
+                                                              Term(
+                                                                FFunction(
+                                                                  DesignatorIdent(
+                                                                   inkrement
+                                                                  ) [DesignatorIdent]
+                                                                  ActParsOneOne(
+                                                                    ActPars(
+                                                                      Expretion(
+                                                                        Positive(
+                                                                        ) [Positive]
+                                                                        Term(
+                                                                          FDesignator(
+                                                                            DesignatorArray(
+                                                                             niz
+                                                                              Expretion(
+                                                                                Positive(
+                                                                                ) [Positive]
+                                                                                Term(
+                                                                                  FNumber(
+                                                                                   2
+                                                                                  ) [FNumber]
+                                                                                  FactorListNone(
+                                                                                  ) [FactorListNone]
+                                                                                ) [Term]
+                                                                                AddopTermNone(
+                                                                                ) [AddopTermNone]
+                                                                              ) [Expretion]
+                                                                            ) [DesignatorArray]
+                                                                          ) [FDesignator]
+                                                                          FactorListNone(
+                                                                          ) [FactorListNone]
+                                                                        ) [Term]
+                                                                        AddopTermNone(
+                                                                        ) [AddopTermNone]
+                                                                      ) [Expretion]
+                                                                      ExpretionList(
+                                                                        Expretion(
+                                                                          Positive(
+                                                                          ) [Positive]
+                                                                          Term(
+                                                                            FNumber(
+                                                                             2
+                                                                            ) [FNumber]
+                                                                            FactorListNone(
+                                                                            ) [FactorListNone]
+                                                                          ) [Term]
+                                                                          AddopTermNone(
+                                                                          ) [AddopTermNone]
+                                                                        ) [Expretion]
+                                                                        ExpresionListNone(
+                                                                        ) [ExpresionListNone]
+                                                                      ) [ExpretionList]
+                                                                    ) [ActPars]
+                                                                  ) [ActParsOneOne]
+                                                                ) [FFunction]
+                                                                FactorListNone(
+                                                                ) [FactorListNone]
+                                                              ) [Term]
+                                                              AddopTermNone(
+                                                              ) [AddopTermNone]
+                                                            ) [Expretion]
+                                                            NoNumber(
+                                                            ) [NoNumber]
+                                                          ) [StatementPrint]
+                                                        ) [StatementMatched]
+                                                        StmtList(
+                                                          StatementMatched(
+                                                            StatementDesignator(
+                                                              DesignatorStatementEqual(
+                                                                DesignatorIdent(
+                                                                 a
+                                                                ) [DesignatorIdent]
+                                                                Expretion(
+                                                                  Positive(
+                                                                  ) [Positive]
+                                                                  Term(
+                                                                    FNumber(
+                                                                     3
+                                                                    ) [FNumber]
+                                                                    FactorListNone(
+                                                                    ) [FactorListNone]
+                                                                  ) [Term]
+                                                                  AddopTermNone(
+                                                                  ) [AddopTermNone]
+                                                                ) [Expretion]
+                                                              ) [DesignatorStatementEqual]
+                                                            ) [StatementDesignator]
+                                                          ) [StatementMatched]
+                                                          StmtList(
+                                                            StatementMatched(
+                                                              StatementDesignator(
+                                                                DesignatorStatementEqual(
+                                                                  DesignatorIdent(
+                                                                   i
+                                                                  ) [DesignatorIdent]
+                                                                  Expretion(
+                                                                    Positive(
+                                                                    ) [Positive]
+                                                                    Term(
+                                                                      FNumber(
+                                                                       0
+                                                                      ) [FNumber]
+                                                                      FactorListNone(
+                                                                      ) [FactorListNone]
+                                                                    ) [Term]
+                                                                    AddopTermNone(
+                                                                    ) [AddopTermNone]
+                                                                  ) [Expretion]
+                                                                ) [DesignatorStatementEqual]
+                                                              ) [StatementDesignator]
+                                                            ) [StatementMatched]
+                                                            StmtList(
+                                                              StatementMatched(
+                                                                StatementWhile(
+                                                                  Condition(
+                                                                    ConditionTerm(
+                                                                      ConditionFactRel(
+                                                                        Expretion(
+                                                                          Positive(
+                                                                          ) [Positive]
+                                                                          Term(
+                                                                            FDesignator(
+                                                                              DesignatorIdent(
+                                                                               i
+                                                                              ) [DesignatorIdent]
+                                                                            ) [FDesignator]
+                                                                            FactorListNone(
+                                                                            ) [FactorListNone]
+                                                                          ) [Term]
+                                                                          AddopTermNone(
+                                                                          ) [AddopTermNone]
+                                                                        ) [Expretion]
+                                                                        LessOp(
+                                                                        ) [LessOp]
+                                                                        Expretion(
+                                                                          Positive(
+                                                                          ) [Positive]
+                                                                          Term(
+                                                                            FNumber(
+                                                                             3
+                                                                            ) [FNumber]
+                                                                            FactorListNone(
+                                                                            ) [FactorListNone]
+                                                                          ) [Term]
+                                                                          AddopTermNone(
+                                                                          ) [AddopTermNone]
+                                                                        ) [Expretion]
+                                                                      ) [ConditionFactRel]
+                                                                      CondFactNone(
+                                                                      ) [CondFactNone]
+                                                                    ) [ConditionTerm]
+                                                                    CondTermNone(
+                                                                    ) [CondTermNone]
+                                                                  ) [Condition]
+                                                                  Statements(
+                                                                    StmtList(
+                                                                      StatementMatched(
+                                                                        StatementDesignator(
+                                                                          DesignatorStatementEqual(
+                                                                            DesignatorArray(
+                                                                             niz
+                                                                              Expretion(
+                                                                                Positive(
+                                                                                ) [Positive]
+                                                                                Term(
+                                                                                  FDesignator(
+                                                                                    DesignatorIdent(
+                                                                                     i
+                                                                                    ) [DesignatorIdent]
+                                                                                  ) [FDesignator]
+                                                                                  FactorListNone(
+                                                                                  ) [FactorListNone]
+                                                                                ) [Term]
+                                                                                AddopTermNone(
+                                                                                ) [AddopTermNone]
+                                                                              ) [Expretion]
+                                                                            ) [DesignatorArray]
+                                                                            Expretion(
+                                                                              Positive(
+                                                                              ) [Positive]
+                                                                              Term(
+                                                                                FDesignator(
+                                                                                  DesignatorArray(
+                                                                                   niz
+                                                                                    Expretion(
+                                                                                      Positive(
+                                                                                      ) [Positive]
+                                                                                      Term(
+                                                                                        FDesignator(
+                                                                                          DesignatorIdent(
+                                                                                           i
+                                                                                          ) [DesignatorIdent]
+                                                                                        ) [FDesignator]
+                                                                                        FactorListNone(
+                                                                                        ) [FactorListNone]
+                                                                                      ) [Term]
+                                                                                      AddopTermNone(
+                                                                                      ) [AddopTermNone]
+                                                                                    ) [Expretion]
+                                                                                  ) [DesignatorArray]
+                                                                                ) [FDesignator]
+                                                                                FactorListMulop(
+                                                                                  MultiplyOp(
+                                                                                  ) [MultiplyOp]
+                                                                                  FNumber(
+                                                                                   2
+                                                                                  ) [FNumber]
+                                                                                  FactorListMulop(
+                                                                                    MultiplyOp(
+                                                                                    ) [MultiplyOp]
+                                                                                    FDesignator(
+                                                                                      DesignatorIdent(
+                                                                                       a
+                                                                                      ) [DesignatorIdent]
+                                                                                    ) [FDesignator]
+                                                                                    FactorListNone(
+                                                                                    ) [FactorListNone]
+                                                                                  ) [FactorListMulop]
+                                                                                ) [FactorListMulop]
+                                                                              ) [Term]
+                                                                              AddopTermNone(
+                                                                              ) [AddopTermNone]
+                                                                            ) [Expretion]
+                                                                          ) [DesignatorStatementEqual]
+                                                                        ) [StatementDesignator]
+                                                                      ) [StatementMatched]
+                                                                      StmtList(
+                                                                        StatementMatched(
+                                                                          StatementDesignator(
+                                                                            DesignatorStatementInc(
+                                                                              DesignatorIdent(
+                                                                               i
+                                                                              ) [DesignatorIdent]
+                                                                            ) [DesignatorStatementInc]
+                                                                          ) [StatementDesignator]
+                                                                        ) [StatementMatched]
+                                                                        NoStmt(
+                                                                        ) [NoStmt]
+                                                                      ) [StmtList]
+                                                                    ) [StmtList]
+                                                                  ) [Statements]
+                                                                ) [StatementWhile]
+                                                              ) [StatementMatched]
+                                                              StmtList(
+                                                                StatementMatched(
+                                                                  StatementForeach(
+                                                                    DesignatorIdent(
+                                                                     niz
+                                                                    ) [DesignatorIdent]
+                                                                   curr
+                                                                    StatementMatched(
+                                                                      StatementPrint(
+                                                                        Expretion(
+                                                                          Positive(
+                                                                          ) [Positive]
+                                                                          Term(
+                                                                            FDesignator(
+                                                                              DesignatorIdent(
+                                                                               curr
+                                                                              ) [DesignatorIdent]
+                                                                            ) [FDesignator]
+                                                                            FactorListNone(
+                                                                            ) [FactorListNone]
+                                                                          ) [Term]
+                                                                          AddopTermNone(
+                                                                          ) [AddopTermNone]
+                                                                        ) [Expretion]
+                                                                        NoNumber(
+                                                                        ) [NoNumber]
+                                                                      ) [StatementPrint]
+                                                                    ) [StatementMatched]
+                                                                  ) [StatementForeach]
+                                                                ) [StatementMatched]
+                                                                StmtList(
+                                                                  StatementMatched(
+                                                                    StatementPrint(
+                                                                      Expretion(
+                                                                        Positive(
+                                                                        ) [Positive]
+                                                                        Term(
+                                                                          FDesignator(
+                                                                            DesignatorIdent(
+                                                                             eol
+                                                                            ) [DesignatorIdent]
+                                                                          ) [FDesignator]
+                                                                          FactorListNone(
+                                                                          ) [FactorListNone]
+                                                                        ) [Term]
+                                                                        AddopTermNone(
+                                                                        ) [AddopTermNone]
+                                                                      ) [Expretion]
+                                                                      NoNumber(
+                                                                      ) [NoNumber]
+                                                                    ) [StatementPrint]
+                                                                  ) [StatementMatched]
+                                                                  StmtList(
+                                                                    StatementMatched(
+                                                                      StatementDesignator(
+                                                                        DesignatorStatementEqual(
+                                                                          DesignatorIdent(
+                                                                           niz2
+                                                                          ) [DesignatorIdent]
+                                                                          Expretion(
+                                                                            Positive(
+                                                                            ) [Positive]
+                                                                            Term(
+                                                                              FNumber(
+                                                                               0
+                                                                              ) [FNumber]
+                                                                              FactorListNone(
+                                                                              ) [FactorListNone]
+                                                                            ) [Term]
+                                                                            AddopTermNone(
+                                                                            ) [AddopTermNone]
+                                                                          ) [Expretion]
+                                                                        ) [DesignatorStatementEqual]
+                                                                      ) [StatementDesignator]
+                                                                    ) [StatementMatched]
+                                                                    StmtList(
+                                                                      StatementMatched(
+                                                                        StatementForeach(
+                                                                          DesignatorIdent(
+                                                                           niz
+                                                                          ) [DesignatorIdent]
+                                                                         curr
+                                                                          StatementMatched(
+                                                                            Statements(
+                                                                              StmtList(
+                                                                                StatementMatched(
+                                                                                  StatementDesignator(
+                                                                                    DesignatorStatementEqual(
+                                                                                      DesignatorIdent(
+                                                                                       niz2
+                                                                                      ) [DesignatorIdent]
+                                                                                      Expretion(
+                                                                                        Positive(
+                                                                                        ) [Positive]
+                                                                                        Term(
+                                                                                          FDesignator(
+                                                                                            DesignatorIdent(
+                                                                                             niz2
+                                                                                            ) [DesignatorIdent]
+                                                                                          ) [FDesignator]
+                                                                                          FactorListNone(
+                                                                                          ) [FactorListNone]
+                                                                                        ) [Term]
+                                                                                        AddopTerms(
+                                                                                          PlusOp(
+                                                                                          ) [PlusOp]
+                                                                                          Term(
+                                                                                            FDesignator(
+                                                                                              DesignatorIdent(
+                                                                                               curr
+                                                                                              ) [DesignatorIdent]
+                                                                                            ) [FDesignator]
+                                                                                            FactorListMulop(
+                                                                                              MultiplyOp(
+                                                                                              ) [MultiplyOp]
+                                                                                              FDesignator(
+                                                                                                DesignatorIdent(
+                                                                                                 curr
+                                                                                                ) [DesignatorIdent]
+                                                                                              ) [FDesignator]
+                                                                                              FactorListNone(
+                                                                                              ) [FactorListNone]
+                                                                                            ) [FactorListMulop]
+                                                                                          ) [Term]
+                                                                                          AddopTermNone(
+                                                                                          ) [AddopTermNone]
+                                                                                        ) [AddopTerms]
+                                                                                      ) [Expretion]
+                                                                                    ) [DesignatorStatementEqual]
+                                                                                  ) [StatementDesignator]
+                                                                                ) [StatementMatched]
+                                                                                NoStmt(
+                                                                                ) [NoStmt]
+                                                                              ) [StmtList]
+                                                                            ) [Statements]
+                                                                          ) [StatementMatched]
+                                                                        ) [StatementForeach]
+                                                                      ) [StatementMatched]
+                                                                      StmtList(
+                                                                        StatementMatched(
+                                                                          StatementPrint(
+                                                                            Expretion(
+                                                                              Positive(
+                                                                              ) [Positive]
+                                                                              Term(
+                                                                                FDesignator(
+                                                                                  DesignatorIdent(
+                                                                                   niz2
+                                                                                  ) [DesignatorIdent]
+                                                                                ) [FDesignator]
+                                                                                FactorListNone(
+                                                                                ) [FactorListNone]
+                                                                              ) [Term]
+                                                                              AddopTermNone(
+                                                                              ) [AddopTermNone]
+                                                                            ) [Expretion]
+                                                                            NoNumber(
+                                                                            ) [NoNumber]
+                                                                          ) [StatementPrint]
+                                                                        ) [StatementMatched]
+                                                                        NoStmt(
+                                                                        ) [NoStmt]
+                                                                      ) [StmtList]
+                                                                    ) [StmtList]
+                                                                  ) [StmtList]
+                                                                ) [StmtList]
+                                                              ) [StmtList]
+                                                            ) [StmtList]
+                                                          ) [StmtList]
+                                                        ) [StmtList]
+                                                      ) [StmtList]
+                                                    ) [StmtList]
+                                                  ) [StmtList]
+                                                ) [StmtList]
+                                              ) [StmtList]
+                                            ) [StmtList]
+                                          ) [StmtList]
+                                        ) [StmtList]
+                                      ) [StmtList]
+                                    ) [StmtList]
+                                  ) [StmtList]
+                                ) [StmtList]
+                              ) [StmtList]
+                            ) [StmtList]
+                          ) [StmtList]
+                        ) [StmtList]
+                      ) [StmtList]
+                    ) [StmtList]
+                  ) [StmtList]
+                ) [StmtList]
+              ) [StmtList]
+            ) [StmtList]
+          ) [MethodDeclaration]
+          MethodDeclarationMain(
+          ) [MethodDeclarationMain]
+        ) [MethodDeclarations]
+      ) [MethodDeclarations]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  07:15:29,905 - ===================================
+INFO  07:15:29,909 - Deklarisana konstante jedan na liniji 5
+ERROR 07:15:29,909 - Pogresan tip konstante!  na liniji 5
+INFO  07:15:29,909 - Deklarisana promenljiva i na liniji 7
+ERROR 07:15:29,909 - Nije pronadjen tip bool u tabeli simbola! 
+INFO  07:15:29,909 - Deklarisana promenljiva ibool na liniji 8
+INFO  07:15:29,909 - Deklarisana promenljiva niz2 na liniji 10
+INFO  07:15:29,909 - Deklarisana promenljiva niz[] na liniji 12
+INFO  07:15:29,909 - Deklarisana promenljiva a na liniji 13
+INFO  07:15:29,909 - Deklarisana promenljiva curr na liniji 13
+INFO  07:15:29,909 - Obradjuje se funkcija sum na liniji 17
+INFO  07:15:29,910 - Obradjuje se funkcija inkrement na liniji 23
+INFO  07:15:29,910 - Deklarisana promenljiva pom na liniji 24
+ERROR 07:15:29,910 - Nije pronadjen tip bool u tabeli simbola! 
+INFO  07:15:29,910 - Obradjuje se funkcija verify na liniji 32
+ERROR 07:15:29,910 - Nije pronadjen tip void u tabeli simbola! 
+INFO  07:15:29,910 - Obradjuje se funkcija main na liniji 37
+INFO  07:15:29,911 -  Print count calls = 17
+INFO  07:15:29,911 -  Deklarisanih promenljivih ima = 7
+INFO  07:15:29,911 -  ==================== 

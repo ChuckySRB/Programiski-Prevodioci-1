@@ -1,0 +1,368 @@
+INFO  17:31:05,355 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  17:31:05,399 - #2 program
+INFO  17:31:05,399 - #18 test302
+INFO  17:31:05,400 - #18 int
+INFO  17:31:05,400 - #18 a
+INFO  17:31:05,401 - #21 ,
+INFO  17:31:05,401 - #18 curr
+INFO  17:31:05,401 - #22 ;
+INFO  17:31:05,401 - #25 {
+INFO  17:31:05,402 - #18 int
+INFO  17:31:05,402 - #18 sum
+INFO  17:31:05,402 - #23 (
+INFO  17:31:05,403 - #18 int
+INFO  17:31:05,403 - #18 z
+INFO  17:31:05,403 - #21 ,
+INFO  17:31:05,403 - #18 int
+INFO  17:31:05,403 - #18 d
+INFO  17:31:05,404 - #24 )
+INFO  17:31:05,404 - #25 {
+INFO  17:31:05,404 - #4 return
+INFO  17:31:05,404 - #18 z
+INFO  17:31:05,405 - #19 +
+INFO  17:31:05,406 - #18 d
+INFO  17:31:05,407 - #22 ;
+INFO  17:31:05,407 - #26 }
+INFO  17:31:05,408 - #18 void
+INFO  17:31:05,408 - #18 main
+INFO  17:31:05,408 - #23 (
+INFO  17:31:05,408 - #24 )
+INFO  17:31:05,409 - #25 {
+INFO  17:31:05,409 - #18 a
+INFO  17:31:05,409 - #20 =
+INFO  17:31:05,409 - #15 12
+INFO  17:31:05,409 - #22 ;
+INFO  17:31:05,410 - #3 print
+INFO  17:31:05,410 - #23 (
+INFO  17:31:05,410 - #15 1
+INFO  17:31:05,410 - #24 )
+INFO  17:31:05,410 - #22 ;
+INFO  17:31:05,410 - #3 print
+INFO  17:31:05,411 - #23 (
+INFO  17:31:05,411 - #15 2
+INFO  17:31:05,411 - #24 )
+INFO  17:31:05,411 - #22 ;
+INFO  17:31:05,411 - #18 b
+INFO  17:31:05,411 - #20 =
+INFO  17:31:05,411 - #15 3
+INFO  17:31:05,411 - #19 +
+INFO  17:31:05,411 - #23 (
+INFO  17:31:05,411 - #15 5
+INFO  17:31:05,411 - #31 *
+INFO  17:31:05,411 - #15 6
+INFO  17:31:05,412 - #24 )
+INFO  17:31:05,412 - #32 -
+INFO  17:31:05,413 - #15 5
+INFO  17:31:05,413 - #22 ;
+INFO  17:31:05,413 - #18 sum
+INFO  17:31:05,413 - #23 (
+INFO  17:31:05,414 - #18 a
+INFO  17:31:05,414 - #21 ,
+INFO  17:31:05,414 - #18 b
+INFO  17:31:05,414 - #24 )
+INFO  17:31:05,416 - #22 ;
+INFO  17:31:05,416 - #26 }
+INFO  17:31:05,417 - #26 }
+INFO  17:31:05,429 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclar(
+      VariableDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarSingle(
+         a
+        ) [VarSingle]
+        VariableNameList(
+          VarSingle(
+           curr
+          ) [VarSingle]
+          VariableNameNone(
+          ) [VariableNameNone]
+        ) [VariableNameList]
+      ) [VariableDeclaration]
+    ) [VarDeclar]
+    NoVarDecl(
+    ) [NoVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         int
+        ) [Type]
+       sum
+      ) [MethodTypeName]
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+             z
+            ) [FormalParamDecl]
+          ) [SingleFormalParamDecl]
+          FormalParamDecl(
+            Type(
+             int
+            ) [Type]
+           d
+          ) [FormalParamDecl]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StatementMatched(
+          StatementReturn(
+            ReturnVal(
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FDesignator(
+                    DesignatorIdent(
+                     z
+                    ) [DesignatorIdent]
+                  ) [FDesignator]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTerms(
+                  PlusOp(
+                  ) [PlusOp]
+                  Term(
+                    FDesignator(
+                      DesignatorIdent(
+                       d
+                      ) [DesignatorIdent]
+                    ) [FDesignator]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [AddopTerms]
+              ) [Expretion]
+            ) [ReturnVal]
+          ) [StatementReturn]
+        ) [StatementMatched]
+        NoStmt(
+        ) [NoStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarations(
+      MethodDeclaration(
+        MethodTypeName(
+          Type(
+           void
+          ) [Type]
+         main
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        StmtList(
+          StatementMatched(
+            StatementDesignator(
+              DesignatorStatementEqual(
+                DesignatorIdent(
+                 a
+                ) [DesignatorIdent]
+                Expretion(
+                  Positive(
+                  ) [Positive]
+                  Term(
+                    FIntConst(
+                     12
+                    ) [FIntConst]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [Expretion]
+              ) [DesignatorStatementEqual]
+            ) [StatementDesignator]
+          ) [StatementMatched]
+          StmtList(
+            StatementMatched(
+              StatementPrint(
+                Expretion(
+                  Positive(
+                  ) [Positive]
+                  Term(
+                    FIntConst(
+                     1
+                    ) [FIntConst]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [Expretion]
+                NoNumber(
+                ) [NoNumber]
+              ) [StatementPrint]
+            ) [StatementMatched]
+            StmtList(
+              StatementMatched(
+                StatementPrint(
+                  Expretion(
+                    Positive(
+                    ) [Positive]
+                    Term(
+                      FIntConst(
+                       2
+                      ) [FIntConst]
+                      FactorListNone(
+                      ) [FactorListNone]
+                    ) [Term]
+                    AddopTermNone(
+                    ) [AddopTermNone]
+                  ) [Expretion]
+                  NoNumber(
+                  ) [NoNumber]
+                ) [StatementPrint]
+              ) [StatementMatched]
+              StmtList(
+                StatementMatched(
+                  StatementDesignator(
+                    DesignatorStatementEqual(
+                      DesignatorIdent(
+                       b
+                      ) [DesignatorIdent]
+                      Expretion(
+                        Positive(
+                        ) [Positive]
+                        Term(
+                          FIntConst(
+                           3
+                          ) [FIntConst]
+                          FactorListNone(
+                          ) [FactorListNone]
+                        ) [Term]
+                        AddopTerms(
+                          PlusOp(
+                          ) [PlusOp]
+                          Term(
+                            FExpretion(
+                              Expretion(
+                                Positive(
+                                ) [Positive]
+                                Term(
+                                  FIntConst(
+                                   5
+                                  ) [FIntConst]
+                                  FactorListMulop(
+                                    MultiplyOp(
+                                    ) [MultiplyOp]
+                                    FIntConst(
+                                     6
+                                    ) [FIntConst]
+                                    FactorListNone(
+                                    ) [FactorListNone]
+                                  ) [FactorListMulop]
+                                ) [Term]
+                                AddopTermNone(
+                                ) [AddopTermNone]
+                              ) [Expretion]
+                            ) [FExpretion]
+                            FactorListNone(
+                            ) [FactorListNone]
+                          ) [Term]
+                          AddopTerms(
+                            MinusOp(
+                            ) [MinusOp]
+                            Term(
+                              FIntConst(
+                               5
+                              ) [FIntConst]
+                              FactorListNone(
+                              ) [FactorListNone]
+                            ) [Term]
+                            AddopTermNone(
+                            ) [AddopTermNone]
+                          ) [AddopTerms]
+                        ) [AddopTerms]
+                      ) [Expretion]
+                    ) [DesignatorStatementEqual]
+                  ) [StatementDesignator]
+                ) [StatementMatched]
+                StmtList(
+                  StatementMatched(
+                    StatementDesignator(
+                      DesignatorStatementFunc(
+                        FunctionCallName(
+                          DesignatorIdent(
+                           sum
+                          ) [DesignatorIdent]
+                        ) [FunctionCallName]
+                        ActParsOneOne(
+                          ActPars(
+                            Expretion(
+                              Positive(
+                              ) [Positive]
+                              Term(
+                                FDesignator(
+                                  DesignatorIdent(
+                                   a
+                                  ) [DesignatorIdent]
+                                ) [FDesignator]
+                                FactorListNone(
+                                ) [FactorListNone]
+                              ) [Term]
+                              AddopTermNone(
+                              ) [AddopTermNone]
+                            ) [Expretion]
+                            ExpretionList(
+                              Expretion(
+                                Positive(
+                                ) [Positive]
+                                Term(
+                                  FDesignator(
+                                    DesignatorIdent(
+                                     b
+                                    ) [DesignatorIdent]
+                                  ) [FDesignator]
+                                  FactorListNone(
+                                  ) [FactorListNone]
+                                ) [Term]
+                                AddopTermNone(
+                                ) [AddopTermNone]
+                              ) [Expretion]
+                              ExpresionListNone(
+                              ) [ExpresionListNone]
+                            ) [ExpretionList]
+                          ) [ActPars]
+                        ) [ActParsOneOne]
+                      ) [DesignatorStatementFunc]
+                    ) [StatementDesignator]
+                  ) [StatementMatched]
+                  NoStmt(
+                  ) [NoStmt]
+                ) [StmtList]
+              ) [StmtList]
+            ) [StmtList]
+          ) [StmtList]
+        ) [StmtList]
+      ) [MethodDeclaration]
+      MethodDeclarationNone(
+      ) [MethodDeclarationNone]
+    ) [MethodDeclarations]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:31:05,430 - ===================================
+INFO  17:31:05,432 - Deklarisana promenljiva a na liniji 5
+INFO  17:31:05,432 - Deklarisana promenljiva curr na liniji 5
+INFO  17:31:05,432 - Obradjuje se funkcija sum na liniji 8
+INFO  17:31:05,436 - Obradjuje se funkcija main na liniji 13
+INFO  17:31:05,436 -  Print count calls = 2
+INFO  17:31:05,436 -  Deklarisanih promenljivih ima = 2
+INFO  17:31:05,436 -  ==================== 
+INFO  17:31:05,449 - Parsiranje uspesno zavrseno!

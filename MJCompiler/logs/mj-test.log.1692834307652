@@ -1,0 +1,148 @@
+INFO  01:43:31,566 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  01:43:31,679 - #2 program
+INFO  01:43:31,682 - #18 test302
+INFO  01:43:31,682 - #18 bool
+INFO  01:43:31,683 - #18 i
+INFO  01:43:31,684 - #22 ;
+INFO  01:43:31,685 - #25 {
+INFO  01:43:31,686 - #18 void
+INFO  01:43:31,686 - #18 main
+INFO  01:43:31,686 - #23 (
+INFO  01:43:31,687 - #24 )
+INFO  01:43:31,687 - #25 {
+INFO  01:43:31,687 - #18 i
+INFO  01:43:31,688 - #20 =
+INFO  01:43:31,688 - #17 true
+INFO  01:43:31,688 - #22 ;
+INFO  01:43:31,690 - #3 print
+INFO  01:43:31,690 - #23 (
+INFO  01:43:31,690 - #15 1
+INFO  01:43:31,690 - #24 )
+INFO  01:43:31,692 - #22 ;
+INFO  01:43:31,692 - #3 print
+INFO  01:43:31,692 - #23 (
+INFO  01:43:31,692 - #15 2
+INFO  01:43:31,692 - #24 )
+INFO  01:43:31,692 - #22 ;
+INFO  01:43:31,692 - #26 }
+INFO  01:43:31,693 - #26 }
+INFO  01:43:31,699 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclar(
+      VariableDeclaration(
+        Type(
+         bool
+        ) [Type]
+        VarSingle(
+         i
+        ) [VarSingle]
+        VariableNameNone(
+        ) [VariableNameNone]
+      ) [VariableDeclaration]
+    ) [VarDeclar]
+    NoVarDecl(
+    ) [NoVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StatementMatched(
+          StatementDesignator(
+            DesignatorStatementEqual(
+              DesignatorIdent(
+               i
+              ) [DesignatorIdent]
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FConst(
+                    BoolConst(
+                     true
+                    ) [BoolConst]
+                  ) [FConst]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTermNone(
+                ) [AddopTermNone]
+              ) [Expretion]
+            ) [DesignatorStatementEqual]
+          ) [StatementDesignator]
+        ) [StatementMatched]
+        StmtList(
+          StatementMatched(
+            StatementPrint(
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FConst(
+                    IntConst(
+                     1
+                    ) [IntConst]
+                  ) [FConst]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTermNone(
+                ) [AddopTermNone]
+              ) [Expretion]
+              NoNumber(
+              ) [NoNumber]
+            ) [StatementPrint]
+          ) [StatementMatched]
+          StmtList(
+            StatementMatched(
+              StatementPrint(
+                Expretion(
+                  Positive(
+                  ) [Positive]
+                  Term(
+                    FConst(
+                      IntConst(
+                       2
+                      ) [IntConst]
+                    ) [FConst]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [Expretion]
+                NoNumber(
+                ) [NoNumber]
+              ) [StatementPrint]
+            ) [StatementMatched]
+            NoStmt(
+            ) [NoStmt]
+          ) [StmtList]
+        ) [StmtList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarationNone(
+    ) [MethodDeclarationNone]
+  ) [MethodDeclarations]
+) [Program]
+INFO  01:43:31,699 - ===================================
+INFO  01:43:31,702 - Deklarisana promenljiva i na liniji 5
+INFO  01:43:31,702 - Obradjuje se funkcija main na liniji 9
+ERROR 01:43:31,702 - Semanticka greska na liniji 7: Operand instrukcije PRINT mora biti char ili int tipa
+ERROR 01:43:31,702 - Semanticka greska na liniji 7: Operand instrukcije PRINT mora biti char ili int tipa
+INFO  01:43:31,702 -  Print count calls = 2
+INFO  01:43:31,702 -  Deklarisanih promenljivih ima = 1
+INFO  01:43:31,702 -  ==================== 
+ERROR 01:43:31,703 - Parsiranje NIJE uspesno zavrseno!

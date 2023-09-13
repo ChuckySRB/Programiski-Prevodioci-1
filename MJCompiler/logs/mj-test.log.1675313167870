@@ -1,0 +1,25 @@
+INFO  05:41:27,971 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  05:41:28,066 - #2 program
+INFO  05:41:28,066 - #19 test302
+INFO  05:41:28,066 - #15 const
+INFO  05:41:28,067 - #19 int
+INFO  05:41:28,067 - #19 jedan
+INFO  05:41:28,068 - #21 =
+INFO  05:41:28,068 - #16 1
+INFO  05:41:28,069 - #23 ;
+INFO  05:41:28,072 - #19 int
+INFO  05:41:28,073 - #19 i
+INFO  05:41:28,074 - #23 ;
+INFO  05:41:28,075 - #19 bool
+INFO  05:41:28,075 - #19 ibool
+INFO  05:41:28,076 - #23 ;
+INFO  05:41:28,076 - #19 int
+INFO  05:41:28,076 - #19 niz2
+INFO  05:41:28,076 - #23 ;
+INFO  05:41:28,076 - #19 int
+INFO  05:41:28,076 - #19 niz
+INFO  05:41:28,077 - #28 [
+INFO  05:41:28,077 - #29 ]
+ERROR 05:41:28,077 - 
+Sintaksna greska na liniji 12
+ERROR 05:41:28,077 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

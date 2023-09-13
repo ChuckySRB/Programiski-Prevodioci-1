@@ -1,0 +1,94 @@
+INFO  16:11:45,712 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  16:11:46,448 - #2 program
+INFO  16:11:46,449 - #18 test302
+INFO  16:11:46,450 - #25 {
+INFO  16:11:46,453 - #18 void
+INFO  16:11:46,454 - #18 main
+INFO  16:11:46,476 - #23 (
+INFO  16:11:46,492 - #24 )
+INFO  16:11:46,500 - #25 {
+INFO  16:11:46,500 - #3 print
+INFO  16:11:46,500 - #23 (
+INFO  16:11:46,500 - #15 1
+INFO  16:11:46,511 - #24 )
+INFO  16:11:46,568 - #22 ;
+INFO  16:11:46,568 - #3 print
+INFO  16:11:46,568 - #23 (
+INFO  16:11:46,569 - #15 2
+INFO  16:11:46,569 - #24 )
+INFO  16:11:46,569 - #22 ;
+INFO  16:11:46,569 - #26 }
+INFO  16:11:46,574 - #26 }
+INFO  16:11:46,622 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoVarDecl(
+  ) [NoVarDecl]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StatementMatched(
+          StatementPrint(
+            Expretion(
+              Positive(
+              ) [Positive]
+              Term(
+                FIntConst(
+                 1
+                ) [FIntConst]
+                FactorListNone(
+                ) [FactorListNone]
+              ) [Term]
+              AddopTermNone(
+              ) [AddopTermNone]
+            ) [Expretion]
+            NoNumber(
+            ) [NoNumber]
+          ) [StatementPrint]
+        ) [StatementMatched]
+        StmtList(
+          StatementMatched(
+            StatementPrint(
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FIntConst(
+                   2
+                  ) [FIntConst]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTermNone(
+                ) [AddopTermNone]
+              ) [Expretion]
+              NoNumber(
+              ) [NoNumber]
+            ) [StatementPrint]
+          ) [StatementMatched]
+          NoStmt(
+          ) [NoStmt]
+        ) [StmtList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarationNone(
+    ) [MethodDeclarationNone]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:11:46,623 - ===================================
+INFO  16:11:46,689 - Obradjuje se funkcija main na liniji 7
+INFO  16:11:46,693 -  Print count calls = 2
+INFO  16:11:46,693 -  Deklarisanih promenljivih ima = 0
+INFO  16:11:46,694 -  ==================== 
+INFO  16:11:46,800 - Parsiranje uspesno zavrseno!

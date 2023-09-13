@@ -1,0 +1,9 @@
+INFO  04:25:41,236 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  04:25:41,359 - #2 program
+INFO  04:25:41,359 - #18 test302
+INFO  04:25:41,359 - #18 const
+INFO  04:25:41,359 - #18 int
+INFO  04:25:41,361 - #18 jedan
+ERROR 04:25:41,362 - 
+Sintaksna greska na liniji 3
+ERROR 04:25:41,362 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

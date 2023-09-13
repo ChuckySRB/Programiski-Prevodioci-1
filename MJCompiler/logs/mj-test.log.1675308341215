@@ -1,0 +1,143 @@
+INFO  04:17:30,426 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  04:17:30,539 - #2 program
+INFO  04:17:30,542 - #18 MJProgram
+INFO  04:17:30,543 - #18 int
+INFO  04:17:30,544 - #18 x
+INFO  04:17:30,573 - #22 ;
+INFO  04:17:30,574 - #18 int
+INFO  04:17:30,575 - #18 y
+INFO  04:17:30,575 - #22 ;
+INFO  04:17:30,576 - #25 {
+INFO  04:17:30,577 - #18 int
+INFO  04:17:30,577 - #14 main
+INFO  04:17:30,578 - #23 (
+INFO  04:17:30,578 - #24 )
+INFO  04:17:30,579 - #25 {
+INFO  04:17:30,579 - #3 print
+INFO  04:17:30,580 - #23 (
+INFO  04:17:30,581 - #15 1
+INFO  04:17:30,584 - #24 )
+INFO  04:17:30,599 - #22 ;
+INFO  04:17:30,607 - #18 x
+INFO  04:17:30,608 - #20 =
+INFO  04:17:30,609 - #18 y
+INFO  04:17:30,610 - #19 +
+INFO  04:17:30,610 - #15 5
+INFO  04:17:30,613 - #22 ;
+INFO  04:17:30,614 - #3 print
+INFO  04:17:30,614 - #23 (
+INFO  04:17:30,615 - #15 2
+INFO  04:17:30,615 - #24 )
+INFO  04:17:30,615 - #22 ;
+INFO  04:17:30,615 - #26 }
+INFO  04:17:30,616 - #26 }
+INFO  04:17:30,620 - Program(
+ MJProgram
+  VarDeclarations(
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+     x
+    ) [VarDecl]
+    VarDeclarations(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       y
+      ) [VarDecl]
+      NoVarDecl(
+      ) [NoVarDecl]
+    ) [VarDeclarations]
+  ) [VarDeclarations]
+  MethodDeclarationMain(
+    MainFunction(
+      Type(
+       int
+      ) [Type]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmt(
+            ) [NoStmt]
+            StatementPrint(
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FNumber(
+                   1
+                  ) [FNumber]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTermNone(
+                ) [AddopTermNone]
+              ) [Expretion]
+              NoNumber(
+              ) [NoNumber]
+            ) [StatementPrint]
+          ) [StmtList]
+          StatementDesignator(
+            DesignatorStatementEqual(
+              DesignatorIdent(
+               x
+              ) [DesignatorIdent]
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FDesignator(
+                    DesignatorIdent(
+                     y
+                    ) [DesignatorIdent]
+                  ) [FDesignator]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTerms(
+                  PlusOp(
+                  ) [PlusOp]
+                  Term(
+                    FNumber(
+                     5
+                    ) [FNumber]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [AddopTerms]
+              ) [Expretion]
+            ) [DesignatorStatementEqual]
+          ) [StatementDesignator]
+        ) [StmtList]
+        StatementPrint(
+          Expretion(
+            Positive(
+            ) [Positive]
+            Term(
+              FNumber(
+               2
+              ) [FNumber]
+              FactorListNone(
+              ) [FactorListNone]
+            ) [Term]
+            AddopTermNone(
+            ) [AddopTermNone]
+          ) [Expretion]
+          NoNumber(
+          ) [NoNumber]
+        ) [StatementPrint]
+      ) [StmtList]
+    ) [MainFunction]
+  ) [MethodDeclarationMain]
+) [Program]
+INFO  04:17:30,625 - ===================================
+INFO  04:17:30,629 -  Print count calls = 2
+INFO  04:17:30,629 -  Deklarisanih promenljivih ima = 2
