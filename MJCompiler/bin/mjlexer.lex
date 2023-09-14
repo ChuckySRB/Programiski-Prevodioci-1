@@ -44,6 +44,7 @@ import java_cup.runtime.Symbol;
 "if" 		{ return new_symbol(sym.IF, yytext());}
 "else" 		{ return new_symbol(sym.ELSE, yytext());}
 "foreach" 	{ return new_symbol(sym.FOREACH, yytext());}
+"findAny" 	{ return new_symbol(sym.FINDANY, yytext());}
 "while" 	{ return new_symbol(sym.WHILE, yytext());}
 "continue" 	{ return new_symbol(sym.CONTINUE, yytext());}
 "break" 	{ return new_symbol(sym.BREAK, yytext());}

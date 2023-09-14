@@ -1,0 +1,190 @@
+INFO  17:21:27,756 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  17:21:27,795 - #2 program
+INFO  17:21:27,796 - #19 test301
+INFO  17:21:27,796 - #19 int
+INFO  17:21:27,796 - #19 a
+INFO  17:21:27,797 - #23 ;
+INFO  17:21:27,797 - #26 {
+INFO  17:21:27,798 - #19 void
+INFO  17:21:27,798 - #19 main
+INFO  17:21:27,798 - #24 (
+INFO  17:21:27,798 - #25 )
+INFO  17:21:27,799 - #26 {
+INFO  17:21:27,799 - #19 a
+INFO  17:21:27,799 - #21 =
+INFO  17:21:27,799 - #16 20
+INFO  17:21:27,799 - #33 -
+INFO  17:21:27,800 - #16 2
+INFO  17:21:27,800 - #32 *
+INFO  17:21:27,800 - #16 8
+INFO  17:21:27,801 - #20 +
+INFO  17:21:27,801 - #24 (
+INFO  17:21:27,802 - #16 3
+INFO  17:21:27,802 - #34 /
+INFO  17:21:27,802 - #16 3
+INFO  17:21:27,803 - #33 -
+INFO  17:21:27,803 - #16 2
+INFO  17:21:27,803 - #25 )
+INFO  17:21:27,803 - #32 *
+INFO  17:21:27,803 - #16 2
+INFO  17:21:27,804 - #31 %
+INFO  17:21:27,804 - #16 7
+INFO  17:21:27,804 - #33 -
+INFO  17:21:27,805 - #16 3
+INFO  17:21:27,805 - #23 ;
+INFO  17:21:27,805 - #3 print
+INFO  17:21:27,806 - #24 (
+INFO  17:21:27,806 - #19 a
+INFO  17:21:27,806 - #25 )
+INFO  17:21:27,806 - #23 ;
+INFO  17:21:27,806 - #27 }
+INFO  17:21:27,807 - #27 }
+INFO  17:21:27,814 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclar(
+      VariableDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarSingle(
+         a
+        ) [VarSingle]
+        VariableNameNone(
+        ) [VariableNameNone]
+      ) [VariableDeclaration]
+    ) [VarDeclar]
+    NoVarDecl(
+    ) [NoVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StatementMatched(
+          StatementDesignator(
+            DesignatorStatementEqual(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              Expretion(
+                Expretion(
+                  Expretion(
+                    Positive(
+                      TermFactor(
+                        FIntConst(
+                         20
+                        ) [FIntConst]
+                      ) [TermFactor]
+                    ) [Positive]
+                    MinusOp(
+                    ) [MinusOp]
+                    TermFactorList(
+                      TermFactor(
+                        FIntConst(
+                         2
+                        ) [FIntConst]
+                      ) [TermFactor]
+                      MultiplyOp(
+                      ) [MultiplyOp]
+                      FIntConst(
+                       8
+                      ) [FIntConst]
+                    ) [TermFactorList]
+                  ) [Expretion]
+                  PlusOp(
+                  ) [PlusOp]
+                  TermFactorList(
+                    TermFactorList(
+                      TermFactor(
+                        FExpretion(
+                          Expretion(
+                            Positive(
+                              TermFactorList(
+                                TermFactor(
+                                  FIntConst(
+                                   3
+                                  ) [FIntConst]
+                                ) [TermFactor]
+                                DivideOp(
+                                ) [DivideOp]
+                                FIntConst(
+                                 3
+                                ) [FIntConst]
+                              ) [TermFactorList]
+                            ) [Positive]
+                            MinusOp(
+                            ) [MinusOp]
+                            TermFactor(
+                              FIntConst(
+                               2
+                              ) [FIntConst]
+                            ) [TermFactor]
+                          ) [Expretion]
+                        ) [FExpretion]
+                      ) [TermFactor]
+                      MultiplyOp(
+                      ) [MultiplyOp]
+                      FIntConst(
+                       2
+                      ) [FIntConst]
+                    ) [TermFactorList]
+                    ModuleOp(
+                    ) [ModuleOp]
+                    FIntConst(
+                     7
+                    ) [FIntConst]
+                  ) [TermFactorList]
+                ) [Expretion]
+                MinusOp(
+                ) [MinusOp]
+                TermFactor(
+                  FIntConst(
+                   3
+                  ) [FIntConst]
+                ) [TermFactor]
+              ) [Expretion]
+            ) [DesignatorStatementEqual]
+          ) [StatementDesignator]
+        ) [StatementMatched]
+        StmtList(
+          StatementMatched(
+            StatementPrint(
+              Positive(
+                TermFactor(
+                  FDesignator(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [FDesignator]
+                ) [TermFactor]
+              ) [Positive]
+            ) [StatementPrint]
+          ) [StatementMatched]
+          NoStmt(
+          ) [NoStmt]
+        ) [StmtList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarationNone(
+    ) [MethodDeclarationNone]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:21:27,815 - ===================================
+INFO  17:21:27,818 - Deklarisana promenljiva a na liniji 5
+INFO  17:21:27,819 - Obradjuje se funkcija main na liniji 7
+INFO  17:21:27,819 -  Print count calls = 1
+INFO  17:21:27,819 -  Deklarisanih promenljivih ima = 1
+INFO  17:21:27,819 -  ==================== 
+INFO  17:21:27,834 - Parsiranje uspesno zavrseno!

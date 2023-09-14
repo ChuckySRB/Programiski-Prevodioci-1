@@ -108,7 +108,7 @@ public class SemanticPass extends VisitorAdaptor {
 		else {
 			varDeclCount++;
 			report_info("Deklarisana promenljiva "+ name + "[]", var);
-			Tab.insert(Obj.Var, name, currentType);
+			Tab.insert(Obj.Var, name, new Struct(Struct.Array, currentType));
 		}
 	}
 	
@@ -125,12 +125,52 @@ public class SemanticPass extends VisitorAdaptor {
 	public void visit(FDesignator d) {
 		d.struct = d.getDesignator().obj.getType();
 	}
+	public void visit(FExpretion e) {
+		e.struct = e.getExpr().struct;
+	}
+	public void visit(FNew fNew) {
+		String tip = fNew.getType().getTypeName();
+		if (fNew.getExpr().struct != Tab.intType) {
+			report_error("Greska na liniji " + fNew.getLine() + ": Izraz u new mora biti INT!", null);
+		}
+		else if(Tab.find(tip) == Tab.noObj) {
+			fNew.struct = new Struct(Struct.Array, Tab.noType);
+			report_error("Greska na liniji " + fNew.getLine() +": Tip " + tip + "nije definisan!", null);
+		} else {
+			fNew.struct = new Struct(Struct.Array, Tab.find(tip).getType());
+		}
+	}
 	
 	
-	
-    public void visit(StatementPrint print) {
-    	//if(print.getExpr().struct != Tab.intType && print.getExpr().struct!= Tab.charType) report_error ("Semanticka greska na liniji " + print.getLine() + ": Operand instrukcije PRINT mora biti char ili int tipa", null );
+	// PRINT - READ
+    public void visit(StatementPrint printst) {
+    	if(printst.getExpr().struct != Tab.intType && 
+    			printst.getExpr().struct!= Tab.charType &&
+    			printst.getExpr().struct!= TabBool.boolType) 
+    		report_error ("Semanticka greska na liniji " + printst.getLine() + ": Operand instrukcije PRINT mora biti char ili int ili bool tipa", null );
 		printCallCount++;
+	}
+    public void visit(StatementPrintWide printst) {
+    	if(printst.getExpr().struct != Tab.intType && 
+    			printst.getExpr().struct!= Tab.charType &&
+    			printst.getExpr().struct!= TabBool.boolType) 
+    		report_error ("Semanticka greska na liniji " + printst.getLine() + ": Operand instrukcije PRINT mora biti char ili int ili bool tipa", null );
+		printCallCount++;
+	}
+    
+    public void visit(StatementRead readst) {
+		if(readst.getDesignator().obj.getKind() != Obj.Var &&
+						readst.getDesignator().obj.getKind() != Obj.Elem) {
+			report_error("Greska na liniji " + readst.getLine() + 
+					": Argument instrukcije READ mora biti promenljiva ili element niza", null);
+		} else {
+			if(readst.getDesignator().obj.getType() != Tab.intType &&
+				readst.getDesignator().obj.getType() != Tab.charType &&
+					readst.getDesignator().obj.getType() != TabBool.boolType) {
+				report_error("Greska na liniji " + readst.getLine() + 
+						": Argument instrukcije READ mora biti primitivnog tipa", null);
+			}
+		}
 	}
     
 
@@ -204,21 +244,13 @@ public class SemanticPass extends VisitorAdaptor {
     
     // FUNKCIJE
     
-    public void visit(FunctionCallName functionCallName){
-    	functionCallName.obj = functionCallName.getDesignator().obj;
-    	/*
-    	Obj func = funcCall.getDesignator().obj;
-    	if(Obj.Meth == func.getKind()){
-			report_info("Pronadjen poziv funkcije " + func.getName() + " na liniji " + funcCall.getLine(), null);
-			funcCall.struct = func.getType();
-    	}else{
-			report_error("Greska na liniji " + funcCall.getLine()+" : ime " + func.getName() + " nije funkcija!", null);
-			funcCall.struct = Tab.noType;
-    	}*/
-    }
+  
     
     // TERM
-    public void visit(Term term){
+    public void visit(TermFactor term){
+    	term.struct = term.getFactor().struct;
+    }
+    public void visit(TermFactorList term) {
     	term.struct = term.getFactor().struct;
     }
     

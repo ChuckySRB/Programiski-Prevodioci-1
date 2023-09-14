@@ -1,0 +1,174 @@
+INFO  18:28:35,220 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  18:28:35,255 - #2 program
+INFO  18:28:35,255 - #19 test301
+INFO  18:28:35,255 - #19 int
+INFO  18:28:35,256 - #19 a
+INFO  18:28:35,256 - #23 ;
+INFO  18:28:35,257 - #26 {
+INFO  18:28:35,258 - #19 void
+INFO  18:28:35,258 - #19 main
+INFO  18:28:35,258 - #24 (
+INFO  18:28:35,258 - #25 )
+INFO  18:28:35,259 - #19 int
+INFO  18:28:35,259 - #19 bodovi
+INFO  18:28:35,259 - #23 ;
+INFO  18:28:35,259 - #19 bool
+INFO  18:28:35,259 - #19 br
+INFO  18:28:35,259 - #23 ;
+INFO  18:28:35,259 - #26 {
+INFO  18:28:35,260 - #19 a
+INFO  18:28:35,260 - #21 =
+INFO  18:28:35,260 - #16 6
+INFO  18:28:35,260 - #23 ;
+INFO  18:28:35,262 - #19 bodovi
+INFO  18:28:35,262 - #21 =
+INFO  18:28:35,262 - #16 0
+INFO  18:28:35,262 - #23 ;
+INFO  18:28:35,262 - #19 bodovi
+INFO  18:28:35,262 - #44 ++
+INFO  18:28:35,262 - #23 ;
+INFO  18:28:35,262 - #3 print
+INFO  18:28:35,262 - #24 (
+INFO  18:28:35,262 - #19 bodovi
+INFO  18:28:35,263 - #25 )
+INFO  18:28:35,263 - #23 ;
+INFO  18:28:35,263 - #27 }
+INFO  18:28:35,263 - #27 }
+INFO  18:28:35,270 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclar(
+      VariableDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarSingle(
+         a
+        ) [VarSingle]
+        VariableNameNone(
+        ) [VariableNameNone]
+      ) [VariableDeclaration]
+    ) [VarDeclar]
+    NoVarDecl(
+    ) [NoVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        VarDeclar(
+          VariableDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarSingle(
+             bodovi
+            ) [VarSingle]
+            VariableNameNone(
+            ) [VariableNameNone]
+          ) [VariableDeclaration]
+        ) [VarDeclar]
+        VarDeclarations(
+          VarDeclar(
+            VariableDeclaration(
+              Type(
+               bool
+              ) [Type]
+              VarSingle(
+               br
+              ) [VarSingle]
+              VariableNameNone(
+              ) [VariableNameNone]
+            ) [VariableDeclaration]
+          ) [VarDeclar]
+          NoVarDecl(
+          ) [NoVarDecl]
+        ) [VarDeclarations]
+      ) [VarDeclarations]
+      StmtList(
+        StatementMatched(
+          StatementDesignator(
+            DesignatorStatementEqual(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              Positive(
+                TermFactor(
+                  FIntConst(
+                   6
+                  ) [FIntConst]
+                ) [TermFactor]
+              ) [Positive]
+            ) [DesignatorStatementEqual]
+          ) [StatementDesignator]
+        ) [StatementMatched]
+        StmtList(
+          StatementMatched(
+            StatementDesignator(
+              DesignatorStatementEqual(
+                DesignatorIdent(
+                 bodovi
+                ) [DesignatorIdent]
+                Positive(
+                  TermFactor(
+                    FIntConst(
+                     0
+                    ) [FIntConst]
+                  ) [TermFactor]
+                ) [Positive]
+              ) [DesignatorStatementEqual]
+            ) [StatementDesignator]
+          ) [StatementMatched]
+          StmtList(
+            StatementMatched(
+              StatementDesignator(
+                DesignatorStatementInc(
+                  DesignatorIdent(
+                   bodovi
+                  ) [DesignatorIdent]
+                ) [DesignatorStatementInc]
+              ) [StatementDesignator]
+            ) [StatementMatched]
+            StmtList(
+              StatementMatched(
+                StatementPrint(
+                  Positive(
+                    TermFactor(
+                      FDesignator(
+                        DesignatorIdent(
+                         bodovi
+                        ) [DesignatorIdent]
+                      ) [FDesignator]
+                    ) [TermFactor]
+                  ) [Positive]
+                ) [StatementPrint]
+              ) [StatementMatched]
+              NoStmt(
+              ) [NoStmt]
+            ) [StmtList]
+          ) [StmtList]
+        ) [StmtList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarationNone(
+    ) [MethodDeclarationNone]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:28:35,270 - ===================================
+INFO  18:28:35,274 - Deklarisana promenljiva a na liniji 5
+INFO  18:28:35,274 - Obradjuje se funkcija main na liniji 8
+INFO  18:28:35,274 - Deklarisana promenljiva bodovi na liniji 9
+INFO  18:28:35,274 - Deklarisana promenljiva br na liniji 10
+INFO  18:28:35,274 -  Print count calls = 1
+INFO  18:28:35,275 -  Deklarisanih promenljivih ima = 3
+INFO  18:28:35,275 -  ==================== 
+INFO  18:28:35,291 - Parsiranje uspesno zavrseno!

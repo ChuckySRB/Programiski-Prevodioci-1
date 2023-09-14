@@ -20,6 +20,7 @@ public class CodeGenerator extends VisitorAdaptor {
 		return mainPc;
 	}
 	
+	// PRINT - READ
 	public void visit(StatementPrint printStmt) {
 		if (printStmt.getExpr().struct == Tab.intType) {
 			Code.loadConst(10);
@@ -29,7 +30,26 @@ public class CodeGenerator extends VisitorAdaptor {
 			Code.put(Code.bprint);
 		}
 	}
+	public void visit(StatementPrintWide printStmt) {
+		if (printStmt.getExpr().struct == Tab.intType) {
+			Code.loadConst(printStmt.getNum());
+			Code.put(Code.print);
+		}else{
+			Code.loadConst(printStmt.getNum());
+			Code.put(Code.bprint);
+		}
+	}
+	public void visit(StatementRead readStmt) {
+		if (readStmt.getDesignator().obj.getType() == Tab.intType) {
+			Code.put(Code.read);
+		}else{
+			Code.put(Code.bread);
+		}
+		Code.store(readStmt.getDesignator().obj);
+	}
 	
+	
+	// FACTORI
 	public void visit(FIntConst constant) {
 		Obj con = Tab.insert(Obj.Con, "$", constant.struct);
 		con.setLevel(0);
@@ -54,6 +74,18 @@ public class CodeGenerator extends VisitorAdaptor {
 		Code.load(con);
 	}
 	
+	public void visit(FNew fnew) {
+		Code.put(Code.newarray);
+		if (fnew.struct == Tab.charType) {
+			Code.put(0);
+		}
+		else {
+			Code.put(1);
+		}
+	}
+	
+	
+	// Metodde
 	public void visit(MethodTypeName methodTypeName) {
 		if ("main".equalsIgnoreCase(methodTypeName.getMethName())) {
 			mainPc = Code.pc;
@@ -91,6 +123,15 @@ public class CodeGenerator extends VisitorAdaptor {
 		if(DesignatorStatementEqual.class != parent.getClass() && 
 				DesignatorStatementFunc.class != parent.getClass() &&
 				designator.obj.getKind() != Obj.Meth){
+			Code.load(designator.obj);
+		}
+	}
+	
+	public void visit(DesignatorArray designator){
+		SyntaxNode parent = designator.getParent();
+		
+		if(DesignatorStatementEqual.class != parent.getClass() && 
+				DesignatorStatementFunc.class != parent.getClass()){
 			Code.load(designator.obj);
 		}
 	}
@@ -136,7 +177,7 @@ public class CodeGenerator extends VisitorAdaptor {
 	}
 	
 	// OPERACIJE
-	public void visit(FactorListMulop fl) {
+	public void visit(TermFactorList fl) {
 		 if(MultiplyOp.class == fl.getMulop().getClass()) {
 			 Code.put(Code.mul);
 		 } else if (ModuleOp.class == fl.getMulop().getClass()) {
@@ -158,6 +199,10 @@ public class CodeGenerator extends VisitorAdaptor {
 	
 	public void visit (Negative t) {
 		Code.put(Code.neg);
+	}
+	
+	public void visit (StatementFindAny findAny) {
+		
 	}
 	
 

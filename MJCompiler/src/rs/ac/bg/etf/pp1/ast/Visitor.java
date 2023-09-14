@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 14/8/2023 3:42:13
+// 14/8/2023 19:26:9
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -19,12 +19,12 @@ public interface Visitor {
     public void visit(CondTermList CondTermList);
     public void visit(VarName VarName);
     public void visit(StatementList StatementList);
-    public void visit(FactorList FactorList);
     public void visit(ConstVariable ConstVariable);
     public void visit(Factor Factor);
     public void visit(CondTerm CondTerm);
     public void visit(CondFactList CondFactList);
     public void visit(Designator Designator);
+    public void visit(Term Term);
     public void visit(VarNameList VarNameList);
     public void visit(ExprList ExprList);
     public void visit(ReturnStatement ReturnStatement);
@@ -42,7 +42,6 @@ public interface Visitor {
     public void visit(ActParsOne ActParsOne);
     public void visit(FormPars FormPars);
     public void visit(TypeMain TypeMain);
-    public void visit(AddopTermList AddopTermList);
     public void visit(Type Type);
     public void visit(NotEqualOp NotEqualOp);
     public void visit(EqualOp EqualOp);
@@ -55,8 +54,6 @@ public interface Visitor {
     public void visit(MultiplyOp MultiplyOp);
     public void visit(MinusOp MinusOp);
     public void visit(PlusOp PlusOp);
-    public void visit(AddopTermNone AddopTermNone);
-    public void visit(AddopTerms AddopTerms);
     public void visit(FFunction FFunction);
     public void visit(FDesignator FDesignator);
     public void visit(FNew FNew);
@@ -64,9 +61,8 @@ public interface Visitor {
     public void visit(FBoolConst FBoolConst);
     public void visit(FCharConst FCharConst);
     public void visit(FIntConst FIntConst);
-    public void visit(FactorListNone FactorListNone);
-    public void visit(FactorListMulop FactorListMulop);
-    public void visit(Term Term);
+    public void visit(TermFactor TermFactor);
+    public void visit(TermFactorList TermFactorList);
     public void visit(ExpresionListNone ExpresionListNone);
     public void visit(ExpretionList ExpretionList);
     public void visit(Positive Positive);
@@ -81,14 +77,13 @@ public interface Visitor {
     public void visit(CondTermNone CondTermNone);
     public void visit(ConditionTermList ConditionTermList);
     public void visit(Condition Condition);
-    public void visit(NoNumber NoNumber);
-    public void visit(NumberListList NumberListList);
     public void visit(ActPars ActPars);
     public void visit(ActParsNone ActParsNone);
     public void visit(ActParsOneOne ActParsOneOne);
     public void visit(ReturnVal ReturnVal);
     public void visit(ReturnVoid ReturnVoid);
     public void visit(ErrorStmt ErrorStmt);
+    public void visit(StatementFindAny StatementFindAny);
     public void visit(StatementVarDecl StatementVarDecl);
     public void visit(Statements Statements);
     public void visit(StatementForeach StatementForeach);
@@ -96,6 +91,7 @@ public interface Visitor {
     public void visit(StatementContinue StatementContinue);
     public void visit(StatementBreak StatementBreak);
     public void visit(StatementWhile StatementWhile);
+    public void visit(StatementPrintWide StatementPrintWide);
     public void visit(StatementPrint StatementPrint);
     public void visit(StatementRead StatementRead);
     public void visit(StatementDesignator StatementDesignator);
@@ -116,7 +112,6 @@ public interface Visitor {
     public void visit(DesignatorStatementInc DesignatorStatementInc);
     public void visit(DesignatorStatementBrackets DesignatorStatementBrackets);
     public void visit(DesignatorStatementEqual DesignatorStatementEqual);
-    public void visit(FunctionCallName FunctionCallName);
     public void visit(NoStmt NoStmt);
     public void visit(StmtList StmtList);
     public void visit(FormalParamDecl FormalParamDecl);
