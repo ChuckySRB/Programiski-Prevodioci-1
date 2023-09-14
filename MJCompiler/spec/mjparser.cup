@@ -62,7 +62,7 @@ nonterminal MethodDeclList, FormPars, FormalParamList, FormalParamDecl;
 nonterminal VarDeclList, VarDecl, VarName, VarDeclaration, VarNameList, VarConstDecl, ConstVarNameList, ConstVariable;
 nonterminal DesignatorStatement, DesignatorOne, DesignatorList;
 nonterminal Statement, StatementList, ReturnStatement;
-nonterminal ActPars, ActParsOne, NumberList, MinusOne;
+nonterminal ActPars, ActParsOne, NumberList;
 nonterminal AddOp, AddopTermList, Mulop, Relop, TypeMain, Unmatched, Matched;
 
 nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, MethodDecl, MethodTypeName, Designator, ConstExpr, FunctionCallName;
@@ -130,7 +130,7 @@ DesignatorStatement ::= (DesignatorStatementEqual) Designator:dest EQUAL Expr:e
 				| (DesignatorStatementBrackets) LBRACKET DesignatorOne DesignatorList RBRACKET EQUAL Designator 
 				| (DesignatorStatementInc) Designator:dest INC 
 				| (DesignatorStatementDec) Designator:dest DEC 
-				| (DesignatorStatementFunc) FunctionCallName LPAREN ActParsOne RPAREN;
+				| (DesignatorStatementFunc) Designator LPAREN ActParsOne RPAREN;
 				
 				
 
@@ -143,7 +143,7 @@ DesignatorList ::= (DesignatorListList) COMMA DesignatorOne DesignatorList
 				| (DesignatorListNone)/* Epsilon */;
 
 Designator ::= (DesignatorIdent) IDENT:name 
-				| (DesignatorArray) IDENT:name LBRACKET Expr RBRACKET;
+				| (DesignatorArray) Designator LBRACKET Expr RBRACKET;
 
 Statement ::= (StatementMatched) Matched
 				| (StatementUnmatched) Unmatched;
@@ -192,13 +192,12 @@ CondFact ::= (ConditionFact) Expr
 			| (ConditionFactRel) Expr Relop Expr 
 			| (ConditionFactNot) NOT Expr;
 
-Expr ::= (Expretion) MinusOne Term:t AddopTermList:te;
+Expr ::= (Expretion) Expr:val AddOp Term:t
+			| (Negative) MINUS Term:val 
+			| (Positive) Term:val;
 
 ExprList ::= (ExpretionList) COMMA Expr ExprList 
 			| (ExpresionListNone) /* Epsilon */;
-
-MinusOne ::= (Negative) MINUS 
-			| (Positive) /* Epsilon */;
 
 Term ::= (Term) Factor:valF FactorList:valFL;
 
@@ -211,7 +210,7 @@ Factor ::=  (FIntConst) NUMBER:Val
 			| (FExpretion) LPAREN Expr RPAREN 
 			| (FNew) NEW Type LBRACKET Expr RBRACKET 
 			|  (FDesignator) Designator 
-			| (FFunction) FunctionCallName LPAREN ActParsOne RPAREN;
+			| (FFunction) Designator LPAREN ActParsOne RPAREN;
 
 AddopTermList ::= (AddopTerms) AddOp Term AddopTermList 
 			| (AddopTermNone) /* Epsilon */;

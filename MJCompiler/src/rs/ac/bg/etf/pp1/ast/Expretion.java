@@ -1,31 +1,39 @@
 // generated with ast extension for cup
 // version 0.8
-// 13/8/2023 16:54:46
+// 14/8/2023 3:42:13
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class Expretion extends Expr {
 
-    private MinusOne MinusOne;
+    private Expr Expr;
+    private AddOp AddOp;
     private Term Term;
-    private AddopTermList AddopTermList;
 
-    public Expretion (MinusOne MinusOne, Term Term, AddopTermList AddopTermList) {
-        this.MinusOne=MinusOne;
-        if(MinusOne!=null) MinusOne.setParent(this);
+    public Expretion (Expr Expr, AddOp AddOp, Term Term) {
+        this.Expr=Expr;
+        if(Expr!=null) Expr.setParent(this);
+        this.AddOp=AddOp;
+        if(AddOp!=null) AddOp.setParent(this);
         this.Term=Term;
         if(Term!=null) Term.setParent(this);
-        this.AddopTermList=AddopTermList;
-        if(AddopTermList!=null) AddopTermList.setParent(this);
     }
 
-    public MinusOne getMinusOne() {
-        return MinusOne;
+    public Expr getExpr() {
+        return Expr;
     }
 
-    public void setMinusOne(MinusOne MinusOne) {
-        this.MinusOne=MinusOne;
+    public void setExpr(Expr Expr) {
+        this.Expr=Expr;
+    }
+
+    public AddOp getAddOp() {
+        return AddOp;
+    }
+
+    public void setAddOp(AddOp AddOp) {
+        this.AddOp=AddOp;
     }
 
     public Term getTerm() {
@@ -36,35 +44,27 @@ public class Expretion extends Expr {
         this.Term=Term;
     }
 
-    public AddopTermList getAddopTermList() {
-        return AddopTermList;
-    }
-
-    public void setAddopTermList(AddopTermList AddopTermList) {
-        this.AddopTermList=AddopTermList;
-    }
-
     public void accept(Visitor visitor) {
         visitor.visit(this);
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(MinusOne!=null) MinusOne.accept(visitor);
+        if(Expr!=null) Expr.accept(visitor);
+        if(AddOp!=null) AddOp.accept(visitor);
         if(Term!=null) Term.accept(visitor);
-        if(AddopTermList!=null) AddopTermList.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(MinusOne!=null) MinusOne.traverseTopDown(visitor);
+        if(Expr!=null) Expr.traverseTopDown(visitor);
+        if(AddOp!=null) AddOp.traverseTopDown(visitor);
         if(Term!=null) Term.traverseTopDown(visitor);
-        if(AddopTermList!=null) AddopTermList.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(MinusOne!=null) MinusOne.traverseBottomUp(visitor);
+        if(Expr!=null) Expr.traverseBottomUp(visitor);
+        if(AddOp!=null) AddOp.traverseBottomUp(visitor);
         if(Term!=null) Term.traverseBottomUp(visitor);
-        if(AddopTermList!=null) AddopTermList.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -73,20 +73,20 @@ public class Expretion extends Expr {
         buffer.append(tab);
         buffer.append("Expretion(\n");
 
-        if(MinusOne!=null)
-            buffer.append(MinusOne.toString("  "+tab));
+        if(Expr!=null)
+            buffer.append(Expr.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        if(AddOp!=null)
+            buffer.append(AddOp.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");
 
         if(Term!=null)
             buffer.append(Term.toString("  "+tab));
-        else
-            buffer.append(tab+"  null");
-        buffer.append("\n");
-
-        if(AddopTermList!=null)
-            buffer.append(AddopTermList.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

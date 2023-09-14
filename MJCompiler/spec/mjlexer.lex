@@ -73,7 +73,7 @@ import java_cup.runtime.Symbol;
 "/" 		{ return new_symbol(sym.DIVIDE, yytext()); }
 "=" 		{ return new_symbol(sym.EQUAL, yytext()); }
 "+" 		{ return new_symbol(sym.PLUS, yytext()); }
-
+"%" 		{ return new_symbol(sym.MODUL, yytext()); }							
 
 ";" 		{ return new_symbol(sym.SEMI, yytext()); }
 "," 		{ return new_symbol(sym.COMMA, yytext()); }

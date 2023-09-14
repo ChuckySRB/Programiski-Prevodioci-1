@@ -80,4 +80,85 @@ public class CodeGenerator extends VisitorAdaptor {
 	}
 	
 	
+	// DESIGNATORI
+	public void visit (DesignatorStatementEqual de) {
+		Code.store(de.getDesignator().obj);
+	}
+	
+	public void visit(DesignatorIdent designator){
+		SyntaxNode parent = designator.getParent();
+		
+		if(DesignatorStatementEqual.class != parent.getClass() && 
+				DesignatorStatementFunc.class != parent.getClass() &&
+				designator.obj.getKind() != Obj.Meth){
+			Code.load(designator.obj);
+		}
+	}
+	
+	public void visit(DesignatorStatementInc inc) {
+		Code.put(Code.const_1);
+		Code.put(Code.add);
+		Code.store(inc.getDesignator().obj);
+	}
+	
+	public void visit(DesignatorStatementDec dec) {
+		Code.put(Code.const_1);
+		Code.put(Code.sub);
+		Code.store(dec.getDesignator().obj);
+	}
+	
+	// FUNKCIJE POZIV
+	public void visit(DesignatorStatementFunc funcCall){
+		Obj functionObj = funcCall.getDesignator().obj;
+		int offset = functionObj.getAdr() - Code.pc;
+		Code.put(Code.call);
+		Code.put2(offset);
+		if (!funcCall.getDesignator().obj.getType().equals(Tab.noType)) {
+			Code.put(Code.pop);
+		}
+	}
+	
+	public void visit(FFunction funcCall){
+		Obj functionObj = funcCall.getDesignator().obj;
+		int offset = functionObj.getAdr() - Code.pc;
+		Code.put(Code.call);
+		Code.put2(offset);
+	}
+	
+	public void visit(ReturnVal returnExpr){
+		Code.put(Code.exit);
+		Code.put(Code.return_);
+	}
+	
+	public void visit(ReturnVoid returnNoExpr){
+		Code.put(Code.exit);
+		Code.put(Code.return_);
+	}
+	
+	// OPERACIJE
+	public void visit(FactorListMulop fl) {
+		 if(MultiplyOp.class == fl.getMulop().getClass()) {
+			 Code.put(Code.mul);
+		 } else if (ModuleOp.class == fl.getMulop().getClass()) {
+			 Code.put(Code.rem);
+		 }
+		 else if (DivideOp.class == fl.getMulop().getClass()) {
+			 Code.put(Code.div);
+		 }
+	}
+	
+	public void visit(Expretion addop) {
+		if (addop.getAddOp().getClass() == PlusOp.class) {
+			Code.put(Code.add);
+		}
+		else if(addop.getAddOp().getClass() == MinusOp.class) {
+			Code.put(Code.sub);
+		}
+	}
+	
+	public void visit (Negative t) {
+		Code.put(Code.neg);
+	}
+	
+
 }

@@ -79,7 +79,6 @@ nonterminal ReturnStatement ReturnStatement;
 nonterminal ActPars ActPars;
 nonterminal ActParsOne ActParsOne;
 nonterminal NumberList NumberList;
-nonterminal MinusOne MinusOne;
 nonterminal AddOp AddOp;
 nonterminal AddopTermList AddopTermList;
 nonterminal Mulop Mulop;
@@ -153,7 +152,7 @@ DesignatorStatement ::= (DesignatorStatementEqual) Designator:dest EQUAL Expr:e 
 				| (DesignatorStatementBrackets) LBRACKET DesignatorOne:D1 DesignatorList:D2 RBRACKET EQUAL Designator:D3 {: RESULT=new DesignatorStatementBrackets(D1, D2, D3); RESULT.setLine(D1left); :} 
 				| (DesignatorStatementInc) Designator:dest INC {: RESULT=new DesignatorStatementInc(dest); RESULT.setLine(destleft); :} 
 				| (DesignatorStatementDec) Designator:dest DEC {: RESULT=new DesignatorStatementDec(dest); RESULT.setLine(destleft); :} 
-				| (DesignatorStatementFunc) FunctionCallName:F1 LPAREN ActParsOne:A2 RPAREN {: RESULT=new DesignatorStatementFunc(F1, A2); RESULT.setLine(F1left); :};
+				| (DesignatorStatementFunc) Designator:D1 LPAREN ActParsOne:A2 RPAREN {: RESULT=new DesignatorStatementFunc(D1, A2); RESULT.setLine(D1left); :};
 				
 				
 
@@ -166,7 +165,7 @@ DesignatorList ::= (DesignatorListList) COMMA DesignatorOne:D1 DesignatorList:D2
 				| (DesignatorListNone) {: RESULT=new DesignatorListNone(); :}/* Epsilon */;
 
 Designator ::= (DesignatorIdent) IDENT:name {: RESULT=new DesignatorIdent(name); RESULT.setLine(nameleft); :} 
-				| (DesignatorArray) IDENT:name LBRACKET Expr:E1 RBRACKET {: RESULT=new DesignatorArray(name, E1); RESULT.setLine(nameleft); :};
+				| (DesignatorArray) Designator:D1 LBRACKET Expr:E2 RBRACKET {: RESULT=new DesignatorArray(D1, E2); RESULT.setLine(D1left); :};
 
 Statement ::= (StatementMatched) Matched:M1 {: RESULT=new StatementMatched(M1); RESULT.setLine(M1left); :}
 				| (StatementUnmatched) Unmatched:U1 {: RESULT=new StatementUnmatched(U1); RESULT.setLine(U1left); :};
@@ -215,13 +214,12 @@ CondFact ::= (ConditionFact) Expr:E1 {: RESULT=new ConditionFact(E1); RESULT.set
 			| (ConditionFactRel) Expr:E1 Relop:R2 Expr:E3 {: RESULT=new ConditionFactRel(E1, R2, E3); RESULT.setLine(E1left); :} 
 			| (ConditionFactNot) NOT Expr:E1 {: RESULT=new ConditionFactNot(E1); RESULT.setLine(E1left); :};
 
-Expr ::= (Expretion) MinusOne:M1 Term:t AddopTermList:te {: RESULT=new Expretion(M1, t, te); RESULT.setLine(M1left); :};
+Expr ::= (Expretion) Expr:val AddOp:A1 Term:t {: RESULT=new Expretion(val, A1, t); RESULT.setLine(valleft); :}
+			| (Negative) MINUS Term:val {: RESULT=new Negative(val); RESULT.setLine(valleft); :} 
+			| (Positive) Term:val {: RESULT=new Positive(val); RESULT.setLine(valleft); :};
 
 ExprList ::= (ExpretionList) COMMA Expr:E1 ExprList:E2 {: RESULT=new ExpretionList(E1, E2); RESULT.setLine(E1left); :} 
 			| (ExpresionListNone) {: RESULT=new ExpresionListNone(); :} /* Epsilon */;
-
-MinusOne ::= (Negative) MINUS {: RESULT=new Negative(); :} 
-			| (Positive) {: RESULT=new Positive(); :} /* Epsilon */;
 
 Term ::= (Term) Factor:valF FactorList:valFL {: RESULT=new Term(valF, valFL); RESULT.setLine(valFleft); :};
 
@@ -234,7 +232,7 @@ Factor ::=  (FIntConst) NUMBER:Val {: RESULT=new FIntConst(Val); RESULT.setLine(
 			| (FExpretion) LPAREN Expr:E1 RPAREN {: RESULT=new FExpretion(E1); RESULT.setLine(E1left); :} 
 			| (FNew) NEW Type:T1 LBRACKET Expr:E2 RBRACKET {: RESULT=new FNew(T1, E2); RESULT.setLine(T1left); :} 
 			|  (FDesignator) Designator:D1 {: RESULT=new FDesignator(D1); RESULT.setLine(D1left); :} 
-			| (FFunction) FunctionCallName:F1 LPAREN ActParsOne:A2 RPAREN {: RESULT=new FFunction(F1, A2); RESULT.setLine(F1left); :};
+			| (FFunction) Designator:D1 LPAREN ActParsOne:A2 RPAREN {: RESULT=new FFunction(D1, A2); RESULT.setLine(D1left); :};
 
 AddopTermList ::= (AddopTerms) AddOp:A1 Term:T2 AddopTermList:A3 {: RESULT=new AddopTerms(A1, T2, A3); RESULT.setLine(A1left); :} 
 			| (AddopTermNone) {: RESULT=new AddopTermNone(); :} /* Epsilon */;

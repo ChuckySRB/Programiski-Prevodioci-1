@@ -1,0 +1,138 @@
+INFO  02:20:09,875 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  02:20:09,914 - #2 program
+INFO  02:20:09,914 - #18 test302
+INFO  02:20:09,914 - #18 int
+INFO  02:20:09,915 - #18 a
+INFO  02:20:09,915 - #21 ,
+INFO  02:20:09,916 - #18 curr
+INFO  02:20:09,916 - #22 ;
+INFO  02:20:09,917 - #25 {
+INFO  02:20:09,918 - #18 void
+INFO  02:20:09,918 - #18 main
+INFO  02:20:09,919 - #23 (
+INFO  02:20:09,919 - #24 )
+INFO  02:20:09,920 - #25 {
+INFO  02:20:09,920 - #18 a
+INFO  02:20:09,920 - #20 =
+INFO  02:20:09,921 - #32 -
+INFO  02:20:09,921 - #15 12
+INFO  02:20:09,923 - #19 +
+INFO  02:20:09,925 - #15 2
+INFO  02:20:09,927 - #22 ;
+INFO  02:20:09,928 - #3 print
+INFO  02:20:09,928 - #23 (
+INFO  02:20:09,928 - #18 a
+INFO  02:20:09,928 - #24 )
+INFO  02:20:09,929 - #22 ;
+INFO  02:20:09,929 - #26 }
+INFO  02:20:09,929 - #26 }
+INFO  02:20:09,945 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclar(
+      VariableDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarSingle(
+         a
+        ) [VarSingle]
+        VariableNameList(
+          VarSingle(
+           curr
+          ) [VarSingle]
+          VariableNameNone(
+          ) [VariableNameNone]
+        ) [VariableNameList]
+      ) [VariableDeclaration]
+    ) [VarDeclar]
+    NoVarDecl(
+    ) [NoVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StatementMatched(
+          StatementDesignator(
+            DesignatorStatementEqual(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              Expretion(
+                Negative(
+                ) [Negative]
+                Term(
+                  FIntConst(
+                   12
+                  ) [FIntConst]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTerms(
+                  PlusOp(
+                  ) [PlusOp]
+                  Term(
+                    FIntConst(
+                     2
+                    ) [FIntConst]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [AddopTerms]
+              ) [Expretion]
+            ) [DesignatorStatementEqual]
+          ) [StatementDesignator]
+        ) [StatementMatched]
+        StmtList(
+          StatementMatched(
+            StatementPrint(
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FDesignator(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [FDesignator]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTermNone(
+                ) [AddopTermNone]
+              ) [Expretion]
+              NoNumber(
+              ) [NoNumber]
+            ) [StatementPrint]
+          ) [StatementMatched]
+          NoStmt(
+          ) [NoStmt]
+        ) [StmtList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarationNone(
+    ) [MethodDeclarationNone]
+  ) [MethodDeclarations]
+) [Program]
+INFO  02:20:09,946 - ===================================
+INFO  02:20:09,955 - Deklarisana promenljiva a na liniji 5
+INFO  02:20:09,955 - Deklarisana promenljiva curr na liniji 5
+INFO  02:20:09,956 - Obradjuje se funkcija main na liniji 9
+INFO  02:20:09,960 -  Print count calls = 1
+INFO  02:20:09,960 -  Deklarisanih promenljivih ima = 2
+INFO  02:20:09,961 -  ==================== 
+INFO  02:20:09,994 - Parsiranje uspesno zavrseno!

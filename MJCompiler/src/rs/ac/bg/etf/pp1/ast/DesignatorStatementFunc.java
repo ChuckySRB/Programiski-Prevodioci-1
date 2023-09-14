@@ -1,28 +1,28 @@
 // generated with ast extension for cup
 // version 0.8
-// 13/8/2023 16:54:46
+// 14/8/2023 3:42:13
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class DesignatorStatementFunc extends DesignatorStatement {
 
-    private FunctionCallName FunctionCallName;
+    private Designator Designator;
     private ActParsOne ActParsOne;
 
-    public DesignatorStatementFunc (FunctionCallName FunctionCallName, ActParsOne ActParsOne) {
-        this.FunctionCallName=FunctionCallName;
-        if(FunctionCallName!=null) FunctionCallName.setParent(this);
+    public DesignatorStatementFunc (Designator Designator, ActParsOne ActParsOne) {
+        this.Designator=Designator;
+        if(Designator!=null) Designator.setParent(this);
         this.ActParsOne=ActParsOne;
         if(ActParsOne!=null) ActParsOne.setParent(this);
     }
 
-    public FunctionCallName getFunctionCallName() {
-        return FunctionCallName;
+    public Designator getDesignator() {
+        return Designator;
     }
 
-    public void setFunctionCallName(FunctionCallName FunctionCallName) {
-        this.FunctionCallName=FunctionCallName;
+    public void setDesignator(Designator Designator) {
+        this.Designator=Designator;
     }
 
     public ActParsOne getActParsOne() {
@@ -38,18 +38,18 @@ public class DesignatorStatementFunc extends DesignatorStatement {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(FunctionCallName!=null) FunctionCallName.accept(visitor);
+        if(Designator!=null) Designator.accept(visitor);
         if(ActParsOne!=null) ActParsOne.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(FunctionCallName!=null) FunctionCallName.traverseTopDown(visitor);
+        if(Designator!=null) Designator.traverseTopDown(visitor);
         if(ActParsOne!=null) ActParsOne.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(FunctionCallName!=null) FunctionCallName.traverseBottomUp(visitor);
+        if(Designator!=null) Designator.traverseBottomUp(visitor);
         if(ActParsOne!=null) ActParsOne.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -59,8 +59,8 @@ public class DesignatorStatementFunc extends DesignatorStatement {
         buffer.append(tab);
         buffer.append("DesignatorStatementFunc(\n");
 
-        if(FunctionCallName!=null)
-            buffer.append(FunctionCallName.toString("  "+tab));
+        if(Designator!=null)
+            buffer.append(Designator.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

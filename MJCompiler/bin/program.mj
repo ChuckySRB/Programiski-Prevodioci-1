@@ -1,22 +1,14 @@
-//Test 302
+// Test301
 
-program test302
+program test301
 
-int a, curr;
-
+	int a;
 {
-	int sum(int z, int d)
+	void main()	
 	{
-		return z + d;
-	}
-	
-	void main()
-	{	
-		a = 12;
-		print(a);
-		print(2);
-		b = 3 + (5*6) - 5;
-		sum(a, b);
+		a = 20 - 2*8 - 3;
+		print(a);	
 	}
 }
+
 

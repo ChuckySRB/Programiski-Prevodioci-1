@@ -1,0 +1,130 @@
+INFO  03:42:03,246 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  03:42:03,287 - #2 program
+INFO  03:42:03,287 - #18 test301
+INFO  03:42:03,287 - #18 int
+INFO  03:42:03,288 - #18 a
+INFO  03:42:03,289 - #22 ;
+INFO  03:42:03,290 - #25 {
+INFO  03:42:03,290 - #18 void
+INFO  03:42:03,290 - #18 main
+INFO  03:42:03,291 - #23 (
+INFO  03:42:03,291 - #24 )
+INFO  03:42:03,292 - #25 {
+INFO  03:42:03,292 - #18 a
+INFO  03:42:03,292 - #20 =
+INFO  03:42:03,292 - #15 3
+INFO  03:42:03,292 - #19 +
+INFO  03:42:03,293 - #15 2
+INFO  03:42:03,294 - #31 *
+INFO  03:42:03,294 - #15 8
+INFO  03:42:03,294 - #22 ;
+INFO  03:42:03,295 - #3 print
+INFO  03:42:03,295 - #23 (
+INFO  03:42:03,295 - #18 a
+INFO  03:42:03,295 - #24 )
+INFO  03:42:03,296 - #22 ;
+INFO  03:42:03,296 - #26 }
+INFO  03:42:03,297 - #26 }
+INFO  03:42:03,302 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclar(
+      VariableDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarSingle(
+         a
+        ) [VarSingle]
+        VariableNameNone(
+        ) [VariableNameNone]
+      ) [VariableDeclaration]
+    ) [VarDeclar]
+    NoVarDecl(
+    ) [NoVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StatementMatched(
+          StatementDesignator(
+            DesignatorStatementEqual(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              Expretion(
+                Positive(
+                  Term(
+                    FIntConst(
+                     3
+                    ) [FIntConst]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                ) [Positive]
+                PlusOp(
+                ) [PlusOp]
+                Term(
+                  FIntConst(
+                   2
+                  ) [FIntConst]
+                  FactorListMulop(
+                    MultiplyOp(
+                    ) [MultiplyOp]
+                    FIntConst(
+                     8
+                    ) [FIntConst]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [FactorListMulop]
+                ) [Term]
+              ) [Expretion]
+            ) [DesignatorStatementEqual]
+          ) [StatementDesignator]
+        ) [StatementMatched]
+        StmtList(
+          StatementMatched(
+            StatementPrint(
+              Positive(
+                Term(
+                  FDesignator(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [FDesignator]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+              ) [Positive]
+              NoNumber(
+              ) [NoNumber]
+            ) [StatementPrint]
+          ) [StatementMatched]
+          NoStmt(
+          ) [NoStmt]
+        ) [StmtList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarationNone(
+    ) [MethodDeclarationNone]
+  ) [MethodDeclarations]
+) [Program]
+INFO  03:42:03,303 - ===================================
+INFO  03:42:03,306 - Deklarisana promenljiva a na liniji 5
+INFO  03:42:03,306 - Obradjuje se funkcija main na liniji 7
+INFO  03:42:03,306 -  Print count calls = 1
+INFO  03:42:03,307 -  Deklarisanih promenljivih ima = 1
+INFO  03:42:03,307 -  ==================== 
+INFO  03:42:03,323 - Parsiranje uspesno zavrseno!

@@ -58,7 +58,7 @@ public class SemanticPass extends VisitorAdaptor {
     }
     
     
-    // KONSTANTE
+    // GLOBALNA KONSTANTA
 	public void visit(ConstantVariable con){
 		String name =  con.getConstName();
 		if(Tab.currentScope.findSymbol(name) != null)
@@ -89,18 +89,7 @@ public class SemanticPass extends VisitorAdaptor {
 		c.obj.setAdr(c.getVal()=="true" ? 1:0);
 	}
 	
-	
-	// FAKTORI
-	public void visit(FBoolConst c) {
-		c.struct = TabBool.boolType;
-	}
-	public void visit(FCharConst c) {
-		c.struct = Tab.charType;
-	}
-	public void visit(FIntConst c) {
-		c.struct = Tab.intType;
-	}
-	
+	// GLOBALNE VARIABLE
 	public void visit(VarSingle var) {
 		String name =  var.getVarName();
 		if(Tab.currentScope.findSymbol(name) != null)
@@ -122,6 +111,22 @@ public class SemanticPass extends VisitorAdaptor {
 			Tab.insert(Obj.Var, name, currentType);
 		}
 	}
+	
+	// FAKTORI
+	public void visit(FBoolConst c) {
+		c.struct = TabBool.boolType;
+	}
+	public void visit(FCharConst c) {
+		c.struct = Tab.charType;
+	}
+	public void visit(FIntConst c) {
+		c.struct = Tab.intType;
+	}
+	public void visit(FDesignator d) {
+		d.struct = d.getDesignator().obj.getType();
+	}
+	
+	
 	
     public void visit(StatementPrint print) {
     	//if(print.getExpr().struct != Tab.intType && print.getExpr().struct!= Tab.charType) report_error ("Semanticka greska na liniji " + print.getLine() + ": Operand instrukcije PRINT mora biti char ili int tipa", null );
@@ -179,14 +184,25 @@ public class SemanticPass extends VisitorAdaptor {
     }
     
     // DESIGNATORI
-    public void visit(Designator designator){
-    	Obj obj = Tab.find(designator.obj.getName());
+    public void visit(DesignatorIdent designator){
+    	Obj obj = Tab.find(designator.getName());
     	if(obj == Tab.noObj){
 			report_error("Greska na liniji " + designator.getLine()+ " : ime "+designator.obj.getName()+" nije deklarisano! ", null);
     	}
     	designator.obj = obj;
     }
     
+    public void visit(DesignatorArray designator){
+    	Obj obj = new Obj(Obj.Elem, "", designator.getDesignator().obj.getType().getElemType());
+    	if(obj == Tab.noObj){
+			report_error("Greska na liniji " + designator.getLine()+ " : ime "+designator.obj.getName()+" nije deklarisano! ", null);
+    	}
+    	designator.obj = obj;
+    }
+    
+    
+    
+    // FUNKCIJE
     
     public void visit(FunctionCallName functionCallName){
     	functionCallName.obj = functionCallName.getDesignator().obj;
@@ -209,6 +225,13 @@ public class SemanticPass extends VisitorAdaptor {
     
     // EXPRETION
     public void visit(Expretion expr) {
+    	expr.struct = expr.getTerm().struct;
+    }
+    
+    public void visit(Negative expr) {
+    	expr.struct = expr.getTerm().struct;
+    }
+    public void visit(Positive expr) {
     	expr.struct = expr.getTerm().struct;
     }
 

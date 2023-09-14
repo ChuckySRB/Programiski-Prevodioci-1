@@ -1,0 +1,149 @@
+INFO  17:49:02,560 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  17:49:02,612 - #2 program
+INFO  17:49:02,612 - #18 test302
+INFO  17:49:02,612 - #18 int
+INFO  17:49:02,613 - #18 a
+INFO  17:49:02,614 - #21 ,
+INFO  17:49:02,614 - #18 curr
+INFO  17:49:02,614 - #22 ;
+INFO  17:49:02,614 - #25 {
+INFO  17:49:02,615 - #18 void
+INFO  17:49:02,615 - #18 main
+INFO  17:49:02,616 - #23 (
+INFO  17:49:02,616 - #24 )
+INFO  17:49:02,617 - #25 {
+INFO  17:49:02,617 - #18 a
+INFO  17:49:02,617 - #20 =
+INFO  17:49:02,617 - #15 12
+INFO  17:49:02,618 - #22 ;
+INFO  17:49:02,621 - #3 print
+INFO  17:49:02,621 - #23 (
+INFO  17:49:02,622 - #18 a
+INFO  17:49:02,622 - #24 )
+INFO  17:49:02,623 - #22 ;
+INFO  17:49:02,623 - #3 print
+INFO  17:49:02,623 - #23 (
+INFO  17:49:02,623 - #15 2
+INFO  17:49:02,623 - #24 )
+INFO  17:49:02,623 - #22 ;
+INFO  17:49:02,623 - #26 }
+INFO  17:49:02,625 - #26 }
+INFO  17:49:02,635 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclar(
+      VariableDeclaration(
+        Type(
+         int
+        ) [Type]
+        VarSingle(
+         a
+        ) [VarSingle]
+        VariableNameList(
+          VarSingle(
+           curr
+          ) [VarSingle]
+          VariableNameNone(
+          ) [VariableNameNone]
+        ) [VariableNameList]
+      ) [VariableDeclaration]
+    ) [VarDeclar]
+    NoVarDecl(
+    ) [NoVarDecl]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      StmtList(
+        StatementMatched(
+          StatementDesignator(
+            DesignatorStatementEqual(
+              DesignatorIdent(
+               a
+              ) [DesignatorIdent]
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FIntConst(
+                   12
+                  ) [FIntConst]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTermNone(
+                ) [AddopTermNone]
+              ) [Expretion]
+            ) [DesignatorStatementEqual]
+          ) [StatementDesignator]
+        ) [StatementMatched]
+        StmtList(
+          StatementMatched(
+            StatementPrint(
+              Expretion(
+                Positive(
+                ) [Positive]
+                Term(
+                  FDesignator(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [FDesignator]
+                  FactorListNone(
+                  ) [FactorListNone]
+                ) [Term]
+                AddopTermNone(
+                ) [AddopTermNone]
+              ) [Expretion]
+              NoNumber(
+              ) [NoNumber]
+            ) [StatementPrint]
+          ) [StatementMatched]
+          StmtList(
+            StatementMatched(
+              StatementPrint(
+                Expretion(
+                  Positive(
+                  ) [Positive]
+                  Term(
+                    FIntConst(
+                     2
+                    ) [FIntConst]
+                    FactorListNone(
+                    ) [FactorListNone]
+                  ) [Term]
+                  AddopTermNone(
+                  ) [AddopTermNone]
+                ) [Expretion]
+                NoNumber(
+                ) [NoNumber]
+              ) [StatementPrint]
+            ) [StatementMatched]
+            NoStmt(
+            ) [NoStmt]
+          ) [StmtList]
+        ) [StmtList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarationNone(
+    ) [MethodDeclarationNone]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:49:02,636 - ===================================
+INFO  17:49:02,640 - Deklarisana promenljiva a na liniji 5
+INFO  17:49:02,641 - Deklarisana promenljiva curr na liniji 5
+INFO  17:49:02,641 - Obradjuje se funkcija main na liniji 9
+INFO  17:49:02,641 -  Print count calls = 2
+INFO  17:49:02,642 -  Deklarisanih promenljivih ima = 2
+INFO  17:49:02,642 -  ==================== 
