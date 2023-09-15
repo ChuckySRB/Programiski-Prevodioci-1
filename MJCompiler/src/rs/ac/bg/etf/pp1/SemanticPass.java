@@ -16,16 +16,12 @@ public class SemanticPass extends VisitorAdaptor {
 	Struct currentType = null;
 	boolean returnFound = false;
 	boolean errorDetected = false;
-	
+	private final static Struct boolType = Tab.find("bool").getType();
 	
 	int nVars;
 	
 	Logger log = Logger.getLogger(getClass());
 	
-	// CONSTRUCTOR
-	public SemanticPass() {
-		Tab.currentScope.addToLocals(new Obj(Obj.Type, "bool", TabBool.boolType));
-	}
 	
 	// MESSAGES
 	public void report_error(String message, SyntaxNode info) {
@@ -85,8 +81,8 @@ public class SemanticPass extends VisitorAdaptor {
 		c.obj.setAdr((int)c.getVal());
 	}
 	public void visit(BoolConst c){
-		c.obj = new Obj(Obj.Con, "", TabBool.boolType);
-		c.obj.setAdr(c.getVal()=="true" ? 1:0);
+		c.obj = new Obj(Obj.Con, "", boolType);
+		c.obj.setAdr(c.getVal() ? 1:0);
 	}
 	
 	// GLOBALNE VARIABLE
@@ -114,7 +110,7 @@ public class SemanticPass extends VisitorAdaptor {
 	
 	// FAKTORI
 	public void visit(FBoolConst c) {
-		c.struct = TabBool.boolType;
+		c.struct = boolType;
 	}
 	public void visit(FCharConst c) {
 		c.struct = Tab.charType;
@@ -146,14 +142,14 @@ public class SemanticPass extends VisitorAdaptor {
     public void visit(StatementPrint printst) {
     	if(printst.getExpr().struct != Tab.intType && 
     			printst.getExpr().struct!= Tab.charType &&
-    			printst.getExpr().struct!= TabBool.boolType) 
+    			printst.getExpr().struct!= boolType) 
     		report_error ("Semanticka greska na liniji " + printst.getLine() + ": Operand instrukcije PRINT mora biti char ili int ili bool tipa", null );
 		printCallCount++;
 	}
     public void visit(StatementPrintWide printst) {
     	if(printst.getExpr().struct != Tab.intType && 
     			printst.getExpr().struct!= Tab.charType &&
-    			printst.getExpr().struct!= TabBool.boolType) 
+    			printst.getExpr().struct!= boolType) 
     		report_error ("Semanticka greska na liniji " + printst.getLine() + ": Operand instrukcije PRINT mora biti char ili int ili bool tipa", null );
 		printCallCount++;
 	}
@@ -166,7 +162,7 @@ public class SemanticPass extends VisitorAdaptor {
 		} else {
 			if(readst.getDesignator().obj.getType() != Tab.intType &&
 				readst.getDesignator().obj.getType() != Tab.charType &&
-					readst.getDesignator().obj.getType() != TabBool.boolType) {
+					readst.getDesignator().obj.getType() != boolType) {
 				report_error("Greska na liniji " + readst.getLine() + 
 						": Argument instrukcije READ mora biti primitivnog tipa", null);
 			}
@@ -177,8 +173,8 @@ public class SemanticPass extends VisitorAdaptor {
     // TIP
     public void visit(Type type){
     	if (type.getTypeName().compareTo("bool")==0) {
-			type.struct = TabBool.boolType;
-			currentType = TabBool.boolType;
+			type.struct = boolType;
+			currentType = boolType;
 		}
     	else if (type.getTypeName().compareTo("void")==0) {
 			type.struct = Tab.noType;
@@ -237,6 +233,9 @@ public class SemanticPass extends VisitorAdaptor {
     	if(obj == Tab.noObj){
 			report_error("Greska na liniji " + designator.getLine()+ " : ime "+designator.obj.getName()+" nije deklarisano! ", null);
     	}
+    	if(designator.getExpr().struct != Tab.intType) {
+			report_error("Greska na liniji " + designator.getLine() + ": indeks niza mora biti INT!", null);
+		} 
     	designator.obj = obj;
     }
     
@@ -251,7 +250,12 @@ public class SemanticPass extends VisitorAdaptor {
     	term.struct = term.getFactor().struct;
     }
     public void visit(TermFactorList term) {
-    	term.struct = term.getFactor().struct;
+    	if(term.getTerm().struct != Tab.intType || term.getFactor().struct != Tab.intType ) {
+			report_error("Greska na liniji " + term.getLine() + ": Izraz mora biti INT!", null);
+			term.struct = Tab.noType;
+    	}
+    	else
+    		term.struct = term.getFactor().struct;
     }
     
     

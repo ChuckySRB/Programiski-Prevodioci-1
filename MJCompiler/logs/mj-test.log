@@ -1,241 +1,246 @@
-INFO  19:26:19,827 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
-INFO  19:26:19,881 - #2 program
-INFO  19:26:19,881 - #19 test301
-INFO  19:26:19,882 - #15 const
-INFO  19:26:19,882 - #19 int
-INFO  19:26:19,882 - #19 nula
-INFO  19:26:19,883 - #21 =
-INFO  19:26:19,883 - #16 0
-INFO  19:26:19,883 - #23 ;
-INFO  19:26:19,883 - #15 const
-INFO  19:26:19,884 - #19 int
-INFO  19:26:19,884 - #19 jedan
-INFO  19:26:19,884 - #21 =
-INFO  19:26:19,884 - #16 1
-INFO  19:26:19,884 - #23 ;
-INFO  19:26:19,884 - #15 const
-INFO  19:26:19,884 - #19 int
-INFO  19:26:19,884 - #19 pet
-INFO  19:26:19,884 - #21 =
-INFO  19:26:19,884 - #16 5
-INFO  19:26:19,885 - #23 ;
-INFO  19:26:19,885 - #19 int
-INFO  19:26:19,885 - #19 niz
-INFO  19:26:19,885 - #28 [
-INFO  19:26:19,885 - #29 ]
-INFO  19:26:19,885 - #22 ,
-INFO  19:26:19,885 - #19 niz2
-INFO  19:26:19,885 - #28 [
-INFO  19:26:19,885 - #29 ]
-INFO  19:26:19,885 - #22 ,
-INFO  19:26:19,885 - #19 a
-INFO  19:26:19,885 - #22 ,
-INFO  19:26:19,885 - #19 b
-INFO  19:26:19,886 - #23 ;
-INFO  19:26:19,886 - #19 char
-INFO  19:26:19,886 - #19 nizch
-INFO  19:26:19,886 - #28 [
-INFO  19:26:19,886 - #29 ]
-INFO  19:26:19,887 - #23 ;
-INFO  19:26:19,887 - #26 {
-INFO  19:26:19,887 - #19 void
-INFO  19:26:19,887 - #19 main
-INFO  19:26:19,887 - #24 (
-INFO  19:26:19,888 - #25 )
-INFO  19:26:19,888 - #19 int
-INFO  19:26:19,888 - #19 bodovi
-INFO  19:26:19,889 - #23 ;
-INFO  19:26:19,889 - #19 bool
-INFO  19:26:19,889 - #19 br
-INFO  19:26:19,889 - #23 ;
-INFO  19:26:19,889 - #26 {
-INFO  19:26:19,889 - #19 bodovi
-INFO  19:26:19,889 - #21 =
-INFO  19:26:19,889 - #16 0
-INFO  19:26:19,889 - #23 ;
-INFO  19:26:19,889 - #19 bodovi
-INFO  19:26:19,890 - #44 ++
-INFO  19:26:19,890 - #23 ;
-INFO  19:26:19,890 - #19 bodovi
-INFO  19:26:19,890 - #21 =
-INFO  19:26:19,890 - #19 bodovi
-INFO  19:26:19,890 - #20 +
-INFO  19:26:19,890 - #19 jedan
-INFO  19:26:19,892 - #23 ;
-INFO  19:26:19,893 - #19 bodovi
-INFO  19:26:19,893 - #21 =
-INFO  19:26:19,893 - #19 bodovi
-INFO  19:26:19,893 - #32 *
-INFO  19:26:19,893 - #19 pet
-INFO  19:26:19,894 - #23 ;
-INFO  19:26:19,895 - #19 bodovi
-INFO  19:26:19,899 - #45 --
-INFO  19:26:19,899 - #23 ;
-INFO  19:26:19,900 - #3 print
-INFO  19:26:19,900 - #24 (
-INFO  19:26:19,900 - #19 bodovi
-INFO  19:26:19,900 - #25 )
-INFO  19:26:19,900 - #23 ;
-INFO  19:26:19,900 - #19 niz
-INFO  19:26:19,900 - #21 =
-INFO  19:26:19,900 - #14 new
-INFO  19:26:19,900 - #19 int
-INFO  19:26:19,900 - #28 [
-INFO  19:26:19,901 - #16 3
-INFO  19:26:19,901 - #29 ]
-INFO  19:26:19,901 - #23 ;
-INFO  19:26:19,901 - #19 niz
-INFO  19:26:19,901 - #28 [
-INFO  19:26:19,901 - #19 nula
-INFO  19:26:19,901 - #29 ]
-INFO  19:26:19,901 - #21 =
-INFO  19:26:19,902 - #19 jedan
-INFO  19:26:19,902 - #23 ;
-INFO  19:26:19,902 - #19 niz
-INFO  19:26:19,902 - #28 [
-INFO  19:26:19,903 - #16 1
-INFO  19:26:19,903 - #29 ]
-INFO  19:26:19,904 - #21 =
-INFO  19:26:19,904 - #16 2
-INFO  19:26:19,904 - #23 ;
-INFO  19:26:19,904 - #19 niz
-INFO  19:26:19,904 - #28 [
-INFO  19:26:19,904 - #19 niz
-INFO  19:26:19,904 - #28 [
-INFO  19:26:19,904 - #19 jedan
-INFO  19:26:19,904 - #29 ]
-INFO  19:26:19,905 - #29 ]
-INFO  19:26:19,906 - #21 =
-INFO  19:26:19,906 - #19 niz
-INFO  19:26:19,906 - #28 [
-INFO  19:26:19,906 - #19 niz
-INFO  19:26:19,906 - #28 [
-INFO  19:26:19,906 - #16 0
-INFO  19:26:19,906 - #29 ]
-INFO  19:26:19,906 - #29 ]
-INFO  19:26:19,906 - #32 *
-INFO  19:26:19,906 - #16 3
-INFO  19:26:19,906 - #23 ;
-INFO  19:26:19,906 - #19 bodovi
-INFO  19:26:19,906 - #21 =
-INFO  19:26:19,906 - #19 niz
-INFO  19:26:19,907 - #28 [
-INFO  19:26:19,908 - #16 2
-INFO  19:26:19,908 - #29 ]
-INFO  19:26:19,908 - #34 /
-INFO  19:26:19,909 - #19 niz
-INFO  19:26:19,910 - #28 [
-INFO  19:26:19,910 - #16 0
-INFO  19:26:19,910 - #29 ]
-INFO  19:26:19,910 - #23 ;
-INFO  19:26:19,910 - #3 print
-INFO  19:26:19,910 - #24 (
-INFO  19:26:19,910 - #19 bodovi
-INFO  19:26:19,910 - #25 )
-INFO  19:26:19,910 - #23 ;
-INFO  19:26:19,911 - #3 print
-INFO  19:26:19,911 - #24 (
-INFO  19:26:19,911 - #19 niz
-INFO  19:26:19,911 - #28 [
-INFO  19:26:19,911 - #16 2
-INFO  19:26:19,911 - #29 ]
-INFO  19:26:19,911 - #25 )
-INFO  19:26:19,911 - #23 ;
-INFO  19:26:19,911 - #19 br
-INFO  19:26:19,911 - #21 =
-INFO  19:26:19,912 - #18 true
-INFO  19:26:19,912 - #23 ;
-INFO  19:26:19,912 - #3 print
-INFO  19:26:19,912 - #24 (
-INFO  19:26:19,912 - #19 br
-INFO  19:26:19,912 - #25 )
-INFO  19:26:19,912 - #23 ;
-INFO  19:26:19,912 - #19 nizch
-INFO  19:26:19,912 - #21 =
-INFO  19:26:19,912 - #14 new
-INFO  19:26:19,912 - #19 char
-INFO  19:26:19,912 - #28 [
-INFO  19:26:19,912 - #16 3
-INFO  19:26:19,913 - #29 ]
-INFO  19:26:19,913 - #23 ;
-INFO  19:26:19,913 - #19 nizch
-INFO  19:26:19,913 - #28 [
-INFO  19:26:19,913 - #16 0
-INFO  19:26:19,913 - #29 ]
-INFO  19:26:19,913 - #21 =
-INFO  19:26:19,914 - #17 a
-INFO  19:26:19,914 - #23 ;
-INFO  19:26:19,914 - #19 nizch
-INFO  19:26:19,914 - #28 [
-INFO  19:26:19,914 - #19 jedan
-INFO  19:26:19,914 - #29 ]
-INFO  19:26:19,914 - #21 =
-INFO  19:26:19,914 - #17 b
-INFO  19:26:19,914 - #23 ;
-INFO  19:26:19,914 - #19 nizch
-INFO  19:26:19,914 - #28 [
-INFO  19:26:19,914 - #19 pet
-INFO  19:26:19,914 - #33 -
-INFO  19:26:19,915 - #16 3
-INFO  19:26:19,916 - #29 ]
-INFO  19:26:19,916 - #21 =
-INFO  19:26:19,916 - #17 c
-INFO  19:26:19,916 - #23 ;
-INFO  19:26:19,916 - #3 print
-INFO  19:26:19,916 - #24 (
-INFO  19:26:19,916 - #19 nizch
-INFO  19:26:19,916 - #28 [
-INFO  19:26:19,916 - #16 1
-INFO  19:26:19,917 - #29 ]
-INFO  19:26:19,917 - #25 )
-INFO  19:26:19,917 - #23 ;
-INFO  19:26:19,917 - #3 print
-INFO  19:26:19,917 - #24 (
-INFO  19:26:19,917 - #19 nizch
-INFO  19:26:19,917 - #28 [
-INFO  19:26:19,917 - #19 jedan
-INFO  19:26:19,917 - #32 *
-INFO  19:26:19,917 - #16 2
-INFO  19:26:19,917 - #29 ]
-INFO  19:26:19,917 - #25 )
-INFO  19:26:19,917 - #23 ;
-INFO  19:26:19,917 - #19 bodovi
-INFO  19:26:19,917 - #21 =
-INFO  19:26:19,917 - #33 -
-INFO  19:26:19,918 - #19 bodovi
-INFO  19:26:19,918 - #20 +
-INFO  19:26:19,918 - #24 (
-INFO  19:26:19,918 - #19 pet
-INFO  19:26:19,918 - #32 *
-INFO  19:26:19,918 - #19 a
-INFO  19:26:19,918 - #34 /
-INFO  19:26:19,918 - #16 2
-INFO  19:26:19,918 - #33 -
-INFO  19:26:19,918 - #19 jedan
-INFO  19:26:19,918 - #25 )
-INFO  19:26:19,918 - #32 *
-INFO  19:26:19,918 - #19 bodovi
-INFO  19:26:19,918 - #33 -
-INFO  19:26:19,918 - #24 (
-INFO  19:26:19,918 - #16 3
-INFO  19:26:19,918 - #31 %
-INFO  19:26:19,918 - #16 2
-INFO  19:26:19,919 - #20 +
-INFO  19:26:19,919 - #16 3
-INFO  19:26:19,919 - #32 *
-INFO  19:26:19,919 - #16 2
-INFO  19:26:19,919 - #33 -
-INFO  19:26:19,919 - #16 3
-INFO  19:26:19,919 - #25 )
-INFO  19:26:19,919 - #23 ;
-INFO  19:26:19,919 - #3 print
-INFO  19:26:19,919 - #24 (
-INFO  19:26:19,920 - #19 bodovi
-INFO  19:26:19,920 - #25 )
-INFO  19:26:19,920 - #23 ;
-INFO  19:26:19,920 - #27 }
-INFO  19:26:19,920 - #27 }
-INFO  19:26:19,934 - Program(
+INFO  02:51:17,146 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  02:51:17,184 - #2 program
+INFO  02:51:17,185 - #19 test301
+INFO  02:51:17,186 - #15 const
+INFO  02:51:17,187 - #19 int
+INFO  02:51:17,187 - #19 nula
+INFO  02:51:17,188 - #21 =
+INFO  02:51:17,188 - #16 0
+INFO  02:51:17,188 - #23 ;
+INFO  02:51:17,189 - #15 const
+INFO  02:51:17,190 - #19 int
+INFO  02:51:17,190 - #19 jedan
+INFO  02:51:17,190 - #21 =
+INFO  02:51:17,190 - #16 1
+INFO  02:51:17,190 - #23 ;
+INFO  02:51:17,190 - #15 const
+INFO  02:51:17,190 - #19 int
+INFO  02:51:17,190 - #19 pet
+INFO  02:51:17,190 - #21 =
+INFO  02:51:17,190 - #16 5
+INFO  02:51:17,191 - #23 ;
+INFO  02:51:17,191 - #19 int
+INFO  02:51:17,191 - #19 niz
+INFO  02:51:17,191 - #28 [
+INFO  02:51:17,191 - #29 ]
+INFO  02:51:17,191 - #22 ,
+INFO  02:51:17,191 - #19 niz2
+INFO  02:51:17,191 - #28 [
+INFO  02:51:17,191 - #29 ]
+INFO  02:51:17,191 - #22 ,
+INFO  02:51:17,191 - #19 a
+INFO  02:51:17,191 - #22 ,
+INFO  02:51:17,192 - #19 b
+INFO  02:51:17,192 - #23 ;
+INFO  02:51:17,192 - #19 char
+INFO  02:51:17,193 - #19 nizch
+INFO  02:51:17,193 - #28 [
+INFO  02:51:17,193 - #29 ]
+INFO  02:51:17,193 - #23 ;
+INFO  02:51:17,193 - #26 {
+INFO  02:51:17,194 - #19 void
+INFO  02:51:17,194 - #19 main
+INFO  02:51:17,194 - #24 (
+INFO  02:51:17,194 - #25 )
+INFO  02:51:17,195 - #19 int
+INFO  02:51:17,195 - #19 bodovi
+INFO  02:51:17,195 - #23 ;
+INFO  02:51:17,195 - #19 bool
+INFO  02:51:17,195 - #19 br
+INFO  02:51:17,196 - #23 ;
+INFO  02:51:17,196 - #26 {
+INFO  02:51:17,196 - #19 bodovi
+INFO  02:51:17,196 - #21 =
+INFO  02:51:17,196 - #16 0
+INFO  02:51:17,196 - #23 ;
+INFO  02:51:17,196 - #19 bodovi
+INFO  02:51:17,197 - #44 ++
+INFO  02:51:17,197 - #23 ;
+INFO  02:51:17,197 - #19 bodovi
+INFO  02:51:17,197 - #21 =
+INFO  02:51:17,197 - #19 bodovi
+INFO  02:51:17,197 - #20 +
+INFO  02:51:17,197 - #19 jedan
+INFO  02:51:17,198 - #23 ;
+INFO  02:51:17,198 - #19 bodovi
+INFO  02:51:17,198 - #21 =
+INFO  02:51:17,198 - #19 bodovi
+INFO  02:51:17,199 - #32 *
+INFO  02:51:17,199 - #19 pet
+INFO  02:51:17,200 - #23 ;
+INFO  02:51:17,200 - #19 bodovi
+INFO  02:51:17,207 - #45 --
+INFO  02:51:17,207 - #23 ;
+INFO  02:51:17,207 - #3 print
+INFO  02:51:17,207 - #24 (
+INFO  02:51:17,208 - #19 bodovi
+INFO  02:51:17,208 - #25 )
+INFO  02:51:17,208 - #23 ;
+INFO  02:51:17,208 - #19 niz
+INFO  02:51:17,208 - #21 =
+INFO  02:51:17,208 - #14 new
+INFO  02:51:17,208 - #19 int
+INFO  02:51:17,208 - #28 [
+INFO  02:51:17,208 - #16 3
+INFO  02:51:17,208 - #29 ]
+INFO  02:51:17,209 - #23 ;
+INFO  02:51:17,209 - #19 niz
+INFO  02:51:17,209 - #28 [
+INFO  02:51:17,209 - #19 nula
+INFO  02:51:17,209 - #29 ]
+INFO  02:51:17,209 - #21 =
+INFO  02:51:17,210 - #19 jedan
+INFO  02:51:17,210 - #23 ;
+INFO  02:51:17,210 - #19 niz
+INFO  02:51:17,210 - #28 [
+INFO  02:51:17,210 - #16 1
+INFO  02:51:17,210 - #29 ]
+INFO  02:51:17,211 - #21 =
+INFO  02:51:17,211 - #16 2
+INFO  02:51:17,211 - #23 ;
+INFO  02:51:17,211 - #19 niz
+INFO  02:51:17,212 - #28 [
+INFO  02:51:17,212 - #19 niz
+INFO  02:51:17,212 - #28 [
+INFO  02:51:17,212 - #19 jedan
+INFO  02:51:17,212 - #29 ]
+INFO  02:51:17,212 - #29 ]
+INFO  02:51:17,212 - #21 =
+INFO  02:51:17,212 - #19 niz
+INFO  02:51:17,213 - #28 [
+INFO  02:51:17,213 - #19 niz
+INFO  02:51:17,213 - #28 [
+INFO  02:51:17,213 - #16 0
+INFO  02:51:17,213 - #29 ]
+INFO  02:51:17,213 - #29 ]
+INFO  02:51:17,213 - #32 *
+INFO  02:51:17,214 - #16 3
+INFO  02:51:17,214 - #23 ;
+INFO  02:51:17,214 - #19 bodovi
+INFO  02:51:17,214 - #21 =
+INFO  02:51:17,215 - #19 niz
+INFO  02:51:17,215 - #28 [
+INFO  02:51:17,216 - #16 2
+INFO  02:51:17,216 - #29 ]
+INFO  02:51:17,216 - #34 /
+INFO  02:51:17,217 - #19 niz
+INFO  02:51:17,218 - #28 [
+INFO  02:51:17,218 - #16 0
+INFO  02:51:17,218 - #29 ]
+INFO  02:51:17,218 - #23 ;
+INFO  02:51:17,218 - #3 print
+INFO  02:51:17,219 - #24 (
+INFO  02:51:17,219 - #19 bodovi
+INFO  02:51:17,219 - #25 )
+INFO  02:51:17,219 - #23 ;
+INFO  02:51:17,219 - #3 print
+INFO  02:51:17,219 - #24 (
+INFO  02:51:17,219 - #19 niz
+INFO  02:51:17,219 - #28 [
+INFO  02:51:17,219 - #16 2
+INFO  02:51:17,219 - #29 ]
+INFO  02:51:17,219 - #25 )
+INFO  02:51:17,219 - #23 ;
+INFO  02:51:17,219 - #19 br
+INFO  02:51:17,219 - #21 =
+INFO  02:51:17,219 - #18 true
+INFO  02:51:17,220 - #23 ;
+INFO  02:51:17,220 - #3 print
+INFO  02:51:17,220 - #24 (
+INFO  02:51:17,220 - #19 br
+INFO  02:51:17,220 - #25 )
+INFO  02:51:17,220 - #23 ;
+INFO  02:51:17,220 - #19 nizch
+INFO  02:51:17,220 - #21 =
+INFO  02:51:17,220 - #14 new
+INFO  02:51:17,220 - #19 char
+INFO  02:51:17,220 - #28 [
+INFO  02:51:17,220 - #16 3
+INFO  02:51:17,220 - #29 ]
+INFO  02:51:17,221 - #23 ;
+INFO  02:51:17,221 - #19 nizch
+INFO  02:51:17,221 - #28 [
+INFO  02:51:17,221 - #16 0
+INFO  02:51:17,221 - #29 ]
+INFO  02:51:17,221 - #21 =
+INFO  02:51:17,221 - #17 a
+INFO  02:51:17,221 - #23 ;
+INFO  02:51:17,222 - #19 nizch
+INFO  02:51:17,222 - #28 [
+INFO  02:51:17,222 - #19 jedan
+INFO  02:51:17,222 - #29 ]
+INFO  02:51:17,222 - #21 =
+INFO  02:51:17,222 - #17 b
+INFO  02:51:17,222 - #23 ;
+INFO  02:51:17,222 - #19 nizch
+INFO  02:51:17,222 - #28 [
+INFO  02:51:17,222 - #19 pet
+INFO  02:51:17,222 - #33 -
+INFO  02:51:17,222 - #16 3
+INFO  02:51:17,223 - #29 ]
+INFO  02:51:17,223 - #21 =
+INFO  02:51:17,223 - #17 c
+INFO  02:51:17,223 - #23 ;
+INFO  02:51:17,224 - #3 print
+INFO  02:51:17,224 - #24 (
+INFO  02:51:17,224 - #19 nizch
+INFO  02:51:17,225 - #28 [
+INFO  02:51:17,225 - #16 1
+INFO  02:51:17,225 - #29 ]
+INFO  02:51:17,225 - #25 )
+INFO  02:51:17,225 - #23 ;
+INFO  02:51:17,225 - #3 print
+INFO  02:51:17,226 - #24 (
+INFO  02:51:17,226 - #19 nizch
+INFO  02:51:17,226 - #28 [
+INFO  02:51:17,226 - #19 jedan
+INFO  02:51:17,226 - #32 *
+INFO  02:51:17,226 - #16 2
+INFO  02:51:17,226 - #29 ]
+INFO  02:51:17,226 - #25 )
+INFO  02:51:17,226 - #23 ;
+INFO  02:51:17,226 - #6 read
+INFO  02:51:17,227 - #24 (
+INFO  02:51:17,227 - #19 bodovi
+INFO  02:51:17,227 - #25 )
+INFO  02:51:17,227 - #23 ;
+INFO  02:51:17,227 - #19 bodovi
+INFO  02:51:17,227 - #21 =
+INFO  02:51:17,228 - #33 -
+INFO  02:51:17,228 - #19 bodovi
+INFO  02:51:17,228 - #20 +
+INFO  02:51:17,228 - #24 (
+INFO  02:51:17,228 - #19 pet
+INFO  02:51:17,228 - #32 *
+INFO  02:51:17,229 - #19 a
+INFO  02:51:17,229 - #34 /
+INFO  02:51:17,229 - #16 2
+INFO  02:51:17,229 - #33 -
+INFO  02:51:17,229 - #19 jedan
+INFO  02:51:17,229 - #25 )
+INFO  02:51:17,230 - #32 *
+INFO  02:51:17,230 - #19 bodovi
+INFO  02:51:17,230 - #33 -
+INFO  02:51:17,230 - #24 (
+INFO  02:51:17,230 - #16 3
+INFO  02:51:17,230 - #31 %
+INFO  02:51:17,230 - #16 2
+INFO  02:51:17,230 - #20 +
+INFO  02:51:17,231 - #16 3
+INFO  02:51:17,231 - #32 *
+INFO  02:51:17,231 - #16 2
+INFO  02:51:17,231 - #33 -
+INFO  02:51:17,231 - #16 3
+INFO  02:51:17,231 - #25 )
+INFO  02:51:17,231 - #23 ;
+INFO  02:51:17,231 - #3 print
+INFO  02:51:17,231 - #24 (
+INFO  02:51:17,231 - #19 bodovi
+INFO  02:51:17,231 - #25 )
+INFO  02:51:17,231 - #23 ;
+INFO  02:51:17,231 - #27 }
+INFO  02:51:17,232 - #27 }
+INFO  02:51:17,254 - Program(
   ProgName(
    test301
   ) [ProgName]
@@ -922,139 +927,148 @@ INFO  19:26:19,934 - Program(
                                                 ) [StatementMatched]
                                                 StmtList(
                                                   StatementMatched(
-                                                    StatementDesignator(
-                                                      DesignatorStatementEqual(
-                                                        DesignatorIdent(
-                                                         bodovi
-                                                        ) [DesignatorIdent]
-                                                        Expretion(
+                                                    StatementRead(
+                                                      DesignatorIdent(
+                                                       bodovi
+                                                      ) [DesignatorIdent]
+                                                    ) [StatementRead]
+                                                  ) [StatementMatched]
+                                                  StmtList(
+                                                    StatementMatched(
+                                                      StatementDesignator(
+                                                        DesignatorStatementEqual(
+                                                          DesignatorIdent(
+                                                           bodovi
+                                                          ) [DesignatorIdent]
                                                           Expretion(
-                                                            Negative(
-                                                              TermFactor(
+                                                            Expretion(
+                                                              Negative(
+                                                                TermFactor(
+                                                                  FDesignator(
+                                                                    DesignatorIdent(
+                                                                     bodovi
+                                                                    ) [DesignatorIdent]
+                                                                  ) [FDesignator]
+                                                                ) [TermFactor]
+                                                              ) [Negative]
+                                                              PlusOp(
+                                                              ) [PlusOp]
+                                                              TermFactorList(
+                                                                TermFactor(
+                                                                  FExpretion(
+                                                                    Expretion(
+                                                                      Positive(
+                                                                        TermFactorList(
+                                                                          TermFactorList(
+                                                                            TermFactor(
+                                                                              FDesignator(
+                                                                                DesignatorIdent(
+                                                                                 pet
+                                                                                ) [DesignatorIdent]
+                                                                              ) [FDesignator]
+                                                                            ) [TermFactor]
+                                                                            MultiplyOp(
+                                                                            ) [MultiplyOp]
+                                                                            FDesignator(
+                                                                              DesignatorIdent(
+                                                                               a
+                                                                              ) [DesignatorIdent]
+                                                                            ) [FDesignator]
+                                                                          ) [TermFactorList]
+                                                                          DivideOp(
+                                                                          ) [DivideOp]
+                                                                          FIntConst(
+                                                                           2
+                                                                          ) [FIntConst]
+                                                                        ) [TermFactorList]
+                                                                      ) [Positive]
+                                                                      MinusOp(
+                                                                      ) [MinusOp]
+                                                                      TermFactor(
+                                                                        FDesignator(
+                                                                          DesignatorIdent(
+                                                                           jedan
+                                                                          ) [DesignatorIdent]
+                                                                        ) [FDesignator]
+                                                                      ) [TermFactor]
+                                                                    ) [Expretion]
+                                                                  ) [FExpretion]
+                                                                ) [TermFactor]
+                                                                MultiplyOp(
+                                                                ) [MultiplyOp]
                                                                 FDesignator(
                                                                   DesignatorIdent(
                                                                    bodovi
                                                                   ) [DesignatorIdent]
                                                                 ) [FDesignator]
-                                                              ) [TermFactor]
-                                                            ) [Negative]
-                                                            PlusOp(
-                                                            ) [PlusOp]
-                                                            TermFactorList(
-                                                              TermFactor(
-                                                                FExpretion(
+                                                              ) [TermFactorList]
+                                                            ) [Expretion]
+                                                            MinusOp(
+                                                            ) [MinusOp]
+                                                            TermFactor(
+                                                              FExpretion(
+                                                                Expretion(
                                                                   Expretion(
                                                                     Positive(
                                                                       TermFactorList(
-                                                                        TermFactorList(
-                                                                          TermFactor(
-                                                                            FDesignator(
-                                                                              DesignatorIdent(
-                                                                               pet
-                                                                              ) [DesignatorIdent]
-                                                                            ) [FDesignator]
-                                                                          ) [TermFactor]
-                                                                          MultiplyOp(
-                                                                          ) [MultiplyOp]
-                                                                          FDesignator(
-                                                                            DesignatorIdent(
-                                                                             a
-                                                                            ) [DesignatorIdent]
-                                                                          ) [FDesignator]
-                                                                        ) [TermFactorList]
-                                                                        DivideOp(
-                                                                        ) [DivideOp]
+                                                                        TermFactor(
+                                                                          FIntConst(
+                                                                           3
+                                                                          ) [FIntConst]
+                                                                        ) [TermFactor]
+                                                                        ModuleOp(
+                                                                        ) [ModuleOp]
                                                                         FIntConst(
                                                                          2
                                                                         ) [FIntConst]
                                                                       ) [TermFactorList]
                                                                     ) [Positive]
-                                                                    MinusOp(
-                                                                    ) [MinusOp]
-                                                                    TermFactor(
-                                                                      FDesignator(
-                                                                        DesignatorIdent(
-                                                                         jedan
-                                                                        ) [DesignatorIdent]
-                                                                      ) [FDesignator]
-                                                                    ) [TermFactor]
-                                                                  ) [Expretion]
-                                                                ) [FExpretion]
-                                                              ) [TermFactor]
-                                                              MultiplyOp(
-                                                              ) [MultiplyOp]
-                                                              FDesignator(
-                                                                DesignatorIdent(
-                                                                 bodovi
-                                                                ) [DesignatorIdent]
-                                                              ) [FDesignator]
-                                                            ) [TermFactorList]
-                                                          ) [Expretion]
-                                                          MinusOp(
-                                                          ) [MinusOp]
-                                                          TermFactor(
-                                                            FExpretion(
-                                                              Expretion(
-                                                                Expretion(
-                                                                  Positive(
+                                                                    PlusOp(
+                                                                    ) [PlusOp]
                                                                     TermFactorList(
                                                                       TermFactor(
                                                                         FIntConst(
                                                                          3
                                                                         ) [FIntConst]
                                                                       ) [TermFactor]
-                                                                      ModuleOp(
-                                                                      ) [ModuleOp]
+                                                                      MultiplyOp(
+                                                                      ) [MultiplyOp]
                                                                       FIntConst(
                                                                        2
                                                                       ) [FIntConst]
                                                                     ) [TermFactorList]
-                                                                  ) [Positive]
-                                                                  PlusOp(
-                                                                  ) [PlusOp]
-                                                                  TermFactorList(
-                                                                    TermFactor(
-                                                                      FIntConst(
-                                                                       3
-                                                                      ) [FIntConst]
-                                                                    ) [TermFactor]
-                                                                    MultiplyOp(
-                                                                    ) [MultiplyOp]
+                                                                  ) [Expretion]
+                                                                  MinusOp(
+                                                                  ) [MinusOp]
+                                                                  TermFactor(
                                                                     FIntConst(
-                                                                     2
+                                                                     3
                                                                     ) [FIntConst]
-                                                                  ) [TermFactorList]
+                                                                  ) [TermFactor]
                                                                 ) [Expretion]
-                                                                MinusOp(
-                                                                ) [MinusOp]
-                                                                TermFactor(
-                                                                  FIntConst(
-                                                                   3
-                                                                  ) [FIntConst]
-                                                                ) [TermFactor]
-                                                              ) [Expretion]
-                                                            ) [FExpretion]
-                                                          ) [TermFactor]
-                                                        ) [Expretion]
-                                                      ) [DesignatorStatementEqual]
-                                                    ) [StatementDesignator]
-                                                  ) [StatementMatched]
-                                                  StmtList(
-                                                    StatementMatched(
-                                                      StatementPrint(
-                                                        Positive(
-                                                          TermFactor(
-                                                            FDesignator(
-                                                              DesignatorIdent(
-                                                               bodovi
-                                                              ) [DesignatorIdent]
-                                                            ) [FDesignator]
-                                                          ) [TermFactor]
-                                                        ) [Positive]
-                                                      ) [StatementPrint]
+                                                              ) [FExpretion]
+                                                            ) [TermFactor]
+                                                          ) [Expretion]
+                                                        ) [DesignatorStatementEqual]
+                                                      ) [StatementDesignator]
                                                     ) [StatementMatched]
-                                                    NoStmt(
-                                                    ) [NoStmt]
+                                                    StmtList(
+                                                      StatementMatched(
+                                                        StatementPrint(
+                                                          Positive(
+                                                            TermFactor(
+                                                              FDesignator(
+                                                                DesignatorIdent(
+                                                                 bodovi
+                                                                ) [DesignatorIdent]
+                                                              ) [FDesignator]
+                                                            ) [TermFactor]
+                                                          ) [Positive]
+                                                        ) [StatementPrint]
+                                                      ) [StatementMatched]
+                                                      NoStmt(
+                                                      ) [NoStmt]
+                                                    ) [StmtList]
                                                   ) [StmtList]
                                                 ) [StmtList]
                                               ) [StmtList]
@@ -1083,19 +1097,19 @@ INFO  19:26:19,934 - Program(
     ) [MethodDeclarationNone]
   ) [MethodDeclarations]
 ) [Program]
-INFO  19:26:19,936 - ===================================
-INFO  19:26:19,939 - Deklarisana konstante nula na liniji 5
-INFO  19:26:19,940 - Deklarisana konstante jedan na liniji 6
-INFO  19:26:19,940 - Deklarisana konstante pet na liniji 7
-INFO  19:26:19,940 - Deklarisana promenljiva niz[] na liniji 9
-INFO  19:26:19,940 - Deklarisana promenljiva niz2[] na liniji 9
-INFO  19:26:19,940 - Deklarisana promenljiva a na liniji 9
-INFO  19:26:19,940 - Deklarisana promenljiva b na liniji 9
-INFO  19:26:19,940 - Deklarisana promenljiva nizch[] na liniji 10
-INFO  19:26:19,940 - Obradjuje se funkcija main na liniji 13
-INFO  19:26:19,941 - Deklarisana promenljiva bodovi na liniji 14
-INFO  19:26:19,941 - Deklarisana promenljiva br na liniji 15
-INFO  19:26:19,943 -  Print count calls = 7
-INFO  19:26:19,943 -  Deklarisanih promenljivih ima = 7
-INFO  19:26:19,943 -  ==================== 
-INFO  19:26:19,956 - Parsiranje uspesno zavrseno!
+INFO  02:51:17,258 - ===================================
+INFO  02:51:17,261 - Deklarisana konstante nula na liniji 5
+INFO  02:51:17,261 - Deklarisana konstante jedan na liniji 6
+INFO  02:51:17,261 - Deklarisana konstante pet na liniji 7
+INFO  02:51:17,261 - Deklarisana promenljiva niz[] na liniji 9
+INFO  02:51:17,261 - Deklarisana promenljiva niz2[] na liniji 9
+INFO  02:51:17,261 - Deklarisana promenljiva a na liniji 9
+INFO  02:51:17,261 - Deklarisana promenljiva b na liniji 9
+INFO  02:51:17,262 - Deklarisana promenljiva nizch[] na liniji 10
+INFO  02:51:17,262 - Obradjuje se funkcija main na liniji 13
+INFO  02:51:17,262 - Deklarisana promenljiva bodovi na liniji 14
+INFO  02:51:17,262 - Deklarisana promenljiva br na liniji 15
+INFO  02:51:17,263 -  Print count calls = 7
+INFO  02:51:17,263 -  Deklarisanih promenljivih ima = 7
+INFO  02:51:17,263 -  ==================== 
+INFO  02:51:17,288 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,1136 @@
+INFO  21:11:25,401 - Compiling source file: D:\Caslav\Fakultet\PP1 - Programski Prevodioci 1\Domaci Zadatak\2. Sintaksna Analiza\Proba Njegovo\Izvorni kod\MJCompiler\test\program.mj
+INFO  21:11:25,493 - #2 program
+INFO  21:11:25,493 - #19 test301
+INFO  21:11:25,493 - #15 const
+INFO  21:11:25,494 - #19 int
+INFO  21:11:25,494 - #19 nula
+INFO  21:11:25,495 - #21 =
+INFO  21:11:25,495 - #16 0
+INFO  21:11:25,495 - #23 ;
+INFO  21:11:25,496 - #15 const
+INFO  21:11:25,496 - #19 int
+INFO  21:11:25,497 - #19 jedan
+INFO  21:11:25,497 - #21 =
+INFO  21:11:25,497 - #16 1
+INFO  21:11:25,497 - #23 ;
+INFO  21:11:25,497 - #15 const
+INFO  21:11:25,497 - #19 int
+INFO  21:11:25,497 - #19 pet
+INFO  21:11:25,497 - #21 =
+INFO  21:11:25,497 - #16 5
+INFO  21:11:25,498 - #23 ;
+INFO  21:11:25,498 - #19 int
+INFO  21:11:25,498 - #19 niz
+INFO  21:11:25,498 - #28 [
+INFO  21:11:25,498 - #29 ]
+INFO  21:11:25,498 - #22 ,
+INFO  21:11:25,498 - #19 niz2
+INFO  21:11:25,498 - #28 [
+INFO  21:11:25,498 - #29 ]
+INFO  21:11:25,498 - #22 ,
+INFO  21:11:25,499 - #19 a
+INFO  21:11:25,499 - #22 ,
+INFO  21:11:25,499 - #19 b
+INFO  21:11:25,499 - #23 ;
+INFO  21:11:25,500 - #19 char
+INFO  21:11:25,500 - #19 nizch
+INFO  21:11:25,500 - #28 [
+INFO  21:11:25,500 - #29 ]
+INFO  21:11:25,500 - #23 ;
+INFO  21:11:25,500 - #26 {
+INFO  21:11:25,501 - #19 void
+INFO  21:11:25,501 - #19 main
+INFO  21:11:25,501 - #24 (
+INFO  21:11:25,502 - #25 )
+INFO  21:11:25,502 - #19 int
+INFO  21:11:25,503 - #19 bodovi
+INFO  21:11:25,503 - #23 ;
+INFO  21:11:25,503 - #19 bool
+INFO  21:11:25,503 - #19 br
+INFO  21:11:25,503 - #23 ;
+INFO  21:11:25,503 - #26 {
+INFO  21:11:25,503 - #19 bodovi
+INFO  21:11:25,503 - #21 =
+INFO  21:11:25,503 - #16 0
+INFO  21:11:25,503 - #23 ;
+INFO  21:11:25,504 - #19 bodovi
+INFO  21:11:25,504 - #44 ++
+INFO  21:11:25,504 - #23 ;
+INFO  21:11:25,505 - #19 bodovi
+INFO  21:11:25,505 - #21 =
+INFO  21:11:25,505 - #19 bodovi
+INFO  21:11:25,505 - #20 +
+INFO  21:11:25,505 - #19 jedan
+INFO  21:11:25,507 - #23 ;
+INFO  21:11:25,507 - #19 bodovi
+INFO  21:11:25,507 - #21 =
+INFO  21:11:25,507 - #19 bodovi
+INFO  21:11:25,507 - #32 *
+INFO  21:11:25,507 - #19 pet
+INFO  21:11:25,508 - #23 ;
+INFO  21:11:25,508 - #19 bodovi
+INFO  21:11:25,513 - #45 --
+INFO  21:11:25,513 - #23 ;
+INFO  21:11:25,513 - #3 print
+INFO  21:11:25,513 - #24 (
+INFO  21:11:25,513 - #19 bodovi
+INFO  21:11:25,513 - #25 )
+INFO  21:11:25,513 - #23 ;
+INFO  21:11:25,514 - #19 niz
+INFO  21:11:25,514 - #21 =
+INFO  21:11:25,514 - #14 new
+INFO  21:11:25,514 - #19 int
+INFO  21:11:25,514 - #28 [
+INFO  21:11:25,514 - #16 3
+INFO  21:11:25,514 - #29 ]
+INFO  21:11:25,514 - #23 ;
+INFO  21:11:25,514 - #19 niz
+INFO  21:11:25,514 - #28 [
+INFO  21:11:25,514 - #19 nula
+INFO  21:11:25,514 - #29 ]
+INFO  21:11:25,515 - #21 =
+INFO  21:11:25,515 - #19 jedan
+INFO  21:11:25,515 - #23 ;
+INFO  21:11:25,515 - #19 niz
+INFO  21:11:25,515 - #28 [
+INFO  21:11:25,516 - #16 1
+INFO  21:11:25,516 - #29 ]
+INFO  21:11:25,516 - #21 =
+INFO  21:11:25,516 - #16 2
+INFO  21:11:25,516 - #23 ;
+INFO  21:11:25,516 - #19 niz
+INFO  21:11:25,516 - #28 [
+INFO  21:11:25,516 - #19 niz
+INFO  21:11:25,516 - #28 [
+INFO  21:11:25,516 - #19 jedan
+INFO  21:11:25,517 - #29 ]
+INFO  21:11:25,517 - #29 ]
+INFO  21:11:25,517 - #21 =
+INFO  21:11:25,517 - #19 niz
+INFO  21:11:25,517 - #28 [
+INFO  21:11:25,517 - #19 niz
+INFO  21:11:25,517 - #28 [
+INFO  21:11:25,517 - #16 0
+INFO  21:11:25,517 - #29 ]
+INFO  21:11:25,517 - #29 ]
+INFO  21:11:25,517 - #32 *
+INFO  21:11:25,518 - #16 3
+INFO  21:11:25,518 - #23 ;
+INFO  21:11:25,518 - #19 bodovi
+INFO  21:11:25,518 - #21 =
+INFO  21:11:25,518 - #19 niz
+INFO  21:11:25,518 - #28 [
+INFO  21:11:25,518 - #16 2
+INFO  21:11:25,518 - #29 ]
+INFO  21:11:25,518 - #34 /
+INFO  21:11:25,518 - #19 niz
+INFO  21:11:25,519 - #28 [
+INFO  21:11:25,519 - #16 0
+INFO  21:11:25,519 - #29 ]
+INFO  21:11:25,519 - #23 ;
+INFO  21:11:25,519 - #3 print
+INFO  21:11:25,519 - #24 (
+INFO  21:11:25,519 - #19 bodovi
+INFO  21:11:25,519 - #25 )
+INFO  21:11:25,519 - #23 ;
+INFO  21:11:25,519 - #3 print
+INFO  21:11:25,520 - #24 (
+INFO  21:11:25,520 - #19 niz
+INFO  21:11:25,520 - #28 [
+INFO  21:11:25,520 - #16 2
+INFO  21:11:25,520 - #29 ]
+INFO  21:11:25,520 - #25 )
+INFO  21:11:25,520 - #23 ;
+INFO  21:11:25,520 - #19 br
+INFO  21:11:25,520 - #21 =
+INFO  21:11:25,520 - #19 niz
+INFO  21:11:25,520 - #30 .
+INFO  21:11:25,520 - #11 findAny
+INFO  21:11:25,520 - #24 (
+INFO  21:11:25,520 - #19 jedan
+INFO  21:11:25,520 - #20 +
+INFO  21:11:25,520 - #19 pet
+INFO  21:11:25,520 - #25 )
+INFO  21:11:25,520 - #23 ;
+INFO  21:11:25,520 - #3 print
+INFO  21:11:25,521 - #24 (
+INFO  21:11:25,521 - #19 br
+INFO  21:11:25,521 - #25 )
+INFO  21:11:25,521 - #23 ;
+INFO  21:11:25,521 - #19 nizch
+INFO  21:11:25,521 - #21 =
+INFO  21:11:25,521 - #14 new
+INFO  21:11:25,521 - #19 char
+INFO  21:11:25,521 - #28 [
+INFO  21:11:25,521 - #16 3
+INFO  21:11:25,521 - #29 ]
+INFO  21:11:25,522 - #23 ;
+INFO  21:11:25,522 - #19 nizch
+INFO  21:11:25,522 - #28 [
+INFO  21:11:25,522 - #16 0
+INFO  21:11:25,522 - #29 ]
+INFO  21:11:25,522 - #21 =
+INFO  21:11:25,522 - #17 a
+INFO  21:11:25,522 - #23 ;
+INFO  21:11:25,522 - #19 nizch
+INFO  21:11:25,522 - #28 [
+INFO  21:11:25,522 - #19 jedan
+INFO  21:11:25,522 - #29 ]
+INFO  21:11:25,522 - #21 =
+INFO  21:11:25,522 - #17 b
+INFO  21:11:25,522 - #23 ;
+INFO  21:11:25,523 - #19 nizch
+INFO  21:11:25,523 - #28 [
+INFO  21:11:25,523 - #19 pet
+INFO  21:11:25,523 - #33 -
+INFO  21:11:25,523 - #16 3
+INFO  21:11:25,523 - #29 ]
+INFO  21:11:25,524 - #21 =
+INFO  21:11:25,524 - #17 c
+INFO  21:11:25,524 - #23 ;
+INFO  21:11:25,524 - #3 print
+INFO  21:11:25,524 - #24 (
+INFO  21:11:25,524 - #19 nizch
+INFO  21:11:25,524 - #28 [
+INFO  21:11:25,524 - #16 1
+INFO  21:11:25,524 - #29 ]
+INFO  21:11:25,537 - #25 )
+INFO  21:11:25,539 - #23 ;
+INFO  21:11:25,539 - #3 print
+INFO  21:11:25,540 - #24 (
+INFO  21:11:25,540 - #19 nizch
+INFO  21:11:25,540 - #28 [
+INFO  21:11:25,540 - #19 jedan
+INFO  21:11:25,540 - #32 *
+INFO  21:11:25,540 - #16 2
+INFO  21:11:25,540 - #29 ]
+INFO  21:11:25,540 - #25 )
+INFO  21:11:25,540 - #23 ;
+INFO  21:11:25,540 - #6 read
+INFO  21:11:25,540 - #24 (
+INFO  21:11:25,540 - #19 bodovi
+INFO  21:11:25,540 - #25 )
+INFO  21:11:25,540 - #23 ;
+INFO  21:11:25,540 - #19 bodovi
+INFO  21:11:25,541 - #21 =
+INFO  21:11:25,541 - #33 -
+INFO  21:11:25,541 - #19 bodovi
+INFO  21:11:25,541 - #20 +
+INFO  21:11:25,541 - #24 (
+INFO  21:11:25,541 - #19 pet
+INFO  21:11:25,541 - #32 *
+INFO  21:11:25,541 - #19 a
+INFO  21:11:25,541 - #34 /
+INFO  21:11:25,541 - #16 2
+INFO  21:11:25,541 - #33 -
+INFO  21:11:25,542 - #19 jedan
+INFO  21:11:25,542 - #25 )
+INFO  21:11:25,542 - #32 *
+INFO  21:11:25,542 - #19 bodovi
+INFO  21:11:25,542 - #33 -
+INFO  21:11:25,542 - #24 (
+INFO  21:11:25,542 - #16 3
+INFO  21:11:25,542 - #31 %
+INFO  21:11:25,542 - #16 2
+INFO  21:11:25,543 - #20 +
+INFO  21:11:25,543 - #16 3
+INFO  21:11:25,543 - #32 *
+INFO  21:11:25,543 - #16 2
+INFO  21:11:25,543 - #33 -
+INFO  21:11:25,543 - #16 3
+INFO  21:11:25,543 - #25 )
+INFO  21:11:25,543 - #23 ;
+INFO  21:11:25,544 - #3 print
+INFO  21:11:25,544 - #24 (
+INFO  21:11:25,544 - #19 bodovi
+INFO  21:11:25,544 - #25 )
+INFO  21:11:25,544 - #23 ;
+INFO  21:11:25,544 - #27 }
+INFO  21:11:25,545 - #27 }
+INFO  21:11:25,564 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclarations(
+    VarDeclarationConst(
+      VarConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstantVariable(
+         nula
+          IntConst(
+           0
+          ) [IntConst]
+        ) [ConstantVariable]
+        ConstVarNone(
+        ) [ConstVarNone]
+      ) [VarConstDecl]
+    ) [VarDeclarationConst]
+    VarDeclarations(
+      VarDeclarationConst(
+        VarConstDecl(
+          Type(
+           int
+          ) [Type]
+          ConstantVariable(
+           jedan
+            IntConst(
+             1
+            ) [IntConst]
+          ) [ConstantVariable]
+          ConstVarNone(
+          ) [ConstVarNone]
+        ) [VarConstDecl]
+      ) [VarDeclarationConst]
+      VarDeclarations(
+        VarDeclarationConst(
+          VarConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstantVariable(
+             pet
+              IntConst(
+               5
+              ) [IntConst]
+            ) [ConstantVariable]
+            ConstVarNone(
+            ) [ConstVarNone]
+          ) [VarConstDecl]
+        ) [VarDeclarationConst]
+        VarDeclarations(
+          VarDeclar(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarArray(
+               niz
+              ) [VarArray]
+              VariableNameList(
+                VarArray(
+                 niz2
+                ) [VarArray]
+                VariableNameList(
+                  VarSingle(
+                   a
+                  ) [VarSingle]
+                  VariableNameList(
+                    VarSingle(
+                     b
+                    ) [VarSingle]
+                    VariableNameNone(
+                    ) [VariableNameNone]
+                  ) [VariableNameList]
+                ) [VariableNameList]
+              ) [VariableNameList]
+            ) [VariableDeclaration]
+          ) [VarDeclar]
+          VarDeclarations(
+            VarDeclar(
+              VariableDeclaration(
+                Type(
+                 char
+                ) [Type]
+                VarArray(
+                 nizch
+                ) [VarArray]
+                VariableNameNone(
+                ) [VariableNameNone]
+              ) [VariableDeclaration]
+            ) [VarDeclar]
+            NoVarDecl(
+            ) [NoVarDecl]
+          ) [VarDeclarations]
+        ) [VarDeclarations]
+      ) [VarDeclarations]
+    ) [VarDeclarations]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclaration(
+      MethodTypeName(
+        Type(
+         void
+        ) [Type]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        VarDeclar(
+          VariableDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarSingle(
+             bodovi
+            ) [VarSingle]
+            VariableNameNone(
+            ) [VariableNameNone]
+          ) [VariableDeclaration]
+        ) [VarDeclar]
+        VarDeclarations(
+          VarDeclar(
+            VariableDeclaration(
+              Type(
+               bool
+              ) [Type]
+              VarSingle(
+               br
+              ) [VarSingle]
+              VariableNameNone(
+              ) [VariableNameNone]
+            ) [VariableDeclaration]
+          ) [VarDeclar]
+          NoVarDecl(
+          ) [NoVarDecl]
+        ) [VarDeclarations]
+      ) [VarDeclarations]
+      StmtList(
+        StatementMatched(
+          StatementDesignator(
+            DesignatorStatementEqual(
+              DesignatorIdent(
+               bodovi
+              ) [DesignatorIdent]
+              Positive(
+                TermFactor(
+                  FIntConst(
+                   0
+                  ) [FIntConst]
+                ) [TermFactor]
+              ) [Positive]
+            ) [DesignatorStatementEqual]
+          ) [StatementDesignator]
+        ) [StatementMatched]
+        StmtList(
+          StatementMatched(
+            StatementDesignator(
+              DesignatorStatementInc(
+                DesignatorIdent(
+                 bodovi
+                ) [DesignatorIdent]
+              ) [DesignatorStatementInc]
+            ) [StatementDesignator]
+          ) [StatementMatched]
+          StmtList(
+            StatementMatched(
+              StatementDesignator(
+                DesignatorStatementEqual(
+                  DesignatorIdent(
+                   bodovi
+                  ) [DesignatorIdent]
+                  Expretion(
+                    Positive(
+                      TermFactor(
+                        FDesignator(
+                          DesignatorIdent(
+                           bodovi
+                          ) [DesignatorIdent]
+                        ) [FDesignator]
+                      ) [TermFactor]
+                    ) [Positive]
+                    PlusOp(
+                    ) [PlusOp]
+                    TermFactor(
+                      FDesignator(
+                        DesignatorIdent(
+                         jedan
+                        ) [DesignatorIdent]
+                      ) [FDesignator]
+                    ) [TermFactor]
+                  ) [Expretion]
+                ) [DesignatorStatementEqual]
+              ) [StatementDesignator]
+            ) [StatementMatched]
+            StmtList(
+              StatementMatched(
+                StatementDesignator(
+                  DesignatorStatementEqual(
+                    DesignatorIdent(
+                     bodovi
+                    ) [DesignatorIdent]
+                    Positive(
+                      TermFactorList(
+                        TermFactor(
+                          FDesignator(
+                            DesignatorIdent(
+                             bodovi
+                            ) [DesignatorIdent]
+                          ) [FDesignator]
+                        ) [TermFactor]
+                        MultiplyOp(
+                        ) [MultiplyOp]
+                        FDesignator(
+                          DesignatorIdent(
+                           pet
+                          ) [DesignatorIdent]
+                        ) [FDesignator]
+                      ) [TermFactorList]
+                    ) [Positive]
+                  ) [DesignatorStatementEqual]
+                ) [StatementDesignator]
+              ) [StatementMatched]
+              StmtList(
+                StatementMatched(
+                  StatementDesignator(
+                    DesignatorStatementDec(
+                      DesignatorIdent(
+                       bodovi
+                      ) [DesignatorIdent]
+                    ) [DesignatorStatementDec]
+                  ) [StatementDesignator]
+                ) [StatementMatched]
+                StmtList(
+                  StatementMatched(
+                    StatementPrint(
+                      Positive(
+                        TermFactor(
+                          FDesignator(
+                            DesignatorIdent(
+                             bodovi
+                            ) [DesignatorIdent]
+                          ) [FDesignator]
+                        ) [TermFactor]
+                      ) [Positive]
+                    ) [StatementPrint]
+                  ) [StatementMatched]
+                  StmtList(
+                    StatementMatched(
+                      StatementDesignator(
+                        DesignatorStatementEqual(
+                          DesignatorIdent(
+                           niz
+                          ) [DesignatorIdent]
+                          Positive(
+                            TermFactor(
+                              FNew(
+                                Type(
+                                 int
+                                ) [Type]
+                                Positive(
+                                  TermFactor(
+                                    FIntConst(
+                                     3
+                                    ) [FIntConst]
+                                  ) [TermFactor]
+                                ) [Positive]
+                              ) [FNew]
+                            ) [TermFactor]
+                          ) [Positive]
+                        ) [DesignatorStatementEqual]
+                      ) [StatementDesignator]
+                    ) [StatementMatched]
+                    StmtList(
+                      StatementMatched(
+                        StatementDesignator(
+                          DesignatorStatementEqual(
+                            DesignatorArray(
+                              DesignatorIdent(
+                               niz
+                              ) [DesignatorIdent]
+                              Positive(
+                                TermFactor(
+                                  FDesignator(
+                                    DesignatorIdent(
+                                     nula
+                                    ) [DesignatorIdent]
+                                  ) [FDesignator]
+                                ) [TermFactor]
+                              ) [Positive]
+                            ) [DesignatorArray]
+                            Positive(
+                              TermFactor(
+                                FDesignator(
+                                  DesignatorIdent(
+                                   jedan
+                                  ) [DesignatorIdent]
+                                ) [FDesignator]
+                              ) [TermFactor]
+                            ) [Positive]
+                          ) [DesignatorStatementEqual]
+                        ) [StatementDesignator]
+                      ) [StatementMatched]
+                      StmtList(
+                        StatementMatched(
+                          StatementDesignator(
+                            DesignatorStatementEqual(
+                              DesignatorArray(
+                                DesignatorIdent(
+                                 niz
+                                ) [DesignatorIdent]
+                                Positive(
+                                  TermFactor(
+                                    FIntConst(
+                                     1
+                                    ) [FIntConst]
+                                  ) [TermFactor]
+                                ) [Positive]
+                              ) [DesignatorArray]
+                              Positive(
+                                TermFactor(
+                                  FIntConst(
+                                   2
+                                  ) [FIntConst]
+                                ) [TermFactor]
+                              ) [Positive]
+                            ) [DesignatorStatementEqual]
+                          ) [StatementDesignator]
+                        ) [StatementMatched]
+                        StmtList(
+                          StatementMatched(
+                            StatementDesignator(
+                              DesignatorStatementEqual(
+                                DesignatorArray(
+                                  DesignatorIdent(
+                                   niz
+                                  ) [DesignatorIdent]
+                                  Positive(
+                                    TermFactor(
+                                      FDesignator(
+                                        DesignatorArray(
+                                          DesignatorIdent(
+                                           niz
+                                          ) [DesignatorIdent]
+                                          Positive(
+                                            TermFactor(
+                                              FDesignator(
+                                                DesignatorIdent(
+                                                 jedan
+                                                ) [DesignatorIdent]
+                                              ) [FDesignator]
+                                            ) [TermFactor]
+                                          ) [Positive]
+                                        ) [DesignatorArray]
+                                      ) [FDesignator]
+                                    ) [TermFactor]
+                                  ) [Positive]
+                                ) [DesignatorArray]
+                                Positive(
+                                  TermFactorList(
+                                    TermFactor(
+                                      FDesignator(
+                                        DesignatorArray(
+                                          DesignatorIdent(
+                                           niz
+                                          ) [DesignatorIdent]
+                                          Positive(
+                                            TermFactor(
+                                              FDesignator(
+                                                DesignatorArray(
+                                                  DesignatorIdent(
+                                                   niz
+                                                  ) [DesignatorIdent]
+                                                  Positive(
+                                                    TermFactor(
+                                                      FIntConst(
+                                                       0
+                                                      ) [FIntConst]
+                                                    ) [TermFactor]
+                                                  ) [Positive]
+                                                ) [DesignatorArray]
+                                              ) [FDesignator]
+                                            ) [TermFactor]
+                                          ) [Positive]
+                                        ) [DesignatorArray]
+                                      ) [FDesignator]
+                                    ) [TermFactor]
+                                    MultiplyOp(
+                                    ) [MultiplyOp]
+                                    FIntConst(
+                                     3
+                                    ) [FIntConst]
+                                  ) [TermFactorList]
+                                ) [Positive]
+                              ) [DesignatorStatementEqual]
+                            ) [StatementDesignator]
+                          ) [StatementMatched]
+                          StmtList(
+                            StatementMatched(
+                              StatementDesignator(
+                                DesignatorStatementEqual(
+                                  DesignatorIdent(
+                                   bodovi
+                                  ) [DesignatorIdent]
+                                  Positive(
+                                    TermFactorList(
+                                      TermFactor(
+                                        FDesignator(
+                                          DesignatorArray(
+                                            DesignatorIdent(
+                                             niz
+                                            ) [DesignatorIdent]
+                                            Positive(
+                                              TermFactor(
+                                                FIntConst(
+                                                 2
+                                                ) [FIntConst]
+                                              ) [TermFactor]
+                                            ) [Positive]
+                                          ) [DesignatorArray]
+                                        ) [FDesignator]
+                                      ) [TermFactor]
+                                      DivideOp(
+                                      ) [DivideOp]
+                                      FDesignator(
+                                        DesignatorArray(
+                                          DesignatorIdent(
+                                           niz
+                                          ) [DesignatorIdent]
+                                          Positive(
+                                            TermFactor(
+                                              FIntConst(
+                                               0
+                                              ) [FIntConst]
+                                            ) [TermFactor]
+                                          ) [Positive]
+                                        ) [DesignatorArray]
+                                      ) [FDesignator]
+                                    ) [TermFactorList]
+                                  ) [Positive]
+                                ) [DesignatorStatementEqual]
+                              ) [StatementDesignator]
+                            ) [StatementMatched]
+                            StmtList(
+                              StatementMatched(
+                                StatementPrint(
+                                  Positive(
+                                    TermFactor(
+                                      FDesignator(
+                                        DesignatorIdent(
+                                         bodovi
+                                        ) [DesignatorIdent]
+                                      ) [FDesignator]
+                                    ) [TermFactor]
+                                  ) [Positive]
+                                ) [StatementPrint]
+                              ) [StatementMatched]
+                              StmtList(
+                                StatementMatched(
+                                  StatementPrint(
+                                    Positive(
+                                      TermFactor(
+                                        FDesignator(
+                                          DesignatorArray(
+                                            DesignatorIdent(
+                                             niz
+                                            ) [DesignatorIdent]
+                                            Positive(
+                                              TermFactor(
+                                                FIntConst(
+                                                 2
+                                                ) [FIntConst]
+                                              ) [TermFactor]
+                                            ) [Positive]
+                                          ) [DesignatorArray]
+                                        ) [FDesignator]
+                                      ) [TermFactor]
+                                    ) [Positive]
+                                  ) [StatementPrint]
+                                ) [StatementMatched]
+                                StmtList(
+                                  StatementMatched(
+                                    StatementFindAny(
+                                      DesignatorIdent(
+                                       br
+                                      ) [DesignatorIdent]
+                                      DesignatorIdent(
+                                       niz
+                                      ) [DesignatorIdent]
+                                      Expretion(
+                                        Positive(
+                                          TermFactor(
+                                            FDesignator(
+                                              DesignatorIdent(
+                                               jedan
+                                              ) [DesignatorIdent]
+                                            ) [FDesignator]
+                                          ) [TermFactor]
+                                        ) [Positive]
+                                        PlusOp(
+                                        ) [PlusOp]
+                                        TermFactor(
+                                          FDesignator(
+                                            DesignatorIdent(
+                                             pet
+                                            ) [DesignatorIdent]
+                                          ) [FDesignator]
+                                        ) [TermFactor]
+                                      ) [Expretion]
+                                    ) [StatementFindAny]
+                                  ) [StatementMatched]
+                                  StmtList(
+                                    StatementMatched(
+                                      StatementPrint(
+                                        Positive(
+                                          TermFactor(
+                                            FDesignator(
+                                              DesignatorIdent(
+                                               br
+                                              ) [DesignatorIdent]
+                                            ) [FDesignator]
+                                          ) [TermFactor]
+                                        ) [Positive]
+                                      ) [StatementPrint]
+                                    ) [StatementMatched]
+                                    StmtList(
+                                      StatementMatched(
+                                        StatementDesignator(
+                                          DesignatorStatementEqual(
+                                            DesignatorIdent(
+                                             nizch
+                                            ) [DesignatorIdent]
+                                            Positive(
+                                              TermFactor(
+                                                FNew(
+                                                  Type(
+                                                   char
+                                                  ) [Type]
+                                                  Positive(
+                                                    TermFactor(
+                                                      FIntConst(
+                                                       3
+                                                      ) [FIntConst]
+                                                    ) [TermFactor]
+                                                  ) [Positive]
+                                                ) [FNew]
+                                              ) [TermFactor]
+                                            ) [Positive]
+                                          ) [DesignatorStatementEqual]
+                                        ) [StatementDesignator]
+                                      ) [StatementMatched]
+                                      StmtList(
+                                        StatementMatched(
+                                          StatementDesignator(
+                                            DesignatorStatementEqual(
+                                              DesignatorArray(
+                                                DesignatorIdent(
+                                                 nizch
+                                                ) [DesignatorIdent]
+                                                Positive(
+                                                  TermFactor(
+                                                    FIntConst(
+                                                     0
+                                                    ) [FIntConst]
+                                                  ) [TermFactor]
+                                                ) [Positive]
+                                              ) [DesignatorArray]
+                                              Positive(
+                                                TermFactor(
+                                                  FCharConst(
+                                                   a
+                                                  ) [FCharConst]
+                                                ) [TermFactor]
+                                              ) [Positive]
+                                            ) [DesignatorStatementEqual]
+                                          ) [StatementDesignator]
+                                        ) [StatementMatched]
+                                        StmtList(
+                                          StatementMatched(
+                                            StatementDesignator(
+                                              DesignatorStatementEqual(
+                                                DesignatorArray(
+                                                  DesignatorIdent(
+                                                   nizch
+                                                  ) [DesignatorIdent]
+                                                  Positive(
+                                                    TermFactor(
+                                                      FDesignator(
+                                                        DesignatorIdent(
+                                                         jedan
+                                                        ) [DesignatorIdent]
+                                                      ) [FDesignator]
+                                                    ) [TermFactor]
+                                                  ) [Positive]
+                                                ) [DesignatorArray]
+                                                Positive(
+                                                  TermFactor(
+                                                    FCharConst(
+                                                     b
+                                                    ) [FCharConst]
+                                                  ) [TermFactor]
+                                                ) [Positive]
+                                              ) [DesignatorStatementEqual]
+                                            ) [StatementDesignator]
+                                          ) [StatementMatched]
+                                          StmtList(
+                                            StatementMatched(
+                                              StatementDesignator(
+                                                DesignatorStatementEqual(
+                                                  DesignatorArray(
+                                                    DesignatorIdent(
+                                                     nizch
+                                                    ) [DesignatorIdent]
+                                                    Expretion(
+                                                      Positive(
+                                                        TermFactor(
+                                                          FDesignator(
+                                                            DesignatorIdent(
+                                                             pet
+                                                            ) [DesignatorIdent]
+                                                          ) [FDesignator]
+                                                        ) [TermFactor]
+                                                      ) [Positive]
+                                                      MinusOp(
+                                                      ) [MinusOp]
+                                                      TermFactor(
+                                                        FIntConst(
+                                                         3
+                                                        ) [FIntConst]
+                                                      ) [TermFactor]
+                                                    ) [Expretion]
+                                                  ) [DesignatorArray]
+                                                  Positive(
+                                                    TermFactor(
+                                                      FCharConst(
+                                                       c
+                                                      ) [FCharConst]
+                                                    ) [TermFactor]
+                                                  ) [Positive]
+                                                ) [DesignatorStatementEqual]
+                                              ) [StatementDesignator]
+                                            ) [StatementMatched]
+                                            StmtList(
+                                              StatementMatched(
+                                                StatementPrint(
+                                                  Positive(
+                                                    TermFactor(
+                                                      FDesignator(
+                                                        DesignatorArray(
+                                                          DesignatorIdent(
+                                                           nizch
+                                                          ) [DesignatorIdent]
+                                                          Positive(
+                                                            TermFactor(
+                                                              FIntConst(
+                                                               1
+                                                              ) [FIntConst]
+                                                            ) [TermFactor]
+                                                          ) [Positive]
+                                                        ) [DesignatorArray]
+                                                      ) [FDesignator]
+                                                    ) [TermFactor]
+                                                  ) [Positive]
+                                                ) [StatementPrint]
+                                              ) [StatementMatched]
+                                              StmtList(
+                                                StatementMatched(
+                                                  StatementPrint(
+                                                    Positive(
+                                                      TermFactor(
+                                                        FDesignator(
+                                                          DesignatorArray(
+                                                            DesignatorIdent(
+                                                             nizch
+                                                            ) [DesignatorIdent]
+                                                            Positive(
+                                                              TermFactorList(
+                                                                TermFactor(
+                                                                  FDesignator(
+                                                                    DesignatorIdent(
+                                                                     jedan
+                                                                    ) [DesignatorIdent]
+                                                                  ) [FDesignator]
+                                                                ) [TermFactor]
+                                                                MultiplyOp(
+                                                                ) [MultiplyOp]
+                                                                FIntConst(
+                                                                 2
+                                                                ) [FIntConst]
+                                                              ) [TermFactorList]
+                                                            ) [Positive]
+                                                          ) [DesignatorArray]
+                                                        ) [FDesignator]
+                                                      ) [TermFactor]
+                                                    ) [Positive]
+                                                  ) [StatementPrint]
+                                                ) [StatementMatched]
+                                                StmtList(
+                                                  StatementMatched(
+                                                    StatementRead(
+                                                      DesignatorIdent(
+                                                       bodovi
+                                                      ) [DesignatorIdent]
+                                                    ) [StatementRead]
+                                                  ) [StatementMatched]
+                                                  StmtList(
+                                                    StatementMatched(
+                                                      StatementDesignator(
+                                                        DesignatorStatementEqual(
+                                                          DesignatorIdent(
+                                                           bodovi
+                                                          ) [DesignatorIdent]
+                                                          Expretion(
+                                                            Expretion(
+                                                              Negative(
+                                                                TermFactor(
+                                                                  FDesignator(
+                                                                    DesignatorIdent(
+                                                                     bodovi
+                                                                    ) [DesignatorIdent]
+                                                                  ) [FDesignator]
+                                                                ) [TermFactor]
+                                                              ) [Negative]
+                                                              PlusOp(
+                                                              ) [PlusOp]
+                                                              TermFactorList(
+                                                                TermFactor(
+                                                                  FExpretion(
+                                                                    Expretion(
+                                                                      Positive(
+                                                                        TermFactorList(
+                                                                          TermFactorList(
+                                                                            TermFactor(
+                                                                              FDesignator(
+                                                                                DesignatorIdent(
+                                                                                 pet
+                                                                                ) [DesignatorIdent]
+                                                                              ) [FDesignator]
+                                                                            ) [TermFactor]
+                                                                            MultiplyOp(
+                                                                            ) [MultiplyOp]
+                                                                            FDesignator(
+                                                                              DesignatorIdent(
+                                                                               a
+                                                                              ) [DesignatorIdent]
+                                                                            ) [FDesignator]
+                                                                          ) [TermFactorList]
+                                                                          DivideOp(
+                                                                          ) [DivideOp]
+                                                                          FIntConst(
+                                                                           2
+                                                                          ) [FIntConst]
+                                                                        ) [TermFactorList]
+                                                                      ) [Positive]
+                                                                      MinusOp(
+                                                                      ) [MinusOp]
+                                                                      TermFactor(
+                                                                        FDesignator(
+                                                                          DesignatorIdent(
+                                                                           jedan
+                                                                          ) [DesignatorIdent]
+                                                                        ) [FDesignator]
+                                                                      ) [TermFactor]
+                                                                    ) [Expretion]
+                                                                  ) [FExpretion]
+                                                                ) [TermFactor]
+                                                                MultiplyOp(
+                                                                ) [MultiplyOp]
+                                                                FDesignator(
+                                                                  DesignatorIdent(
+                                                                   bodovi
+                                                                  ) [DesignatorIdent]
+                                                                ) [FDesignator]
+                                                              ) [TermFactorList]
+                                                            ) [Expretion]
+                                                            MinusOp(
+                                                            ) [MinusOp]
+                                                            TermFactor(
+                                                              FExpretion(
+                                                                Expretion(
+                                                                  Expretion(
+                                                                    Positive(
+                                                                      TermFactorList(
+                                                                        TermFactor(
+                                                                          FIntConst(
+                                                                           3
+                                                                          ) [FIntConst]
+                                                                        ) [TermFactor]
+                                                                        ModuleOp(
+                                                                        ) [ModuleOp]
+                                                                        FIntConst(
+                                                                         2
+                                                                        ) [FIntConst]
+                                                                      ) [TermFactorList]
+                                                                    ) [Positive]
+                                                                    PlusOp(
+                                                                    ) [PlusOp]
+                                                                    TermFactorList(
+                                                                      TermFactor(
+                                                                        FIntConst(
+                                                                         3
+                                                                        ) [FIntConst]
+                                                                      ) [TermFactor]
+                                                                      MultiplyOp(
+                                                                      ) [MultiplyOp]
+                                                                      FIntConst(
+                                                                       2
+                                                                      ) [FIntConst]
+                                                                    ) [TermFactorList]
+                                                                  ) [Expretion]
+                                                                  MinusOp(
+                                                                  ) [MinusOp]
+                                                                  TermFactor(
+                                                                    FIntConst(
+                                                                     3
+                                                                    ) [FIntConst]
+                                                                  ) [TermFactor]
+                                                                ) [Expretion]
+                                                              ) [FExpretion]
+                                                            ) [TermFactor]
+                                                          ) [Expretion]
+                                                        ) [DesignatorStatementEqual]
+                                                      ) [StatementDesignator]
+                                                    ) [StatementMatched]
+                                                    StmtList(
+                                                      StatementMatched(
+                                                        StatementPrint(
+                                                          Positive(
+                                                            TermFactor(
+                                                              FDesignator(
+                                                                DesignatorIdent(
+                                                                 bodovi
+                                                                ) [DesignatorIdent]
+                                                              ) [FDesignator]
+                                                            ) [TermFactor]
+                                                          ) [Positive]
+                                                        ) [StatementPrint]
+                                                      ) [StatementMatched]
+                                                      NoStmt(
+                                                      ) [NoStmt]
+                                                    ) [StmtList]
+                                                  ) [StmtList]
+                                                ) [StmtList]
+                                              ) [StmtList]
+                                            ) [StmtList]
+                                          ) [StmtList]
+                                        ) [StmtList]
+                                      ) [StmtList]
+                                    ) [StmtList]
+                                  ) [StmtList]
+                                ) [StmtList]
+                              ) [StmtList]
+                            ) [StmtList]
+                          ) [StmtList]
+                        ) [StmtList]
+                      ) [StmtList]
+                    ) [StmtList]
+                  ) [StmtList]
+                ) [StmtList]
+              ) [StmtList]
+            ) [StmtList]
+          ) [StmtList]
+        ) [StmtList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+    MethodDeclarationNone(
+    ) [MethodDeclarationNone]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:11:25,566 - ===================================
+INFO  21:11:25,599 - Deklarisana konstante nula na liniji 5
+INFO  21:11:25,599 - Deklarisana konstante jedan na liniji 6
+INFO  21:11:25,599 - Deklarisana konstante pet na liniji 7
+INFO  21:11:25,599 - Deklarisana promenljiva niz[] na liniji 9
+INFO  21:11:25,599 - Deklarisana promenljiva niz2[] na liniji 9
+INFO  21:11:25,600 - Deklarisana promenljiva a na liniji 9
+INFO  21:11:25,600 - Deklarisana promenljiva b na liniji 9
+INFO  21:11:25,600 - Deklarisana promenljiva nizch[] na liniji 10
+INFO  21:11:25,600 - Obradjuje se funkcija main na liniji 13
+INFO  21:11:25,600 - Deklarisana promenljiva bodovi na liniji 14
+INFO  21:11:25,600 - Deklarisana promenljiva br na liniji 15
+INFO  21:11:25,600 -  Print count calls = 7
+INFO  21:11:25,600 -  Deklarisanih promenljivih ima = 7
+INFO  21:11:25,600 -  ==================== 
+INFO  21:11:25,608 - Parsiranje uspesno zavrseno!

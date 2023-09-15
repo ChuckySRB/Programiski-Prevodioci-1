@@ -69,7 +69,7 @@ public class CodeGenerator extends VisitorAdaptor {
 	public void visit(FBoolConst constant) {
 		Obj con = Tab.insert(Obj.Con, "$", constant.struct);
 		con.setLevel(0);
-		con.setAdr(constant.getVal()=="true" ? 1:0);
+		con.setAdr(constant.getVal() ? 1:0);
 		
 		Code.load(con);
 	}
@@ -122,6 +122,7 @@ public class CodeGenerator extends VisitorAdaptor {
 		
 		if(DesignatorStatementEqual.class != parent.getClass() && 
 				DesignatorStatementFunc.class != parent.getClass() &&
+				StatementFindAny.class != parent.getClass() &&
 				designator.obj.getKind() != Obj.Meth){
 			Code.load(designator.obj);
 		}
@@ -131,7 +132,8 @@ public class CodeGenerator extends VisitorAdaptor {
 		SyntaxNode parent = designator.getParent();
 		
 		if(DesignatorStatementEqual.class != parent.getClass() && 
-				DesignatorStatementFunc.class != parent.getClass()){
+				DesignatorStatementFunc.class != parent.getClass() &&
+				StatementFindAny.class != parent.getClass()){
 			Code.load(designator.obj);
 		}
 	}
@@ -202,7 +204,70 @@ public class CodeGenerator extends VisitorAdaptor {
 	}
 	
 	public void visit (StatementFindAny findAny) {
+		/*
+		 i = 0;
+		 b = false;
+		 while (i < nizlen){
+		 	i++;
+		 	if (niz[i]==val){
+		 		b = true;
+		 		break;
+		 	}
+	 	}
+		 return b;
+		 */
+		// Int i = 0;
 		
+		Obj niz = findAny.getDesignator1().obj;
+		Obj returnbool = findAny.getDesignator().obj;
+		Obj boolconst = Tab.insert(Obj.Con, "$", returnbool.getType());
+		boolconst.setLevel(0);
+		boolconst.setAdr(0);
+		Obj val = Tab.insert(Obj.Var, "findany_var_val", findAny.getExpr().struct);
+		Code.store(val);
+		
+		Obj i = Tab.insert(Obj.Var, "findany_var_i", Tab.intType);
+		Code.loadConst(0);
+		Code.store(i);
+		
+		// While (i<nizlen)
+		int whileBegin = Code.pc;
+		Code.load(i);
+		Code.load(niz);
+		Code.put(Code.arraylength);
+		Code.putFalseJump(Code.lt, 0);
+		int fixWhile = Code.pc-2;
+		
+		// i++
+		Code.load(i);
+		Code.put(Code.const_1);
+		Code.put(Code.add);
+		Code.store(i);
+		
+		// if(niz[i] == val)
+		Code.load(i);
+		Code.load(niz);
+		Code.load(val);
+		Code.putFalseJump(Code.eq, 0);
+		int fixIf = Code.pc - 2;
+		// Bool true
+		boolconst.setAdr(1);
+		Code.loadConst(1);
+		Code.loadConst(1);
+		// Break;
+		Code.putFalseJump(Code.ne, 0);
+		int fixBreak = Code.pc - 2;
+		//Endif
+		Code.fixup(fixIf);
+		
+		Code.putJump(whileBegin);
+		// FIX JUMP ENDWHILE
+		Code.fixup(fixWhile);
+		Code.fixup(fixBreak);
+		
+		// BoolReturn = BoolConst;
+		Code.load(boolconst);
+		Code.store(returnbool);
 	}
 	
 

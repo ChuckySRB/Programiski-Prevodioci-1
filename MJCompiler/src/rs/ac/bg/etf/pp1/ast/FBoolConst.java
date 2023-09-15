@@ -1,23 +1,24 @@
 // generated with ast extension for cup
 // version 0.8
-// 14/8/2023 19:26:9
+// 15/8/2023 3:23:48
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class FBoolConst extends Factor {
 
-    private String Val;
+    private Boolean Val;
 
-    public FBoolConst (String Val) {
+    public FBoolConst (Boolean Val) {
         this.Val=Val;
+        if(Val!=null) Val.setParent(this);
     }
 
-    public String getVal() {
+    public Boolean getVal() {
         return Val;
     }
 
-    public void setVal(String Val) {
+    public void setVal(Boolean Val) {
         this.Val=Val;
     }
 
@@ -26,13 +27,16 @@ public class FBoolConst extends Factor {
     }
 
     public void childrenAccept(Visitor visitor) {
+        if(Val!=null) Val.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
+        if(Val!=null) Val.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
+        if(Val!=null) Val.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -41,7 +45,10 @@ public class FBoolConst extends Factor {
         buffer.append(tab);
         buffer.append("FBoolConst(\n");
 
-        buffer.append(" "+tab+Val);
+        if(Val!=null)
+            buffer.append(Val.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
         buffer.append("\n");
 
         buffer.append(tab);
